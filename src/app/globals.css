@@ -11,25 +11,25 @@
    ========================================================================== */
 
 :root {
-  /* Color Palette - Deep Navy Foundation */
-  --color-navy-950: #0A0F1C;    /* Deepest navy - main background */
-  --color-navy-800: #1E293B;    /* Soft charcoal - cards & sections */
-  --color-navy-700: #334155;    /* Medium navy - borders & elevated */
-  --color-navy-600: #475569;    /* Light navy - secondary elements */
-  --color-navy-500: #64748B;    /* Muted navy - tertiary elements */
+  /* Color Palette - Sophisticated Dark Charcoal Foundation */
+  --color-charcoal-950: #0F0F0F;    /* Deepest charcoal - main background */
+  --color-charcoal-800: #2A2A2A;    /* Soft charcoal - cards & sections */
+  --color-charcoal-700: #3A3A3A;    /* Medium charcoal - borders & elevated */
+  --color-charcoal-600: #4A4A4A;    /* Light charcoal - secondary elements */
+  --color-charcoal-500: #6A6A6A;    /* Muted charcoal - tertiary elements */
   
   /* Primary Background System */
-  --bg-base: var(--color-navy-950);
-  --bg-card: var(--color-navy-800);
-  --bg-secondary: var(--color-navy-700);
-  --bg-tertiary: var(--color-navy-600);
-  --bg-elevated: var(--color-navy-500);
+  --bg-base: var(--color-charcoal-950);
+  --bg-card: var(--color-charcoal-800);
+  --bg-secondary: var(--color-charcoal-700);
+  --bg-tertiary: var(--color-charcoal-600);
+  --bg-elevated: var(--color-charcoal-500);
   
   /* Glass Morphism Backgrounds */
-  --bg-glass-subtle: rgba(30, 41, 59, 0.6);
-  --bg-glass-medium: rgba(30, 41, 59, 0.8);
-  --bg-glass-strong: rgba(30, 41, 59, 0.95);
-  --bg-overlay: rgba(10, 15, 28, 0.9);
+  --bg-glass-subtle: rgba(42, 42, 42, 0.6);
+  --bg-glass-medium: rgba(42, 42, 42, 0.8);
+  --bg-glass-strong: rgba(42, 42, 42, 0.95);
+  --bg-overlay: rgba(15, 15, 15, 0.9);
   
   /* Text Color Hierarchy */
   --text-primary: #F8FAFC;      /* High contrast white */
@@ -367,6 +367,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -383,11 +384,13 @@ body {
   .btn-group {
     flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
   
   .btn-group-horizontal {
     flex-direction: row;
     gap: 0.75rem;
+    align-items: center;
   }
   
   .btn-group-horizontal .btn {
@@ -840,7 +843,7 @@ body {
   }
   
   .section-content {
-    padding: var(--space-8) 0;
+    padding: var(--space-10) 0;
   }
   
   .container {
@@ -1748,4 +1751,277 @@ select::-webkit-scrollbar-thumb:hover {
 /* Special styling for footer email and phone links */
 .footer-link.text-primary:hover {
   color: var(--accent-primary);
+}
+
+/* ==========================================================================
+   GOLD & PLATINUM ACCENT SYSTEM - Subtle Professional Touch
+   ========================================================================== */
+
+/* Ultra-subtle background gradients */
+.gold-whisper {
+  background: linear-gradient(135deg, 
+    var(--bg-base) 0%, 
+    rgba(212, 175, 55, 0.005) 25%, 
+    var(--bg-base) 50%, 
+    rgba(230, 184, 0, 0.008) 75%, 
+    var(--bg-base) 100%);
+}
+
+.platinum-whisper {
+  background: linear-gradient(135deg, 
+    var(--bg-base) 0%, 
+    rgba(229, 228, 226, 0.008) 25%, 
+    var(--bg-base) 50%, 
+    rgba(195, 194, 193, 0.012) 75%, 
+    var(--bg-base) 100%);
+}
+
+/* Subtle accent overlays */
+.gold-accent-overlay {
+  position: relative;
+}
+
+.gold-accent-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    transparent 0%, 
+    rgba(212, 175, 55, 0.008) 30%, 
+    transparent 60%, 
+    rgba(230, 184, 0, 0.006) 90%, 
+    transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.gold-accent-overlay > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Refined border accents */
+.gold-border-whisper {
+  border: 1px solid rgba(212, 175, 55, 0.08);
+  box-shadow: 
+    0 0 20px rgba(212, 175, 55, 0.02),
+    inset 0 1px 0 rgba(212, 175, 55, 0.04);
+}
+
+.platinum-border-whisper {
+  border: 1px solid rgba(229, 228, 226, 0.08);
+  box-shadow: 
+    0 0 20px rgba(229, 228, 226, 0.02),
+    inset 0 1px 0 rgba(229, 228, 226, 0.04);
+}
+
+/* Elegant hover effects */
+.gold-hover-elegant {
+  transition: all var(--duration-normal) var(--ease-smooth);
+}
+
+.gold-hover-elegant:hover {
+  box-shadow: 
+    0 4px 32px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(212, 175, 55, 0.12),
+    0 0 24px rgba(212, 175, 55, 0.04);
+  border-color: rgba(212, 175, 55, 0.15);
+  transform: translateY(-1px);
+}
+
+.platinum-hover-elegant {
+  transition: all var(--duration-normal) var(--ease-smooth);
+}
+
+.platinum-hover-elegant:hover {
+  box-shadow: 
+    0 4px 32px rgba(0, 0, 0, 0.15),
+    0 0 0 1px rgba(229, 228, 226, 0.12),
+    0 0 24px rgba(229, 228, 226, 0.04);
+  border-color: rgba(229, 228, 226, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Premium text effects */
+.text-gold-elegant {
+  background: linear-gradient(135deg, 
+    rgba(212, 175, 55, 0.9) 0%, 
+    rgba(230, 184, 0, 0.8) 50%, 
+    rgba(212, 175, 55, 0.9) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-platinum-elegant {
+  background: linear-gradient(135deg, 
+    rgba(229, 228, 226, 0.9) 0%, 
+    rgba(195, 194, 193, 0.8) 50%, 
+    rgba(229, 228, 226, 0.9) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Sophisticated card styles */
+.card-gold-elegant {
+  background: linear-gradient(135deg, 
+    var(--bg-card) 0%, 
+    rgba(212, 175, 55, 0.02) 50%, 
+    var(--bg-card) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.08);
+  box-shadow: 
+    0 4px 24px rgba(0, 0, 0, 0.12),
+    0 0 0 1px rgba(212, 175, 55, 0.04),
+    inset 0 1px 0 rgba(212, 175, 55, 0.03);
+  transition: all var(--duration-normal) var(--ease-smooth);
+}
+
+.card-gold-elegant:hover {
+  border-color: rgba(212, 175, 55, 0.15);
+  box-shadow: 
+    0 8px 40px rgba(0, 0, 0, 0.18),
+    0 0 0 1px rgba(212, 175, 55, 0.12),
+    0 0 32px rgba(212, 175, 55, 0.06),
+    inset 0 1px 0 rgba(212, 175, 55, 0.06);
+  transform: translateY(-2px);
+}
+
+.card-platinum-elegant {
+  background: linear-gradient(135deg, 
+    var(--bg-card) 0%, 
+    rgba(229, 228, 226, 0.02) 50%, 
+    var(--bg-card) 100%);
+  border: 1px solid rgba(229, 228, 226, 0.08);
+  box-shadow: 
+    0 4px 24px rgba(0, 0, 0, 0.12),
+    0 0 0 1px rgba(229, 228, 226, 0.04),
+    inset 0 1px 0 rgba(229, 228, 226, 0.03);
+  transition: all var(--duration-normal) var(--ease-smooth);
+}
+
+.card-platinum-elegant:hover {
+  border-color: rgba(229, 228, 226, 0.15);
+  box-shadow: 
+    0 8px 40px rgba(0, 0, 0, 0.18),
+    0 0 0 1px rgba(229, 228, 226, 0.12),
+    0 0 32px rgba(229, 228, 226, 0.06),
+    inset 0 1px 0 rgba(229, 228, 226, 0.06);
+  transform: translateY(-2px);
+}
+
+/* Enhanced navigation with gold touches */
+.nav-gold-elegant {
+  background: linear-gradient(180deg, 
+    rgba(17, 17, 17, 0.95) 0%, 
+    rgba(17, 17, 17, 0.98) 100%);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.08);
+  box-shadow: 
+    0 4px 24px rgba(0, 0, 0, 0.08),
+    0 1px 0 rgba(212, 175, 55, 0.04);
+}
+
+/* Section dividers with subtle gold */
+.section-gold-elegant {
+  background: linear-gradient(180deg, 
+    var(--bg-base) 0%, 
+    rgba(212, 175, 55, 0.008) 50%, 
+    var(--bg-base) 100%);
+  position: relative;
+}
+
+.section-gold-elegant::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(212, 175, 55, 0.15) 50%, 
+    transparent 100%);
+}
+
+/* Premium button enhancement */
+.btn-gold-elegant {
+  background: linear-gradient(135deg, 
+    var(--accent-primary) 0%, 
+    var(--accent-secondary) 100%);
+  box-shadow: 
+    0 4px 16px rgba(212, 175, 55, 0.25),
+    0 0 0 1px rgba(212, 175, 55, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all var(--duration-normal) var(--ease-smooth);
+}
+
+.btn-gold-elegant:hover {
+  background: linear-gradient(135deg, 
+    var(--accent-primary-hover) 0%, 
+    var(--accent-secondary-hover) 100%);
+  box-shadow: 
+    0 8px 24px rgba(212, 175, 55, 0.35),
+    0 0 0 1px rgba(212, 175, 55, 0.2),
+    0 0 32px rgba(212, 175, 55, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Subtle shimmer effect for premium elements */
+.gold-shimmer-elegant {
+  position: relative;
+  overflow: hidden;
+}
+
+.gold-shimmer-elegant::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 175, 55, 0.06),
+    transparent
+  );
+  animation: shimmer-elegant 4s infinite;
+  pointer-events: none;
+}
+
+@keyframes shimmer-elegant {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* Enhanced glass morphism with precious metal touches */
+.glass-gold-elegant {
+  background: linear-gradient(135deg, 
+    rgba(42, 42, 42, 0.7) 0%, 
+    rgba(212, 175, 55, 0.02) 50%, 
+    rgba(42, 42, 42, 0.8) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(212, 175, 55, 0.08);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(212, 175, 55, 0.05),
+    inset 0 1px 0 rgba(212, 175, 55, 0.04);
+}
+
+.glass-platinum-elegant {
+  background: linear-gradient(135deg, 
+    rgba(42, 42, 42, 0.7) 0%, 
+    rgba(229, 228, 226, 0.02) 50%, 
+    rgba(42, 42, 42, 0.8) 100%);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(229, 228, 226, 0.08);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(229, 228, 226, 0.05),
+    inset 0 1px 0 rgba(229, 228, 226, 0.04);
 }

@@ -276,13 +276,13 @@ export default function TeamPage() {
             Whether you're a growing company seeking funding or an investor looking for 
             vetted opportunities, we'd love to hear from you.
           </p>
-          <div className="flex pb-4 max-sm:flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="btn-primary px-8 py-4 h-auto font-medium">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pb-4">
+            <Button asChild size="lg" className="btn-primary w-full sm:w-auto px-8 py-4 h-auto font-medium">
               <Link href="/apply">
                 Apply for Funding
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="btn-secondary-outline px-8 py-4 h-auto font-medium">
+            <Button asChild variant="outline" size="lg" className="btn-secondary-outline w-full sm:w-auto px-8 py-4 h-auto font-medium">
               <Link href="/contact">
                 Get in Touch
               </Link>

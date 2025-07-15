@@ -246,7 +246,7 @@ export default function HomeLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Aurum Ascend Capital UK",
-    "alternateName": ["Aurum Ascend Capital", "Raise Signal UK", "Aurum Ascend Capital Investment Platform"],
+    "alternateName": ["Aurum Ascend Capital", "Aurum Ascend Capital Investment Platform"],
     "url": "https://www.aurumascend.ch",
     "description": "UK's premier investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia",
     "publisher": {

@@ -43,7 +43,7 @@ export function Navbar() {
 
 	return (
 		<nav
-			className="fixed top-0 w-full z-50 nav-glass"
+			className="fixed top-0 w-full z-50 nav-gold-elegant gold-accent-overlay"
 		>
 			<div className="max-w-7xl mx-auto px-6">
 				<div className="flex justify-between items-center h-16">

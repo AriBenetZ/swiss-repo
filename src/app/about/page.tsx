@@ -145,7 +145,7 @@ export default function AboutPage() {
   return (
     <div className="pt-16 bg-base">{/* Added pt-16 for navbar spacing */}
       {/* Hero Section */}
-      <section ref={heroRef} className="section-hero">
+      <section ref={heroRef} className="section-hero gold-accent-overlay gold-whisper">
         <div className="max-w-7xl mx-auto px-3 sm:px-6">
           <div className="hero-content text-center max-w-4xl mx-auto space-y-4 sm:space-y-6">
             <div className="inline-flex items-center px-2 py-1 sm:px-4 sm:py-2 rounded-full glass-subtle">
@@ -168,10 +168,10 @@ export default function AboutPage() {
               </p>
             </div>
             
-            <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
                 asChild 
-                className="btn btn-primary btn-large hover-glow"
+                className="btn btn-primary w-full sm:w-auto btn-large hover-glow"
               >
                 <Link href="/apply">
                   Join Our Platform <ArrowRight className="ml-2 h-5 w-5" />
@@ -179,7 +179,7 @@ export default function AboutPage() {
               </Button>
               <Button 
                 asChild 
-                className="btn btn-secondary btn-large"
+                className="btn btn-secondary w-full sm:w-auto btn-large"
               >
                 <Link href="/how-it-works">
                   Learn More
@@ -191,7 +191,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Section */}
-      <section ref={missionRef} className="section-content">
+      <section ref={missionRef} className="section-gold-elegant platinum-border-whisper">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="mission-content">
@@ -199,7 +199,7 @@ export default function AboutPage() {
                 Our <span className="gradient-text">Mission</span>
               </h2>
               <p className="text-body mb-6">
-                <span className="font-bold">Raise</span><span className="font-light">Signal</span> was founded with a singular mission: to transform capital allocation through personal relationships and meaningful connections between exceptional companies and the right investors.
+                <span className="font-bold">Aurum</span><span className="font-light">Ascend</span> was founded with a singular mission: to transform capital allocation through personal relationships and meaningful connections between exceptional companies and the right investors.
               </p>
               <p className="text-body mb-8">
                 We believe that successful funding isn't just about matching criteria—it's about building relationships. While technology enables us to reach global markets, our success comes from the personal touch: understanding your business deeply, knowing our investors personally, and facilitating meaningful conversations that lead to lasting partnerships.
@@ -229,7 +229,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats Section */}
-      <section ref={statsRef} className="section">
+      <section ref={statsRef} className="section section-premium">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="heading-section">
@@ -300,7 +300,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="heading-section">
-              Why Choose <span className="gradient-text"><span className="font-bold">Raise</span><span className="font-light">Signal</span></span>
+              Why Choose <span className="gradient-text"><span className="font-bold">Aurum</span><span className="font-light">Ascend</span></span>
             </h2>
             <p className="text-lead max-w-3xl mx-auto">
               Built by operators who understand both sides of the capital markets
@@ -343,7 +343,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>      {/* FAQ Section */}
-      <section id="faq" className="section-large bg-secondary border-t border-primary">
+      <section id="faq" className="section-large section-premium gold-border-subtle">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
@@ -424,8 +424,8 @@ export default function AboutPage() {
             <p className="text-xl mb-8 opacity-90 text-balance">
               Join the 150+ successful entrepreneurs who've scaled their companies through our platform.
             </p>
-            <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/apply" className="btn btn-primary btn-large hover-lift" style={{
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link href="/apply" className="btn btn-primary w-full sm:w-auto btn-large hover-lift" style={{
                 background: 'rgba(255, 255, 255, 0.15)',
                 backdropFilter: 'blur(10px)',
                 borderColor: 'rgba(255, 255, 255, 0.2)'
@@ -436,7 +436,7 @@ export default function AboutPage() {
                 href="https://calendly.com/aurum-ascend/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-secondary btn-large"
+                className="btn btn-secondary w-full sm:w-auto btn-large"
                 style={{
                   background: 'transparent',
                   borderColor: 'rgba(255, 255, 255, 0.3)',

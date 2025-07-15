@@ -26,7 +26,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="footer bg-card text-secondary border-t border-primary mt-auto footer-container">
+    <footer className="footer section-gold-elegant gold-accent-overlay text-secondary border-t platinum-border-whisper mt-auto footer-container">
       <div className="max-w-7xl mx-auto px-6">
         {/* Main Footer Content - Professional spacing */}
         <div className="section py-12">

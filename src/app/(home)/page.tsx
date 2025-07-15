@@ -111,7 +111,7 @@ export default function HomePage() {
   return (
     <div className="pt-16 bg-base">
       {/* Hero Section */}
-      <section className="section-hero">
+      <section className="section-hero gold-accent-overlay gold-whisper">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-4xl mx-auto space-y-16">
             {/* Trust Badge */}
@@ -178,7 +178,7 @@ export default function HomePage() {
       </section>
 
       {/* Metrics Section */}
-      <section className="section-content bg-card">
+      <section className="section-gold-elegant platinum-whisper">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
             {metrics.map((metric, index) => (
@@ -196,7 +196,7 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section className="section-content bg-base">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6 py-6">
           <div className="text-center space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section text-balance">
@@ -209,7 +209,7 @@ export default function HomePage() {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {features.map((feature, index) => (
-                <Card key={index} className="card hover-lift glass-subtle">
+                <Card key={index} className="card-gold-elegant gold-hover-elegant">
                   <CardContent className="p-6 text-center space-y-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-accent-primary to-accent-secondary rounded-xl flex items-center justify-center mx-auto text-primary">
                       {feature.icon}
@@ -230,7 +230,7 @@ export default function HomePage() {
       </section>
 
       {/* Process Section */}
-      <section className="section-alternate">
+      <section className="section-alternate section-premium">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center space-y-16">
             <div className="space-y-4">
@@ -244,7 +244,7 @@ export default function HomePage() {
             
             <div className="space-y-6">
               {processSteps.map((step, index) => (
-                <div key={index} className="card-glass flex flex-col sm:flex-row items-start lg:items-center gap-4 p-4 rounded-xl hover-lift">
+                <div key={index} className="glass-platinum-elegant platinum-border-whisper flex flex-col sm:flex-row items-start lg:items-center gap-4 p-4 rounded-xl platinum-hover-elegant">
                   <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-br from-accent-primary to-accent-secondary rounded-xl flex items-center justify-center">
                     <span className="text-primary font-bold text-lg">{step.step}</span>
                   </div>
@@ -287,7 +287,7 @@ export default function HomePage() {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
               {trustIndicators.map((indicator, index) => (
                 <div key={index} className="trust-item text-center space-y-3">
-                  <div className="card-glass rounded-xl p-6 h-24 flex items-center justify-center hover-lift">
+                  <div className="glass-premium gold-border-subtle rounded-xl p-6 h-24 flex items-center justify-center gold-hover-glow">
                     <div className="text-accent-secondary">
                       {indicator.logo}
                     </div>
@@ -308,7 +308,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="cta-section section-content bg-card">
+      <section className="cta-section section-gold-elegant gold-accent-overlay">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center text-primary max-w-3xl mx-auto space-y-16">
             <div className="space-y-4">
@@ -319,7 +319,7 @@ export default function HomePage() {
                 Join 150+ companies that have successfully raised growth capital through our verified institutional investor network.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
                 asChild 
                 className="btn btn-primary w-full sm:w-auto btn-large hover-glow"

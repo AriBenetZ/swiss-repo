@@ -225,15 +225,15 @@ export default function HowItWorksPage() {
                   From personal consultation to successful funding in 8-12 weeks through our bespoke, white-glove service.
                 </p>
                 
-                <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/apply" className="btn btn-primary w-fit btn-large">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <Link href="/apply" className="btn btn-primary w-full sm:w-auto btn-large">
                     Start Your Application <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                   <a
                     href="https://calendly.com/aurum-ascend/30min"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-secondary w-fit btn-large"
+                    className="btn btn-secondary w-full sm:w-auto btn-large"
                   >
                     Schedule a Call
                   </a>
@@ -406,8 +406,8 @@ export default function HowItWorksPage() {
             <p className="text-xl mb-8 opacity-90 text-balance">
               Join 450+ companies that have successfully raised capital through our proven process.
             </p>
-            <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/apply" className="btn btn-primary btn-large hover-lift" style={{
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link href="/apply" className="btn btn-primary w-full sm:w-auto btn-large hover-lift" style={{
                 background: 'rgba(255, 255, 255, 0.15)',
                 backdropFilter: 'blur(10px)',
                 borderColor: 'rgba(255, 255, 255, 0.2)'
@@ -418,7 +418,7 @@ export default function HowItWorksPage() {
                 href="https://calendly.com/aurum-ascend/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-secondary btn-large"
+                className="btn btn-secondary w-full sm:w-auto btn-large"
                 style={{
                   background: 'transparent',
                   borderColor: 'rgba(255, 255, 255, 0.3)',
