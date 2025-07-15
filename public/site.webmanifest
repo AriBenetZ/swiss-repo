@@ -1,0 +1,36 @@
+{
+  "name": "RaiseSignal - Global Investment Platform",
+  "short_name": "RaiseSignal",
+  "description": "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. Secure growth capital for your company through our global investment platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "business", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "id": "raisesignal-app",
+  "display_override": ["standalone", "browser"],
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

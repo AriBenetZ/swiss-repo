@@ -1,0 +1,33 @@
+# Force HTTPS and redirect old .nl domain
+
+RewriteEngine On
+
+# Redirect all .nl domain traffic to .uk
+
+RewriteCond %{HTTP_HOST} ^(www\.)?raisesignal\.nl$ [NC]
+RewriteRule ^(.\*)$ https://www.raisesignal.uk/$1 [R=301,L]
+
+# Force HTTPS
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.\*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Force www subdomain
+
+RewriteCond %{HTTP_HOST} ^raisesignal\.uk$ [NC]
+RewriteRule ^(.\*)$ https://www.raisesignal.uk/$1 [R=301,L]
+
+# Add security headers
+
+Header always set X-Frame-Options SAMEORIGIN
+Header always set X-Content-Type-Options nosniff
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+# Cache static assets
+
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$">
+ExpiresActive On
+ExpiresDefault "access plus 1 year"
+Header append Cache-Control "public, immutable"
+</FilesMatch>
