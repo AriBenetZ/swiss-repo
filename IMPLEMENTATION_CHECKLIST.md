@@ -18,7 +18,7 @@ import { investmentFAQs, generateFAQStructuredData } from "@/lib/faq-data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | RaiseSignal Funding",
+  title: "Frequently Asked Questions | Aurum Ascend Capital Funding",
   description:
     "Get answers to common questions about our funding process, requirements, and timeline.",
 };

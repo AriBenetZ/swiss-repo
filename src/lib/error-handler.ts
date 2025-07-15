@@ -1,5 +1,5 @@
 /**
- * Error Handling Utilities for RaiseSignal
+ * Error Handling Utilities for Aurum Ascend Capital
  * Centralized error management, logging, and user feedback
  */
 

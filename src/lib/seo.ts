@@ -53,8 +53,8 @@ export function generateMetadata(config: SEOConfig): Metadata {
     authors = [],
     section,
     tags = [],
-    locale = 'en_GB',
-    alternateLocales = ['en_US', 'en_NL']
+    locale = 'en_CH',
+    alternateLocales = ['en_US', 'en_EU']
   } = config;
 
   const fullTitle = path === '/' 
@@ -104,7 +104,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
     alternates: {
       canonical: `${domainConfig.primaryUrl}${path}`,
       languages: {
-        'en-GB': `${domainConfig.primaryUrl}${path}`,
+        'en-CH': `${domainConfig.primaryUrl}${path}`,
         'en-US': `${domainConfig.primaryUrl}${path}`,
         'en': `${domainConfig.primaryUrl}${path}`,
         'x-default': `${domainConfig.primaryUrl}${path}`,
@@ -133,17 +133,17 @@ export function generateMetadata(config: SEOConfig): Metadata {
 }
 
 export const geographicKeywords = [
-  // UK-specific keywords
-  'UK startup funding',
-  'London investors',
-  'British venture capital',
-  'UK angel investors',
-  'startup funding UK',
-  'venture capital London',
-  'UK investment platform',
-  'British startup capital',
-  'London startup funding',
-  'UK fundraising',
+  // Swiss-specific keywords
+  'Swiss startup funding',
+  'Zurich investors',
+  'Swiss venture capital',
+  'Swiss angel investors',
+  'startup funding Switzerland',
+  'venture capital Zurich',
+  'Swiss investment platform',
+  'Swiss startup capital',
+  'Zurich startup funding',
+  'Swiss fundraising',
   // European keywords
   'European investors',
   'EU startup funding',
@@ -448,7 +448,7 @@ export function generateHowToData(name: string, description: string, steps: Arra
     totalTime: "PT30M", // 30 minutes default
     estimatedCost: {
       "@type": "MonetaryAmount",
-      currency: "GBP",
+      currency: "CHF",
       value: "0"
     }
   });
@@ -461,7 +461,7 @@ export function generateCanonicalUrl(path: string, domain = domainConfig.primary
 
 export function generateAlternateUrls(path: string) {
   return {
-    'en-GB': `${domainConfig.primaryUrl}${path}`,
+    'en-CH': `${domainConfig.primaryUrl}${path}`,
     'en-US': `${domainConfig.primaryUrl}${path}`,
     'en': `${domainConfig.primaryUrl}${path}`,
     'x-default': `${domainConfig.primaryUrl}${path}`,

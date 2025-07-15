@@ -214,8 +214,8 @@ export default async function BlogPost({ params }: PageProps) {
     },
     datePublished: post.publishedAt,
     dateModified: post.modifiedAt,
-    image: `https://www.aurumascend.com/og-blog-${resolvedParams.slug}.png`,
-    url: `https://www.aurumascend.com/blog/${resolvedParams.slug}`
+    image: `https://www.aurumascend.ch/og-blog-${resolvedParams.slug}.png`,
+    url: `https://www.aurumascend.ch/blog/${resolvedParams.slug}`
   })
 
   // Generate How-To structured data

@@ -57,7 +57,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: 'Link',
-            value: '<https://www.raisesignal.uk>; rel="canonical"',
+            value: '<https://www.aurumascend.ch>; rel="canonical"',
           },
         ]
       },

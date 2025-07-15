@@ -1,43 +1,43 @@
 // Professional FAQ data - simplified and focused
 export const investmentFAQs = [
   {
-    question: "How personal is RaiseSignal's approach to funding?",
-    answer: "Extremely personal. Every client works directly with our London-based team through dedicated one-on-one consultations, personal investor introductions, and ongoing relationship management. We treat your success as our reputation and invest in long-term partnerships, not just transactions.",
+    question: "How personal is Aurum Ascend Capital's approach to funding?",
+    answer: "Extremely personal. Every client works directly with our Zurich-based team through dedicated one-on-one consultations, personal investor introductions, and ongoing relationship management. We treat your success as our reputation and invest in long-term partnerships, not just transactions.",
     category: "approach",
     searchIntent: ["personal funding service", "relationship-driven investment", "dedicated support"]
   },
   {
-    question: "Do I get direct access to decision-makers at RaiseSignal?",
+    question: "Do I get direct access to decision-makers at Aurum Ascend Capital?",
     answer: "Yes. From your first consultation, you work directly with senior team members including our CTO/CFO who personally joins client calls throughout the entire process. No junior staff or account managers—you get direct access to the people making decisions about your funding journey.",
     category: "approach", 
     searchIntent: ["direct access", "senior team contact", "decision makers"]
   },
   {
-    question: "How long does the funding process take with RaiseSignal?",
+    question: "How long does the funding process take with Aurum Ascend Capital?",
     answer: "The typical funding process takes 8-12 weeks from application to funding completion. This includes personal consultation and application review (1-2 weeks), strategic investor matching (2-3 weeks), and due diligence with closing (4-6 weeks).",
     category: "process",
     searchIntent: ["funding timeline", "how long funding", "investment process time"]
   },
   {
-    question: "What types of companies can apply for funding through RaiseSignal?",
+    question: "What types of companies can apply for funding through Aurum Ascend Capital?",
     answer: "We work with growth-stage companies seeking £250K to £50M+ in funding. Ideal candidates have proven revenue, scalable business models, and are ready for Series A, B, or growth capital rounds.",
     category: "eligibility",
     searchIntent: ["who can apply", "funding criteria", "startup requirements"]
   },
   {
-    question: "What makes RaiseSignal's investor introductions different?",
+    question: "What makes Aurum Ascend Capital's investor introductions different?",
     answer: "Our introductions are relationship-based, not database-driven. We personally know our investors, understand their investment preferences, and provide context-rich introductions explaining why this is a perfect match for both parties. Each introduction comes with personal leverage and ongoing facilitation.",
     category: "approach",
     searchIntent: ["investor introductions", "relationship-based matching", "personal connections"]
   },
   {
     question: "What is the success rate for funding applications?",
-    answer: "RaiseSignal has a 78% success rate for qualified applications that complete our process. We pre-screen applications to ensure investor-readiness before proceeding.",
+    answer: "Aurum Ascend Capital has a 78% success rate for qualified applications that complete our process. We pre-screen applications to ensure investor-readiness before proceeding.",
     category: "success",
     searchIntent: ["success rate", "funding success", "approval rate"]
   },
   {
-    question: "How does RaiseSignal support long-term relationships?",
+    question: "How does Aurum Ascend Capital support long-term relationships?",
     answer: "We believe in multi-round partnerships. From seed discussions to Series B and beyond, we maintain relationships that evolve with your business. Our network grows with you, and we provide ongoing strategic support throughout your entire growth journey, not just single funding rounds.",
     category: "approach",
     searchIntent: ["long-term support", "multi-round funding", "ongoing relationships"]
@@ -55,19 +55,19 @@ export const investmentFAQs = [
     searchIntent: ["funding fees", "cost of funding", "application fees"]
   },
   {
-    question: "What makes RaiseSignal different from other funding platforms?",
+    question: "What makes Aurum Ascend Capital different from other funding platforms?",
     answer: "Our verified investor network of 500+ institutional investors, 78% success rate, and end-to-end support from application to closing sets us apart. We focus on growth-stage companies ready for institutional funding.",
     category: "differentiation",
-    searchIntent: ["why choose raisesignal", "best funding platform", "funding platform comparison"]
+    searchIntent: ["why choose aurumascend", "best funding platform", "funding platform comparison"]
   },
   {
-    question: "Can international companies apply for UK investor funding?",
-    answer: "Yes, international companies can access UK investors through RaiseSignal. We work with companies from Europe, North America, Asia, and other regions seeking UK institutional investment.",
+    question: "Can international companies apply for Swiss investor funding?",
+    answer: "Yes, international companies can access Swiss investors through Aurum Ascend Capital. We work with companies from Europe, North America, Asia, and other regions seeking Swiss institutional investment.",
     category: "international",
-    searchIntent: ["international funding", "UK investors international", "global funding"]
+    searchIntent: ["international funding", "Swiss investors international", "global funding"]
   },
   {
-    question: "How does RaiseSignal match companies with the right investors?",
+    question: "How does Aurum Ascend Capital match companies with the right investors?",
     answer: "Our proprietary matching algorithm considers sector expertise, investment stage, ticket size, geographic preferences, and strategic value-add. Each company is manually reviewed and matched with 3-5 highly relevant investors from our verified network.",
     category: "matching",
     searchIntent: ["how matching works", "investor matching process", "how to find right investors"]
@@ -111,8 +111,8 @@ export function generateFAQStructuredData(faqs: typeof investmentFAQs) {
       "dateModified": "2025-07-10T00:00:00Z",
       "author": {
         "@type": "Organization",
-        "name": "RaiseSignal",
-        "url": "https://www.raisesignal.uk"
+        "name": "Aurum Ascend Capital",
+        "url": "https://www.aurumascend.ch"
       },
       "acceptedAnswer": {
         "@type": "Answer",
@@ -121,8 +121,8 @@ export function generateFAQStructuredData(faqs: typeof investmentFAQs) {
         "dateModified": "2025-07-10T00:00:00Z",
         "author": {
           "@type": "Organization",
-          "name": "RaiseSignal",
-          "url": "https://www.raisesignal.uk"
+          "name": "Aurum Ascend Capital",
+          "url": "https://www.aurumascend.ch"
         },
         "upvoteCount": 0
       }
@@ -133,8 +133,8 @@ export function generateFAQStructuredData(faqs: typeof investmentFAQs) {
 // Voice search optimized Q&A pairs
 export const voiceSearchOptimized = [
   {
-    query: "How to get startup funding in the UK",
-    answer: "Apply through RaiseSignal's verified investor network. Submit your application, get matched with relevant institutional investors, and complete funding in 3-6 months with our 78% success rate."
+    query: "How to get startup funding in Switzerland",
+    answer: "Apply through Aurum Ascend Capital's verified investor network. Submit your application, get matched with relevant institutional investors, and complete funding in 3-6 months with our 78% success rate."
   },
   {
     query: "What do investors look for in startups",
@@ -148,8 +148,8 @@ export const voiceSearchOptimized = [
 
 // SEO-optimized FAQ component structure
 export const faqPageStructure = {
-  title: "Funding FAQs - Investment Questions Answered | RaiseSignal",
-  description: "Get answers to common funding questions. Learn about the investment process, requirements, timeline, and success rates with RaiseSignal's institutional investor network.",
+  title: "Funding FAQs - Investment Questions Answered | Aurum Ascend Capital",
+  description: "Get answers to common funding questions. Learn about the investment process, requirements, timeline, and success rates with Aurum Ascend Capital's institutional investor network.",
   h1: "Frequently Asked Questions About Startup Funding",
   sections: [
     {

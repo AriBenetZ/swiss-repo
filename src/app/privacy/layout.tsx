@@ -1,31 +1,31 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | RaiseSignal - Data Protection & Security",
-  description: "Learn how RaiseSignal protects your data and privacy. Comprehensive privacy policy covering data collection, usage, sharing, and your rights under GDPR and data protection laws.",
+  title: "Privacy Policy | Aurum Ascend Capital - Data Protection & Security",
+  description: "Learn how Aurum Ascend Capital protects your data and privacy. Comprehensive privacy policy covering data collection, usage, sharing, and your rights under GDPR and data protection laws.",
   keywords: [
     "privacy policy", "data protection", "GDPR compliance", "data security",
     "personal information", "privacy rights", "data collection", "data usage",
-    "RaiseSignal privacy", "investment platform privacy", "confidentiality"
+    "Aurum Ascend Capital privacy", "investment platform privacy", "confidentiality"
   ],
   openGraph: {
-    title: "Privacy Policy | RaiseSignal",
-    description: "Learn how RaiseSignal protects your data and privacy. GDPR compliant data protection practices.",
-    url: "https://www.raisesignal.uk/privacy",
-    siteName: "RaiseSignal",
+    title: "Privacy Policy | Aurum Ascend Capital",
+    description: "Learn how Aurum Ascend Capital protects your data and privacy. GDPR compliant data protection practices.",
+    url: "https://www.aurumascend.ch/privacy",
+    siteName: "Aurum Ascend Capital",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Privacy Policy | RaiseSignal",
-    description: "Learn how RaiseSignal protects your data and privacy. GDPR compliant data protection practices.",
+    title: "Privacy Policy | Aurum Ascend Capital",
+    description: "Learn how Aurum Ascend Capital protects your data and privacy. GDPR compliant data protection practices.",
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: "https://www.raisesignal.uk/privacy",
+    canonical: "https://www.aurumascend.ch/privacy",
   },
 };
 
@@ -44,20 +44,20 @@ export default function PrivacyLayout({
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Privacy Policy",
-            "description": "RaiseSignal's privacy policy detailing data protection practices, GDPR compliance, and user privacy rights.",
-            "url": "https://www.raisesignal.uk/privacy",
+            "description": "Aurum Ascend Capital's privacy policy detailing data protection practices, GDPR compliance, and user privacy rights.",
+            "url": "https://www.aurumascend.ch/privacy",
             "publisher": {
               "@type": "Organization",
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk"
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch"
             },
             "datePublished": "2024-01-15T00:00:00Z",
             "dateModified": "2025-01-15T00:00:00Z",
             "inLanguage": "en-GB",
             "isPartOf": {
               "@type": "WebSite",
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk"
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch"
             },
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -66,13 +66,13 @@ export default function PrivacyLayout({
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://www.raisesignal.uk"
+                  "item": "https://www.aurumascend.ch"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Privacy Policy",
-                  "item": "https://www.raisesignal.uk/privacy"
+                  "item": "https://www.aurumascend.ch/privacy"
                 }
               ]
             }
@@ -87,13 +87,13 @@ export default function PrivacyLayout({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "RaiseSignal",
-            "url": "https://www.raisesignal.uk",
-            "privacyPolicy": "https://www.raisesignal.uk/privacy",
+            "name": "Aurum Ascend Capital",
+            "url": "https://www.aurumascend.ch",
+            "privacyPolicy": "https://www.aurumascend.ch/privacy",
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "Privacy Officer",
-              "email": "privacy@raisesignal.uk",
+              "email": "privacy@aurumascend.ch",
               "availableLanguage": "English"
             },
             "policy": [
@@ -101,13 +101,13 @@ export default function PrivacyLayout({
                 "@type": "DigitalDocument",
                 "name": "Privacy Policy",
                 "description": "Data protection and privacy practices",
-                "url": "https://www.raisesignal.uk/privacy"
+                "url": "https://www.aurumascend.ch/privacy"
               },
               {
                 "@type": "DigitalDocument", 
                 "name": "GDPR Compliance",
                 "description": "European data protection regulation compliance",
-                "url": "https://www.raisesignal.uk/privacy"
+                "url": "https://www.aurumascend.ch/privacy"
               }
             ]
           }),
@@ -124,14 +124,14 @@ export default function PrivacyLayout({
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "How does RaiseSignal protect your data?",
+                "name": "How does Aurum Ascend Capital protect your data?",
                 "answerCount": 1,
                 "datePublished": "2024-01-15T00:00:00Z",
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -140,22 +140,22 @@ export default function PrivacyLayout({
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }
               },
               {
                 "@type": "Question",
-                "name": "What are your GDPR rights with RaiseSignal?",
+                "name": "What are your GDPR rights with Aurum Ascend Capital?",
                 "answerCount": 1,
                 "datePublished": "2024-01-15T00:00:00Z",
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -164,22 +164,22 @@ export default function PrivacyLayout({
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }
               },
               {
                 "@type": "Question",
-                "name": "Does RaiseSignal share your data?",
+                "name": "Does Aurum Ascend Capital share your data?",
                 "answerCount": 1,
                 "datePublished": "2024-01-15T00:00:00Z",
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -188,22 +188,22 @@ export default function PrivacyLayout({
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }
               },
               {
                 "@type": "Question",
-                "name": "How long does RaiseSignal keep your data?",
+                "name": "How long does Aurum Ascend Capital keep your data?",
                 "answerCount": 1,
                 "datePublished": "2024-01-15T00:00:00Z",
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -212,8 +212,8 @@ export default function PrivacyLayout({
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }

@@ -1,4 +1,4 @@
-# Raisesignal - Connect Founders & Investors
+# Aurum Ascend Capital - Connect Founders & Investors
 
 A professional Next.js 15 website that connects project owners with private investors. Built with modern technologies and best practices.
 
@@ -165,8 +165,8 @@ This project is proprietary software. All rights reserved.
 
 For technical support or questions:
 
-- Email: tech@raisesignal.uk
-- Website: https://www.raisesignal.uk
+- Email: tech@aurumascend.ch
+- Website: https://www.aurumascend.ch
 
 ---
 

@@ -161,7 +161,7 @@ export default function ApplicationPage() {
               Application Received
             </h1>
             <p className="text-lead mb-8">
-              Thank you for submitting your funding application to RaiseSignal. Our institutional capital team will review your submission and respond within 48 hours.
+              Thank you for submitting your funding application to Aurum Ascend Capital. Our institutional capital team will review your submission and respond within 48 hours.
             </p>
             
             <div className="card-glass mb-8">

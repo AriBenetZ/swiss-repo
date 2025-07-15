@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'RaiseSignal - Global Investment Platform',
-    short_name: 'RaiseSignal',
+    name: 'Aurum Ascend Capital - Global Investment Platform',
+    short_name: 'Aurum Ascend Capital',
     description: 'Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. Secure growth capital for your company through our global investment platform.',
     start_url: '/',
     display: 'standalone',
@@ -14,7 +14,7 @@ export default function manifest(): MetadataRoute.Manifest {
     lang: 'en',
     dir: 'ltr',
     scope: '/',
-    id: 'raisesignal-app',
+    id: 'aurumascend-app',
     display_override: ['standalone', 'browser'],
     icons: [
       {
@@ -57,7 +57,7 @@ export default function manifest(): MetadataRoute.Manifest {
         name: 'Schedule Call',
         short_name: 'Schedule',
         description: 'Book a consultation call',
-        url: 'https://calendly.com/ari-raisesignal-68nf/30min',
+        url: 'https://calendly.com/ari-aurumascend-68nf/30min',
         icons: [{ src: '/logo.svg', sizes: '96x96' }]
       }
     ]

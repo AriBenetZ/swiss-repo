@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://www.raisesignal.uk'
+  const baseUrl = 'https://www.aurumascend.ch'
   
   return {
     rules: [
@@ -18,11 +18,11 @@ export default function robots(): MetadataRoute.Robots {
           '/internal/',
           '*.json$',
           '*/search?*', // Prevent indexing of search results
-          '/raisesignal.nl*', // Block any references to old .nl domain
+          '/aurumascend.nl*', // Block any references to old .nl domain
           '*.nl*', // Block any .nl domain references
           '*/apply?*', // Prevent indexing of application form with params
-          '*raisesignal.nl*', // Additional .nl blocking
-          '*.raisesignal.nl*', // Block subdomains
+          '*aurumascend.nl*', // Additional .nl blocking
+          '*.aurumascend.nl*', // Block subdomains
           '/nl/*', // Block any /nl/ paths
         ],
         crawlDelay: 1, // Be respectful to crawlers

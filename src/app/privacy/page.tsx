@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <p className="text-primary font-medium mb-2">Your Privacy Matters</p>
                   <p className="text-secondary text-sm">
-                    RaiseSignal B.V. is committed to protecting your privacy and ensuring the security 
+                    Aurum Ascend Capital B.V. is committed to protecting your privacy and ensuring the security 
                     of your personal information. This policy explains how we collect, use, and safeguard your data.
                   </p>
                 </div>
@@ -248,10 +248,10 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2">
                 <div className="flex items-center text-primary">
                   <Mail className="w-4 h-4 mr-2 text-accent-primary" />
-                  <a href="mailto:privacy@raisesignal.uk" className="text-accent-blue hover:underline">privacy@raisesignal.uk</a>
+                  <a href="mailto:privacy@aurumascend.ch" className="text-accent-blue hover:underline">privacy@aurumascend.ch</a>
                 </div>
                 <div className="text-primary">
-                  <strong>RaiseSignal Ltd.</strong><br />
+                  <strong>Aurum Ascend Capital Ltd.</strong><br />
                   3 More London Riverside<br />
                   London SE1 2RE<br />
                   United Kingdom

@@ -6,10 +6,10 @@ export const metadata: Metadata = generateMetadata({
   title: "Aurum Ascend Capital - Connect with Institutional Investors for Growth Capital",
   description: "Established investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia. 150+ successful deals completed since 2019. Start your funding journey today.",
   keywords: [
-    // Core UK-focused keywords
+    // Core Swiss-focused keywords
     'Swiss investment platform', 'Switzerland startup funding', 'Zurich venture capital', 'Swiss private equity',
     'institutional investors Switzerland', 'startup funding Switzerland', 'venture capital Zurich', 'Swiss angel investors',
-    'series A funding UK', 'series B funding UK', 'growth capital UK', 'UK fundraising platform',
+    'series A funding Switzerland', 'series B funding Switzerland', 'growth capital Switzerland', 'Switzerland fundraising platform',
     
     // European expansion keywords
     'European investors', 'EU startup funding', 'European venture capital', 'Scandinavian investors',
@@ -21,17 +21,17 @@ export const metadata: Metadata = generateMetadata({
     'American VCs', 'Asian investors', 'Singapore funding', 'Australian venture capital', 'Canadian investors',
     
     // Industry-specific keywords
-    'fintech funding UK', 'SaaS funding London', 'healthtech investors UK', 'edtech venture capital',
-    'cleantech funding UK', 'AI startup funding', 'blockchain investors UK', 'deeptech funding',
+    'fintech funding Switzerland', 'SaaS funding Zurich', 'healthtech investors Switzerland', 'edtech venture capital',
+    'cleantech funding Switzerland', 'AI startup funding', 'blockchain investors Switzerland', 'deeptech funding',
     
     // Long-tail SEO keywords
-    'how to find investors UK', 'startup funding application UK', 'venture capital matching UK',
-    'institutional investor network UK', 'private equity opportunities UK', 'family office investors UK',
-    'growth stage funding UK', 'startup scale-up funding', 'business angel network UK',
+    'how to find investors Switzerland', 'startup funding application Switzerland', 'venture capital matching Switzerland',
+    'institutional investor network Switzerland', 'private equity opportunities Switzerland', 'family office investors Switzerland',
+    'growth stage funding Switzerland', 'startup scale-up funding', 'business angel network Switzerland',
     
     // Company-specific keywords
     'Aurum Ascend Capital Switzerland', 'Aurum Ascend platform', 'investment matching Switzerland', 'verified investors Switzerland',
-    'funding connections UK', 'startup due diligence UK', 'capital raising UK', 'investment platform UK'
+    'funding connections Switzerland', 'startup due diligence Switzerland', 'capital raising Switzerland', 'investment platform Switzerland'
   ],
   path: "/",
   ogImage: "/og-home.png"
@@ -45,20 +45,20 @@ export default function HomeLayout({
   const serviceStructuredData = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "RaiseSignal UK Investment Platform",
-    "description": "UK's premier investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia. 150+ successful deals completed since 2019.",
-    "url": "https://www.raisesignal.uk",
+    "name": "Aurum Ascend Capital Swiss Investment Platform",
+    "description": "Switzerland's premier investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia. 150+ successful deals completed since 2019.",
+    "url": "https://www.aurumascend.ch",
     "provider": {
       "@type": "Organization",
-      "name": "RaiseSignal",
-      "url": "https://www.raisesignal.uk",
-      "logo": "https://www.raisesignal.uk/logo.svg",
+      "name": "Aurum Ascend Capital",
+      "url": "https://www.aurumascend.ch",
+      "logo": "https://www.aurumascend.ch/logo.svg",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "3 More London Riverside",
-        "addressLocality": "London",
-        "addressCountry": "United Kingdom",
-        "postalCode": "SE1 2RE"
+        "streetAddress": "Zurichstrasse 110",
+        "addressLocality": "Zurich",
+        "addressCountry": "Switzerland",
+        "postalCode": "8008"
       }
     },
     "areaServed": [
@@ -69,7 +69,7 @@ export default function HomeLayout({
     ],
     "serviceType": "Investment Platform",
     "category": "Financial Services",
-    "brand": "RaiseSignal",
+    "brand": "Aurum Ascend Capital",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Investment Services",
@@ -108,38 +108,38 @@ export default function HomeLayout({
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "How does RaiseSignal UK work?",
+        "name": "How does Aurum Ascend Capital UK work?",
         "answerCount": 1,
         "datePublished": "2024-01-01T00:00:00Z",
         "dateModified": "2025-07-10T00:00:00Z",
         "author": {
           "@type": "Organization",
-          "name": "RaiseSignal",
-          "url": "https://www.raisesignal.uk"
+          "name": "Aurum Ascend Capital",
+          "url": "https://www.aurumascend.ch"
         },
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "RaiseSignal UK connects growth-stage companies with verified institutional investors through a proven 5-step process: Application & Verification, Investor Matching, Due Diligence, Term Negotiation, and Funding Completion. We've completed 150+ successful deals since 2019.",
+          "text": "Aurum Ascend Capital UK connects growth-stage companies with verified institutional investors through a proven 5-step process: Application & Verification, Investor Matching, Due Diligence, Term Negotiation, and Funding Completion. We've completed 150+ successful deals since 2019.",
           "datePublished": "2024-01-01T00:00:00Z",
           "dateModified": "2025-07-10T00:00:00Z",
           "author": {
             "@type": "Organization",
-            "name": "RaiseSignal",
-            "url": "https://www.raisesignal.uk"
+            "name": "Aurum Ascend Capital",
+            "url": "https://www.aurumascend.ch"
           },
           "upvoteCount": 0
         }
       },
       {
         "@type": "Question",
-        "name": "What types of investors are on the RaiseSignal platform?",
+        "name": "What types of investors are on the Aurum Ascend Capital platform?",
         "answerCount": 1,
         "datePublished": "2024-01-01T00:00:00Z",
         "dateModified": "2025-07-10T00:00:00Z",
         "author": {
           "@type": "Organization",
-          "name": "RaiseSignal",
-          "url": "https://www.raisesignal.uk"
+          "name": "Aurum Ascend Capital",
+          "url": "https://www.aurumascend.ch"
         },
         "acceptedAnswer": {
           "@type": "Answer", 
@@ -148,22 +148,22 @@ export default function HomeLayout({
           "dateModified": "2025-07-10T00:00:00Z",
           "author": {
             "@type": "Organization",
-            "name": "RaiseSignal",
-            "url": "https://www.raisesignal.uk"
+            "name": "Aurum Ascend Capital",
+            "url": "https://www.aurumascend.ch"
           },
           "upvoteCount": 0
         }
       },
       {
         "@type": "Question",
-        "name": "How long does the funding process take through RaiseSignal UK?",
+        "name": "How long does the funding process take through Aurum Ascend Capital UK?",
         "answerCount": 1,
         "datePublished": "2024-01-01T00:00:00Z",
         "dateModified": "2025-07-10T00:00:00Z",
         "author": {
           "@type": "Organization",
-          "name": "RaiseSignal",
-          "url": "https://www.raisesignal.uk"
+          "name": "Aurum Ascend Capital",
+          "url": "https://www.aurumascend.ch"
         },
         "acceptedAnswer": {
           "@type": "Answer",
@@ -172,56 +172,56 @@ export default function HomeLayout({
           "dateModified": "2025-07-10T00:00:00Z",
           "author": {
             "@type": "Organization",
-            "name": "RaiseSignal",
-            "url": "https://www.raisesignal.uk"
+            "name": "Aurum Ascend Capital",
+            "url": "https://www.aurumascend.ch"
           },
           "upvoteCount": 0
         }
       },
       {
         "@type": "Question",
-        "name": "What funding stages does RaiseSignal UK support?",
+        "name": "What funding stages does Aurum Ascend Capital UK support?",
         "answerCount": 1,
         "datePublished": "2024-01-01T00:00:00Z",
         "dateModified": "2025-07-10T00:00:00Z",
         "author": {
           "@type": "Organization",
-          "name": "RaiseSignal",
-          "url": "https://www.raisesignal.uk"
+          "name": "Aurum Ascend Capital",
+          "url": "https://www.aurumascend.ch"
         },
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "RaiseSignal UK specializes in growth-stage funding including Series A, Series B, and growth capital rounds. We work with companies raising £500K to £50M+ across Europe, Americas, Asia, and Scandinavia.",
+          "text": "Aurum Ascend Capital UK specializes in growth-stage funding including Series A, Series B, and growth capital rounds. We work with companies raising £500K to £50M+ across Europe, Americas, Asia, and Scandinavia.",
           "datePublished": "2024-01-01T00:00:00Z",
           "dateModified": "2025-07-10T00:00:00Z",
           "author": {
             "@type": "Organization",
-            "name": "RaiseSignal",
-            "url": "https://www.raisesignal.uk"
+            "name": "Aurum Ascend Capital",
+            "url": "https://www.aurumascend.ch"
           },
           "upvoteCount": 0
         }
       },
       {
         "@type": "Question",
-        "name": "Is RaiseSignal UK available internationally?",
+        "name": "Is Aurum Ascend Capital UK available internationally?",
         "answerCount": 1,
         "datePublished": "2024-01-01T00:00:00Z",
         "dateModified": "2025-07-10T00:00:00Z",
         "author": {
           "@type": "Organization",
-          "name": "RaiseSignal",
-          "url": "https://www.raisesignal.uk"
+          "name": "Aurum Ascend Capital",
+          "url": "https://www.aurumascend.ch"
         },
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, while based in the UK, RaiseSignal serves companies globally with our network of institutional investors across Europe, Americas, Asia, and Scandinavia. We've completed deals in over 25 countries.",
+          "text": "Yes, while based in the UK, Aurum Ascend Capital serves companies globally with our network of institutional investors across Europe, Americas, Asia, and Scandinavia. We've completed deals in over 25 countries.",
           "datePublished": "2024-01-01T00:00:00Z",
           "dateModified": "2025-07-10T00:00:00Z",
           "author": {
             "@type": "Organization",
-            "name": "RaiseSignal",
-            "url": "https://www.raisesignal.uk"
+            "name": "Aurum Ascend Capital",
+            "url": "https://www.aurumascend.ch"
           },
           "upvoteCount": 0
         }
@@ -237,7 +237,7 @@ export default function HomeLayout({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.raisesignal.uk"
+        "item": "https://www.aurumascend.ch"
       }
     ]
   };
@@ -245,18 +245,18 @@ export default function HomeLayout({
   const websiteStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "RaiseSignal UK",
-    "alternateName": ["RaiseSignal", "Raise Signal UK", "RaiseSignal Investment Platform"],
-    "url": "https://www.raisesignal.uk",
+    "name": "Aurum Ascend Capital UK",
+    "alternateName": ["Aurum Ascend Capital", "Raise Signal UK", "Aurum Ascend Capital Investment Platform"],
+    "url": "https://www.aurumascend.ch",
     "description": "UK's premier investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia",
     "publisher": {
       "@type": "Organization",
-      "name": "RaiseSignal",
-      "url": "https://www.raisesignal.uk"
+      "name": "Aurum Ascend Capital",
+      "url": "https://www.aurumascend.ch"
     },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://www.raisesignal.uk/search?q={search_term_string}",
+      "target": "https://www.aurumascend.ch/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     },
     "mainEntity": {
@@ -269,8 +269,8 @@ export default function HomeLayout({
   const howToStructuredData = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": "How to Raise Capital Through RaiseSignal UK",
-    "description": "Step-by-step guide to raising growth capital through RaiseSignal UK's institutional investor network",
+    "name": "How to Raise Capital Through Aurum Ascend Capital UK",
+    "description": "Step-by-step guide to raising growth capital through Aurum Ascend Capital UK's institutional investor network",
     "totalTime": "PT8W",
     "estimatedCost": {
       "@type": "MonetaryAmount",
@@ -283,35 +283,35 @@ export default function HomeLayout({
         "position": 1,
         "name": "Submit Application",
         "text": "Complete comprehensive application with business plan, financial projections, and company details",
-        "url": "https://www.raisesignal.uk/apply"
+        "url": "https://www.aurumascend.ch/apply"
       },
       {
         "@type": "HowToStep",
         "position": 2,
         "name": "Investor Matching",
         "text": "Our AI-powered system matches your company with relevant institutional investors based on sector, stage, and criteria",
-        "url": "https://www.raisesignal.uk/how-it-works"
+        "url": "https://www.aurumascend.ch/how-it-works"
       },
       {
         "@type": "HowToStep",
         "position": 3,
         "name": "Due Diligence",
         "text": "Engage in structured due diligence process with pre-qualified institutional investors",
-        "url": "https://www.raisesignal.uk/how-it-works"
+        "url": "https://www.aurumascend.ch/how-it-works"
       },
       {
         "@type": "HowToStep",
         "position": 4,
         "name": "Term Negotiation",
         "text": "Negotiate investment terms with institutional investors and family offices",
-        "url": "https://www.raisesignal.uk/how-it-works"
+        "url": "https://www.aurumascend.ch/how-it-works"
       },
       {
         "@type": "HowToStep",
         "position": 5,
         "name": "Funding Completion",
         "text": "Complete legal documentation and receive growth capital investment",
-        "url": "https://www.raisesignal.uk/how-it-works"
+        "url": "https://www.aurumascend.ch/how-it-works"
       }
     ]
   };

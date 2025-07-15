@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     // },
   },
   other: {
-    // Tell Google this site has moved from .nl to .uk permanently
+    // Tell Google this site has moved to .ch permanently
     "original-source": "https://www.aurumascend.ch",
     "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
     // Block any .nl domain references

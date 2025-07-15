@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-// Domain configuration for UK only
+// Domain configuration for Switzerland
 export const domainConfig = {
   primary: process.env.NEXT_PUBLIC_PRIMARY_DOMAIN || 'www.aurumascend.ch',
   primaryUrl: process.env.NEXT_PUBLIC_PRIMARY_URL || 'https://www.aurumascend.ch',
@@ -19,17 +19,17 @@ export function getCanonicalUrl(path: string): string {
   return `${domainConfig.primaryUrl}${path}`;
 }
 
-export function isUKDomain(host: string | undefined): boolean {
+export function isSwissDomain(host: string | undefined): boolean {
   if (!host) return false;
   return host.includes('aurumascend.ch') || host.includes('www.aurumascend.ch');
 }
 
-export function getLocalizedContent(isUK: boolean = true) {
+export function getLocalizedContent(isSwiss: boolean = true) {
   return {
-    currency: isUK ? 'GBP' : 'EUR',
-    currencySymbol: isUK ? '£' : '€',
-    region: 'UK',
-    language: isUK ? 'en-GB' : 'en-NL',
-    timezone: isUK ? 'Europe/London' : 'Europe/Amsterdam',
+    currency: isSwiss ? 'CHF' : 'EUR',
+    currencySymbol: isSwiss ? 'CHF' : '€',
+    region: 'Switzerland',
+    language: isSwiss ? 'en-CH' : 'en-EU',
+    timezone: isSwiss ? 'Europe/Zurich' : 'Europe/Amsterdam',
   };
 }

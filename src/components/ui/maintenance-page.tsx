@@ -82,7 +82,7 @@ export default function MaintenancePage({
             <RefreshCw className="mr-2 h-5 w-5" />
             Check Again
           </Button>
-          <Link href="mailto:support@aurumascend.com?subject=Maintenance%20Inquiry">
+          <Link href="mailto:support@aurumascend.ch?subject=Maintenance%20Inquiry">
             <Button variant="secondary" className="btn btn-secondary btn-large">
               <Mail className="mr-2 h-5 w-5" />
               Contact Support
