@@ -46,10 +46,10 @@ export const ApplicationFormEmail = ({
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://www.raisesignal.uk/logo.jpg"
+            src="https://www.aurumascend.ch/logo.jpg"
             width="200"
             height="50"
-            alt="RaiseSignal"
+            alt="Aurum Ascend Capital"
             style={logo}
           />
           
@@ -138,10 +138,10 @@ export const ApplicationFormEmail = ({
           </Section>
 
           <Text style={footer}>
-            This application was submitted through the RaiseSignal funding application form.
+            This application was submitted through the Aurum Ascend Capital funding application form.
             {/* Note: If a pitch deck or document was uploaded, it will be attached to this email. */}
             <br />
-            <Link href="https://www.raisesignal.uk/apply" style={linkStyle}>
+            <Link href="https://www.aurumascend.ch/apply" style={linkStyle}>
               View application form
             </Link>
           </Text>

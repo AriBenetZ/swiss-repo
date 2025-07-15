@@ -117,7 +117,7 @@ export default function HomePage() {
             {/* Trust Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full glass-subtle">
               <Shield className="h-4 w-4 text-accent-secondary mr-2" />
-              <span className="text-sm font-medium text-secondary">UK's Leading Investment Platform - 150+ Successful Deals</span>
+              <span className="text-sm font-medium text-secondary">Switzerland's Leading Investment Platform - 150+ Successful Deals</span>
             </div>
 
             {/* Hero Content */}
@@ -129,7 +129,7 @@ export default function HomePage() {
               
               <div className="space-y-4">
                 <p className="text-lead max-w-3xl mx-auto text-balance">
-                  We don't just facilitate introductions—we build lasting relationships. Our London-based team personally guides you through every step, leveraging our trusted connections with <span className="font-bold">institutional investors</span> across Europe, Americas, Asia & Scandinavia to secure the right partnership for your growth.
+                  We don't just facilitate introductions—we build lasting relationships. Our Zurich-based team personally guides you through every step, leveraging our trusted connections with <span className="font-bold">institutional investors</span> across Europe, Americas, Asia & global markets to secure the right partnership for your growth.
                 </p>
                 
                 <p className="text-body max-w-2xl mx-auto text-balance">
@@ -200,10 +200,10 @@ export default function HomePage() {
           <div className="text-center space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section text-balance">
-                Why Choose RaiseSignal UK
+                Why Choose Aurum Ascend Capital
               </h2>
               <p className="text-lead max-w-3xl mx-auto text-balance">
-                The UK's premier investment platform connecting growth-stage companies with verified institutional investors through a structured, transparent process.
+                Switzerland's premier investment platform connecting growth-stage companies with verified institutional investors through a structured, transparent process.
               </p>
             </div>
             
@@ -280,7 +280,7 @@ export default function HomePage() {
                 Trusted by Leading Companies & Investors
               </h2>
               <p className="text-lead">
-                Our UK-based platform serves companies globally with institutional investors, family offices, and strategic partners across Europe, Americas, Asia-Pacific, and Scandinavia.
+                Our Swiss-based platform serves companies globally with institutional investors, family offices, and strategic partners across Europe, Americas, Asia-Pacific, and beyond.
               </p>
             </div>
             
@@ -330,7 +330,7 @@ export default function HomePage() {
               </Button>
               <CalendlyWidget 
                 text="Schedule a Call" 
-                url="https://calendly.com/ari-raisesignal-68nf/30min"
+                url="https://calendly.com/aurum-ascend/30min"
                 className="btn btn-secondary w-full sm:w-auto btn-large"
               />
             </div>

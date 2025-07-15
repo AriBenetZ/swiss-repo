@@ -39,8 +39,8 @@ interface ApplicationFormData {
 }
 
 export class EmailService {
-  private static readonly FROM_EMAIL = 'RaiseSignal <hello@raisesignal.uk>'; // Using your actual domain
-  private static readonly ADMIN_EMAIL = 'info@raisesignal.uk';
+  private static readonly FROM_EMAIL = 'Aurum Ascend Capital <hello@aurumascend.ch>'; // Using your actual domain
+  private static readonly ADMIN_EMAIL = 'info@aurumascend.ch';
 
   static async sendContactForm(data: ContactFormData) {
     try {
@@ -66,7 +66,7 @@ export class EmailService {
       const userEmailResult = await getResendClient().emails.send({
         from: this.FROM_EMAIL,
         to: data.email,
-        subject: 'Thank you for contacting RaiseSignal',
+        subject: 'Thank you for contacting Aurum Ascend Capital',
         html: userEmailHtml,
       });
       console.log('✅ User email result:', JSON.stringify(userEmailResult, null, 2));
@@ -114,7 +114,7 @@ export class EmailService {
       const userEmailResult = await getResendClient().emails.send({
         from: this.FROM_EMAIL,
         to: data.email,
-        subject: 'Your funding application has been received - RaiseSignal',
+        subject: 'Your funding application has been received - Aurum Ascend Capital',
         html: userEmailHtml,
       });
       console.log('✅ User application confirmation email sent:', userEmailResult.data?.id);
@@ -182,7 +182,7 @@ export class EmailService {
       const userEmailResult = await getResendClient().emails.send({
         from: this.FROM_EMAIL,
         to: data.email,
-        subject: 'Your funding application has been received - RaiseSignal',
+        subject: 'Your funding application has been received - Aurum Ascend Capital',
         html: userEmailHtml,
       });
       console.log('✅ User application email result:', JSON.stringify(userEmailResult, null, 2));
@@ -210,7 +210,7 @@ export class EmailService {
       const result = await getResendClient().emails.send({
         from: this.FROM_EMAIL,
         to: email,
-        subject: 'Welcome to RaiseSignal',
+        subject: 'Welcome to Aurum Ascend Capital',
         html: emailHtml,
       });
 

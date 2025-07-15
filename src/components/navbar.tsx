@@ -53,7 +53,7 @@ export function Navbar() {
 							<div className="relative w-8 h-8 group-hover:scale-110 transition-transform duration-300">
 								<Image 
 									src="/logo.svg" 
-									alt="RaiseSignal Logo" 
+									alt="Aurum Ascend Capital Logo" 
 									width={32}
 									height={32}
 									className="w-8 h-8 object-contain"
@@ -63,8 +63,8 @@ export function Navbar() {
 							</div>
 							<div className="flex flex-col">
 								<span className="text-lg text-primary">
-									<span className="font-bold">Raise</span>
-									<span className="font-light">Signal</span>
+									<span className="font-bold">Aurum</span>
+									<span className="font-light">Ascend</span>
 								</span>
 								<span className="text-xs text-secondary leading-none">Investment Platform</span>
 							</div>

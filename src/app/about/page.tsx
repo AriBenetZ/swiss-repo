@@ -160,11 +160,11 @@ export default function AboutPage() {
             
             <div className="space-y-3 sm:space-y-4">
               <p className="text-lead max-w-3xl mx-auto text-balance px-1 sm:px-0">
-                We believe funding should be about relationships, not transactions. Our London-based team dedicates time to understand both founders and investors deeply, creating meaningful connections that drive long-term success.
+                We believe funding should be about relationships, not transactions. Our Zurich-based team dedicates time to understand both founders and investors deeply, creating meaningful connections that drive long-term success.
               </p>
               
               <p className="text-body max-w-2xl mx-auto px-1 sm:px-0">
-                Founded in 2019, <span className="font-bold">Raise</span><span className="font-light">Signal</span> has personally guided over 150 companies through successful funding journeys across 25+ countries, building trust through every introduction.
+                Founded in 2019, <span className="font-bold">Aurum</span><span className="font-light">Ascend Capital</span> has personally guided over 150 companies through successful funding journeys across 25+ countries, building trust through every introduction with our Swiss-based expertise.
               </p>
             </div>
             
@@ -357,31 +357,31 @@ export default function AboutPage() {
           <div className="space-y-4">
             {[
               {
-                question: "How personal is RaiseSignal's approach to funding?",
-                answer: "Extremely personal. Every client works directly with our London-based team through dedicated one-on-one consultations, personal investor introductions, and ongoing relationship management. We treat your success as our reputation and invest in long-term partnerships, not just transactions."
+                question: "How personal is Aurum Ascend Capital's approach to funding?",
+                answer: "Extremely personal. Every client works directly with our Zurich-based team through dedicated one-on-one consultations, personal investor introductions, and ongoing relationship management. We treat your success as our reputation and invest in long-term partnerships, not just transactions."
               },
               {
-                question: "Do I get direct access to decision-makers at RaiseSignal?",
+                question: "Do I get direct access to decision-makers at Aurum Ascend Capital?",
                 answer: "Yes. From your first consultation, you work directly with senior team members including our CTO/CFO who personally joins client calls throughout the entire process. No junior staff or account managers—you get direct access to the people making decisions about your funding journey."
               },
               {
-                question: "How long does the funding process take with RaiseSignal?",
+                question: "How long does the funding process take with Aurum Ascend Capital?",
                 answer: "The typical funding process takes 8-12 weeks from application to funding completion. This includes personal consultation and application review (1-2 weeks), strategic investor matching (2-3 weeks), and due diligence with closing (4-6 weeks)."
               },
               {
-                question: "What types of companies can apply for funding through RaiseSignal?",
+                question: "What types of companies can apply for funding through Aurum Ascend Capital?",
                 answer: "We work with growth-stage companies seeking £250K to £50M+ in funding. Ideal candidates have proven revenue, scalable business models, and are ready for Series A, B, or growth capital rounds."
               },
               {
-                question: "What makes RaiseSignal's investor introductions different?",
+                question: "What makes Aurum Ascend Capital's investor introductions different?",
                 answer: "Our introductions are relationship-based, not database-driven. We personally know our investors, understand their investment preferences, and provide context-rich introductions explaining why this is a perfect match for both parties."
               },
               {
                 question: "What is the success rate for funding applications?",
-                answer: "RaiseSignal has a 78% success rate for qualified applications that complete our process. We pre-screen applications to ensure investor-readiness before proceeding."
+                answer: "Aurum Ascend Capital has a 78% success rate for qualified applications that complete our process. We pre-screen applications to ensure investor-readiness before proceeding."
               },
               {
-                question: "How does RaiseSignal support long-term relationships?",
+                question: "How does Aurum Ascend Capital support long-term relationships?",
                 answer: "We believe in multi-round partnerships. From seed discussions to Series B and beyond, we maintain relationships that evolve with your business. Our network grows with you throughout your entire growth journey."
               },
               {
@@ -433,7 +433,7 @@ export default function AboutPage() {
                 Apply for Funding <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <a
-                href="https://calendly.com/ari-raisesignal-68nf/30min"
+                href="https://calendly.com/aurum-ascend/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary btn-large"

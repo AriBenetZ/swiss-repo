@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Apply for Funding - Start Your Investment Journey",
-  description: "Apply for startup funding through RaiseSignal's verified investor network. Submit your pitch deck and connect with angel investors, VCs, and private equity firms. Free application process with 48-hour response time.",
+  description: "Apply for startup funding through Aurum Ascend Capital's verified investor network. Submit your pitch deck and connect with angel investors, VCs, and private equity firms. Free application process with 48-hour response time.",
   keywords: [
     "apply for funding",
     "startup application",

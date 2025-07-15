@@ -37,8 +37,8 @@ export const blogPostTemplates = {
     }
   },
   'success-stories': {
-    titleTemplate: 'How [COMPANY] Raised £[AMOUNT] in [FUNDING_ROUND]: A Case Study',
-    descriptionTemplate: 'Learn how [COMPANY] successfully raised £[AMOUNT] in their [FUNDING_ROUND]. Get insights on strategy, pitch deck, and investor approach.',
+    titleTemplate: 'How [COMPANY] Raised CHF [AMOUNT] in [FUNDING_ROUND]: A Case Study',
+    descriptionTemplate: 'Learn how [COMPANY] successfully raised CHF [AMOUNT] in their [FUNDING_ROUND]. Get insights on strategy, pitch deck, and investor approach.',
     keywordSets: {
       'case-study': ['startup success story', 'funding case study', 'investment success', 'fundraising strategy']
     }
@@ -50,7 +50,7 @@ export function generateBlogSEO(post: Partial<BlogPost>, template?: keyof typeof
   const currentYear = new Date().getFullYear();
   
   return {
-    title: post.title || `${post.title} | RaiseSignal Investment Insights`,
+    title: post.title || `${post.title} | Aurum Ascend Capital Investment Insights`,
     description: post.description || `${post.excerpt?.substring(0, 150)}...`,
     keywords: [
       ...(post.keywords || []),
@@ -63,7 +63,7 @@ export function generateBlogSEO(post: Partial<BlogPost>, template?: keyof typeof
     canonical: `/blog/${post.slug}`,
     publishedTime: post.publishedAt,
     modifiedTime: post.modifiedAt,
-    authors: [post.author || 'RaiseSignal Team'],
+    authors: [post.author || 'Aurum Ascend Capital Team'],
     section: post.category || 'Investment Insights',
     tags: post.tags || []
   };

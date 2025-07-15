@@ -30,10 +30,10 @@ export const ApplicationConfirmationEmail = ({
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://www.raisesignal.uk/logo.jpg"
+            src="https://www.aurumascend.ch/logo.jpg"
             width="200"
             height="50"
-            alt="RaiseSignal"
+            alt="Aurum Ascend Capital"
             style={logo}
           />
           
@@ -111,7 +111,7 @@ export const ApplicationConfirmationEmail = ({
           <Hr style={hr} />
 
           <Section style={buttonContainer}>
-            <Button style={button} href="https://calendly.com/ari-raisesignal-68nf/30min">
+            <Button style={button} href="https://calendly.com/aurum-ascend/30min">
               Schedule a Follow-up Call
             </Button>
           </Section>
@@ -121,21 +121,21 @@ export const ApplicationConfirmationEmail = ({
           </Text>
 
           <Section style={linksSection}>
-            <Link href="https://www.raisesignal.uk/case-studies" style={link}>Case Studies</Link>
+            <Link href="https://www.aurumascend.ch/case-studies" style={link}>Case Studies</Link>
             <Text style={separator}> • </Text>
-            <Link href="https://www.raisesignal.uk/how-it-works" style={link}>Process Overview</Link>
+            <Link href="https://www.aurumascend.ch/how-it-works" style={link}>Process Overview</Link>
             <Text style={separator}> • </Text>
-            <Link href="mailto:info@raisesignal.uk" style={link}>Contact Us</Link>
+            <Link href="mailto:info@aurumascend.ch" style={link}>Contact Us</Link>
           </Section>
 
           <Text style={footer}>
             Best regards,<br />
-            The RaiseSignal Team
+            The Aurum Ascend Capital Team
             <br /><br />
             <Text style={footerSmall}>
-              RaiseSignal - Global Investment Platform<br />
-              3 More London Riverside, London SE1 2RE, UK<br />
-              <Link href="https://www.raisesignal.uk" style={link}>raisesignal.uk</Link>
+              Aurum Ascend Capital - Global Investment Platform<br />
+              Zurichstrasse 110, 8008 Zurich, Switzerland<br />
+              <Link href="https://www.aurumascend.ch" style={link}>aurumascend.ch</Link>
             </Text>
           </Text>
         </Container>

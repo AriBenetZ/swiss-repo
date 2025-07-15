@@ -77,7 +77,7 @@ export default function GlobalError({ error, reset }: GlobalErrorProps) {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button 
-                    onClick={() => window.location.href = 'mailto:support@raisesignal.uk?subject=Critical%20Application%20Error'}
+                    onClick={() => window.location.href = 'mailto:support@aurumascend.com?subject=Critical%20Application%20Error'}
                     className="inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-all duration-300 border border-gray-600 bg-transparent hover:bg-gray-800 text-white h-10 px-4"
                   >
                     <Mail className="mr-2 h-4 w-4" />

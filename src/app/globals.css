@@ -38,13 +38,13 @@
   --text-muted: #64748B;        /* Subtle text */
   --text-disabled: #475569;     /* Disabled state */
   
-  /* Accent Color System */
-  --accent-primary: #8B5CF6;    /* Softer purple for dark theme */
-  --accent-primary-hover: #7C3AED;
-  --accent-primary-active: #6D28D9;
-  --accent-secondary: #3B82F6;  /* Cobalt blue */
-  --accent-secondary-hover: #2563EB;
-  --accent-secondary-active: #1D4ED8;
+  /* Accent Color System - Swiss Gold & Champagne Theme */
+  --accent-primary: #D4AF37;    /* Rich gold - Swiss precision & luxury */
+  --accent-primary-hover: #B8941F;
+  --accent-primary-active: #9C7D1A;
+  --accent-secondary: #E6B800;  /* Champagne gold */
+  --accent-secondary-hover: #CC9900;
+  --accent-secondary-active: #B38600;
   
   /* Semantic Colors */
   --semantic-success: #10B981;
@@ -69,7 +69,7 @@
   --shadow-medium: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
   --shadow-strong: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
   --shadow-intense: 0 16px 48px 0 rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 0 20px 0 rgba(139, 92, 246, 0.15);
+  --shadow-glow: 0 0 20px 0 rgba(212, 175, 55, 0.15);
   
   /* Backdrop Effects */
   --backdrop-blur-subtle: blur(8px);

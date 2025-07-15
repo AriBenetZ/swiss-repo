@@ -24,14 +24,14 @@ export const ContactConfirmationEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Thank you for contacting RaiseSignal</Preview>
+      <Preview>Thank you for contacting Aurum Ascend Capital</Preview>
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://www.raisesignal.uk/logo.jpg"
+            src="https://www.aurumascend.ch/logo.jpg"
             width="200"
             height="50"
-            alt="RaiseSignal"
+            alt="Aurum Ascend Capital"
             style={logo}
           />
           
@@ -40,7 +40,7 @@ export const ContactConfirmationEmail = ({
           <Text style={greeting}>Hi {name},</Text>
           
           <Text style={text}>
-            Thank you for contacting RaiseSignal. We've received your message and will get back to you within 48 hours.
+            Thank you for contacting Aurum Ascend Capital. We've received your message and will get back to you within 48 hours.
           </Text>
 
           <Text style={text}>
@@ -58,7 +58,7 @@ export const ContactConfirmationEmail = ({
           <Hr style={hr} />
 
           <Section style={buttonContainer}>
-            <Button style={button} href="https://calendly.com/ari-raisesignal-68nf/30min">
+            <Button style={button} href="https://calendly.com/aurum-ascend/30min">
               Schedule a Call
             </Button>
           </Section>
@@ -68,21 +68,21 @@ export const ContactConfirmationEmail = ({
           </Text>
 
           <Section style={linksSection}>
-            <Link href="https://www.raisesignal.uk/case-studies" style={link}>View Case Studies</Link>
+            <Link href="https://www.aurumascend.ch/case-studies" style={link}>View Case Studies</Link>
             <Text style={separator}> • </Text>
-            <Link href="https://www.raisesignal.uk/how-it-works" style={link}>How It Works</Link>
+            <Link href="https://www.aurumascend.ch/how-it-works" style={link}>How It Works</Link>
             <Text style={separator}> • </Text>
-            <Link href="https://www.raisesignal.uk/about" style={link}>About Us</Link>
+            <Link href="https://www.aurumascend.ch/about" style={link}>About Us</Link>
           </Section>
 
           <Text style={footer}>
             Best regards,<br />
-            The RaiseSignal Team
+            The Aurum Ascend Capital Team
             <br /><br />
             <Text style={footerSmall}>
-              RaiseSignal - Global Investment Platform<br />
-              3 More London Riverside, London SE1 2RE, UK<br />
-              <Link href="https://www.raisesignal.uk" style={link}>raisesignal.uk</Link>
+              Aurum Ascend Capital - Global Investment Platform<br />
+              Bahnhofstrasse 100, 8001 Zurich, Switzerland<br />
+              <Link href="https://www.aurumascend.ch" style={link}>aurumascend.ch</Link>
             </Text>
           </Text>
         </Container>

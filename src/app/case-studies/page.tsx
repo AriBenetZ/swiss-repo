@@ -51,7 +51,7 @@ export default function CaseStudiesPage() {
       sector: "Enterprise Software",
       fundingAmount: "€4.2M Series A",
       timeline: "9 months",
-      description: "London-based workforce analytics platform connected with German institutional investors to fund European expansion.",
+      description: "Zurich-based workforce analytics platform connected with German institutional investors to fund European expansion.",
       metrics: [
         { label: "ARR Growth", value: "280%" },
         { label: "Enterprise Clients", value: "450+" },

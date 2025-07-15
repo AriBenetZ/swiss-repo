@@ -19,7 +19,7 @@ declare global {
 }
 
 export function CalendlyWidget({ 
-  url = 'https://calendly.com/ari-raisesignal-68nf/30min', // updated link (same as before, but ensure this is the new one)
+  url = 'https://calendly.com/aurum-ascend/30min', // updated link for Aurum Ascend Capital
   text = 'Schedule time with me',
   className = '',
   variant = 'button'

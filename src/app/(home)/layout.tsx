@@ -3,12 +3,12 @@ import { generateMetadata, pageConfigs } from '@/lib/seo';
 
 export const metadata: Metadata = generateMetadata({
   ...pageConfigs.home,
-  title: "RaiseSignal - Connect with Institutional Investors for Growth Capital",
+  title: "Aurum Ascend Capital - Connect with Institutional Investors for Growth Capital",
   description: "Established investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia. 150+ successful deals completed since 2019. Start your funding journey today.",
   keywords: [
     // Core UK-focused keywords
-    'UK investment platform', 'British startup funding', 'London venture capital', 'UK private equity',
-    'institutional investors UK', 'startup funding UK', 'venture capital London', 'UK angel investors',
+    'Swiss investment platform', 'Switzerland startup funding', 'Zurich venture capital', 'Swiss private equity',
+    'institutional investors Switzerland', 'startup funding Switzerland', 'venture capital Zurich', 'Swiss angel investors',
     'series A funding UK', 'series B funding UK', 'growth capital UK', 'UK fundraising platform',
     
     // European expansion keywords
@@ -30,7 +30,7 @@ export const metadata: Metadata = generateMetadata({
     'growth stage funding UK', 'startup scale-up funding', 'business angel network UK',
     
     // Company-specific keywords
-    'RaiseSignal UK', 'RaiseSignal platform', 'investment matching UK', 'verified investors UK',
+    'Aurum Ascend Capital Switzerland', 'Aurum Ascend platform', 'investment matching Switzerland', 'verified investors Switzerland',
     'funding connections UK', 'startup due diligence UK', 'capital raising UK', 'investment platform UK'
   ],
   path: "/",

@@ -113,7 +113,7 @@ export default function CompliancePage() {
                 For compliance-related inquiries or to report concerns:
               </p>
               <p className="text-accent-secondary">
-                Email: <a href="mailto:compliance@raisesignal.uk" className="text-accent-blue hover:underline">compliance@raisesignal.uk</a><br />
+                Email: <a href="mailto:compliance@aurumascend.com" className="text-accent-blue hover:underline">compliance@aurumascend.com</a><br />
                 Phone: +44 7537 126467
               </p>
             </div>

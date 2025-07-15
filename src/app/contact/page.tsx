@@ -93,23 +93,23 @@ export default function ContactPage() {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Business Inquiries",
-      content: "info@raisesignal.uk",
+      content: "info@aurumascend.ch",
       description: "For funding applications and business partnerships",
-      href: "mailto:info@raisesignal.uk"
+      href: "mailto:info@aurumascend.ch"
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Direct Line",
-      content: "+44 7537 126467",
-      description: "Available Monday to Friday, 9 AM - 6 PM GMT",
-      href: "tel:+447537126467"
+      content: "+41 44 555 0123",
+      description: "Available Monday to Friday, 9 AM - 6 PM CET",
+      href: "tel:+41445550123"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Headquarters",
-      content: "3 More London Riverside, London SE1 2RE",
-      description: "United Kingdom - Greenwich Mean Time",
-      href: "https://maps.google.com/?q=3+More+London+Riverside,+London+SE1+2RE,+UK"
+      content: "Bahnhofstrasse 100, 8001 Zurich",
+      description: "Switzerland - Central European Time",
+      href: "https://maps.google.com/?q=Bahnhofstrasse+100,+8001+Zurich,+Switzerland"
     },
     {
       icon: <Clock className="h-6 w-6" />,
@@ -131,7 +131,7 @@ export default function ContactPage() {
               Message Received
             </h1>
             <p className="text-lead mb-6 sm:mb-8 px-2 sm:px-0">
-              Thank you for contacting <span className="font-bold">Raise</span><span className="font-light">Signal</span>. Our team will review your inquiry and respond within 48 hours (CET business days).
+              Thank you for contacting <span className="font-bold">Aurum</span><span className="font-light">Ascend Capital</span>. Our team will review your inquiry and respond within 48 hours (CET business days).
             </p>
             <button 
               onClick={() => setIsSuccess(false)}
@@ -153,19 +153,19 @@ export default function ContactPage() {
           <div className="text-center">
             <div className="inline-flex items-center gap-2 glass-subtle px-2 py-1 sm:px-4 sm:py-2 rounded-full mb-4 sm:mb-6">
               <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4 text-accent-secondary" />
-              <span className="text-xs sm:text-small font-medium text-accent-secondary">Available Mon-Fri • Response Within 48 Hours GMT</span>
+              <span className="text-xs sm:text-small font-medium text-accent-secondary">Available Mon-Fri • Response Within 48 Hours CET</span>
             </div>
             <h1 className="heading-display px-1 sm:px-0">
               Connect with Our{' '}
               <span className="gradient-text">Investment Partners</span>
             </h1>
             <p className="text-lead max-w-2xl mx-auto text-balance px-1 sm:px-0">
-              Ready to accelerate your growth? Connect directly with our London-based team for a personal consultation on institutional funding. We believe in building relationships, not just facilitating transactions.
+              Ready to accelerate your growth? Connect directly with our Zurich-based team for a personal consultation on institutional funding. We believe in building relationships, not just facilitating transactions.
             </p>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center items-center mt-4 sm:mt-6">
               <CalendlyWidget 
                 text="Schedule a Call" 
-                url="https://calendly.com/ari-raisesignal-68nf/30min"
+                url="https://calendly.com/aurum-ascend/30min"
                 className="btn-primary btn-large hover-glow"
               />
               <span className="text-small text-secondary">or fill out the form below</span>
@@ -263,7 +263,7 @@ export default function ContactPage() {
                 <div className="mb-8">
                   <Image
                     src={officeImage}
-                    alt="RaiseSignal Office"
+                    alt="Aurum Ascend Capital Office"
                     className="rounded-lg shadow-lg"
                   />
                 </div>
@@ -319,7 +319,7 @@ export default function ContactPage() {
                 Prefer to Talk Directly?
               </h3>
               <p className="text-body mb-6">
-                Schedule a 30-minute call with our founder to discuss your funding goals and explore how RaiseSignal can help accelerate your growth.
+                Schedule a 30-minute call with our founder to discuss your funding goals and explore how Aurum Ascend Capital can help accelerate your growth.
               </p>
               <CalendlyWidget 
                 text="Book a 30-Minute Call" 

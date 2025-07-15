@@ -170,7 +170,7 @@ export default function OfflinePage() {
                 </div>
                 <div className="text-left">
                   <div className="font-medium text-primary">About Us</div>
-                  <div className="text-xs text-secondary">Learn about RaiseSignal</div>
+                  <div className="text-xs text-secondary">Learn about Aurum Ascend Capital</div>
                 </div>
               </Link>
 

@@ -82,7 +82,7 @@ export default function MaintenancePage({
             <RefreshCw className="mr-2 h-5 w-5" />
             Check Again
           </Button>
-          <Link href="mailto:support@raisesignal.uk?subject=Maintenance%20Inquiry">
+          <Link href="mailto:support@aurumascend.com?subject=Maintenance%20Inquiry">
             <Button variant="secondary" className="btn btn-secondary btn-large">
               <Mail className="mr-2 h-5 w-5" />
               Contact Support
@@ -125,7 +125,7 @@ export default function MaintenancePage({
             </p>
             <div className="flex justify-center gap-4">
               <Link 
-                href="https://twitter.com/raisesignal" 
+                href="https://twitter.com/aurumascend" 
                 target="_blank"
                 className="flex items-center gap-2 text-accent-primary hover:text-accent-primary-hover transition-colors duration-200"
               >
@@ -133,7 +133,7 @@ export default function MaintenancePage({
                 <span>Twitter</span>
               </Link>
               <Link 
-                href="https://linkedin.com/company/raisesignal" 
+                href="https://linkedin.com/company/aurumascend" 
                 target="_blank"
                 className="flex items-center gap-2 text-accent-secondary hover:text-accent-secondary-hover transition-colors duration-200"
               >
@@ -141,7 +141,7 @@ export default function MaintenancePage({
                 <span>LinkedIn</span>
               </Link>
               <Link 
-                href="mailto:info@raisesignal.uk"
+                href="mailto:info@aurumascend.ch"
                 className="flex items-center gap-2 text-semantic-success hover:text-semantic-success-hover transition-colors duration-200"
               >
                 <Mail className="h-5 w-5" />

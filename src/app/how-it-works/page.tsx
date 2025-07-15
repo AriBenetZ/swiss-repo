@@ -213,7 +213,7 @@ export default function HowItWorksPage() {
             {/* Hero Content */}
             <div className="space-y-4 sm:space-y-6">
               <h1 className="hero-title heading-display text-balance px-1 sm:px-0">
-                How <span className="gradient-text"><span className="font-bold">Raise</span><span className="font-light">Signal</span></span> Works
+                How <span className="gradient-text"><span className="font-bold">Aurum</span><span className="font-light">Ascend</span></span> Works
               </h1>
               
               <div className="space-y-3 sm:space-y-4">
@@ -230,7 +230,7 @@ export default function HowItWorksPage() {
                     Start Your Application <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                   <a
-                    href="https://calendly.com/ari-raisesignal-68nf/30min"
+                    href="https://calendly.com/aurum-ascend/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-secondary w-fit btn-large"
@@ -415,7 +415,7 @@ export default function HowItWorksPage() {
                 Start Your Application <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <a
-                href="https://calendly.com/ari-raisesignal-68nf/30min"
+                href="https://calendly.com/aurum-ascend/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary btn-large"

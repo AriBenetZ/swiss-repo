@@ -38,7 +38,7 @@ export function Footer() {
                 <div className="w-8 h-8">
                   <Image 
                     src="/logo.svg" 
-                    alt="RaiseSignal Logo" 
+                    alt="Aurum Ascend Capital Logo" 
                     width={32}
                     height={32}
                     className="w-8 h-8 object-contain"
@@ -47,42 +47,42 @@ export function Footer() {
                 </div>
                 <div>
                   <div className="text-lg text-primary">
-                    <span className="font-bold">Raise</span>
-                    <span className="font-light">Signal</span>
+                    <span className="font-bold">Aurum</span>
+                    <span className="font-light">Ascend</span>
                   </div>
                   <div className="text-xs text-tertiary">Investment Platform</div>
                 </div>
               </div>
               
               <p className="text-secondary mb-8 leading-relaxed max-w-md">
-                Building lasting partnerships between ambitious founders and institutional investors through personal relationships and white-glove service. Based in London, serving clients globally with dedicated personal attention.
+                Building lasting partnerships between ambitious founders and institutional investors through personal relationships and white-glove service. Based in Zurich, serving clients globally with dedicated personal attention.
               </p>
               
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 text-sm text-secondary">
                   <Mail className="h-4 w-4 flex-shrink-0" />
-                  <a href="mailto:info@raisesignal.uk" className="footer-link text-primary">
-                    <span>info@raisesignal.uk</span>
+                  <a href="mailto:info@aurumascend.ch" className="footer-link text-primary">
+                    <span>info@aurumascend.ch</span>
                   </a>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-secondary">
                   <Phone className="h-4 w-4 flex-shrink-0" />
                   <div className="space-y-1">
-                    <a href="tel:+447537126467" className="footer-link text-primary block">
-                      <span>+44 7537 126467</span>
+                    <a href="tel:+41445550123" className="footer-link text-primary block">
+                      <span>+41 44 555 0123</span>
                     </a>
-                    <span className="text-xs text-muted block">Mon-Fri 9AM-6PM GMT</span>
+                    <span className="text-xs text-muted block">Mon-Fri 9AM-6PM CET</span>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3 text-sm text-secondary">
                   <MapPin className="h-4 w-4 flex-shrink-0" />
                   <a 
-                    href="https://maps.google.com?q=3+More+London+Riverside,+London+SE1+2RE,+United+Kingdom" 
+                    href="https://maps.google.com?q=Bahnhofstrasse+100,+8001+Zurich,+Switzerland" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="footer-link text-primary"
                   >
-                    <span>3 More London Riverside, London SE1 2RE</span>
+                    <span>Bahnhofstrasse 100, 8001 Zurich</span>
                   </a>
                 </div>
               </div>
@@ -153,7 +153,7 @@ export function Footer() {
             
             {/* Copyright */}
             <div className="text-sm text-secondary">
-              © {currentYear} <span className="font-bold">Raise</span><span className="font-light">Signal</span>, Inc. All rights reserved.
+              © {currentYear} <span className="font-bold">Aurum</span><span className="font-light">Ascend Capital</span>, SA. All rights reserved.
             </div>
 
             {/* Legal Notice */}

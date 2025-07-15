@@ -12,62 +12,62 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "RaiseSignal - Connect with Institutional Investors for Growth Capital",
-    template: "%s | RaiseSignal"
+    default: "Aurum Ascend Capital - Connect with Institutional Investors for Growth Capital",
+    template: "%s | Aurum Ascend Capital"
   },
-  description: "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. RaiseSignal helps growth-stage companies secure funding from VCs, private equity, and family offices. Join 150+ successful funding connections since 2019.",
+  description: "Connect with verified institutional investors across Europe, Americas, Asia & global markets. Aurum Ascend Capital helps growth-stage companies secure funding from VCs, private equity, and family offices. Join 150+ successful funding connections with our Swiss-based expertise.",
   keywords: [
-    // Core UK-focused keywords
-    "UK investment platform", "British startup funding", "London venture capital", "UK private equity",
-    "institutional investors UK", "startup funding UK", "venture capital London", "UK angel investors",
-    "series A funding UK", "series B funding UK", "growth capital UK", "UK fundraising platform",
+    // Core Swiss-focused keywords
+    "Swiss investment platform", "Switzerland startup funding", "Zurich venture capital", "Swiss private equity",
+    "institutional investors Switzerland", "startup funding Switzerland", "venture capital Zurich", "Swiss angel investors",
+    "series A funding Switzerland", "series B funding Switzerland", "growth capital Switzerland", "Swiss fundraising platform",
     
-    // Enhanced UK-specific long-tail keywords
-    "UK startup investment platform", "London based investment platform", "British venture capital firms",
-    "UK institutional investor network", "startup funding platform UK", "investment platform London",
-    "UK growth capital platform", "British angel investor network", "London private equity platform",
+    // Enhanced Swiss-specific long-tail keywords
+    "Swiss startup investment platform", "Zurich based investment platform", "Switzerland venture capital firms",
+    "Swiss institutional investor network", "startup funding platform Switzerland", "investment platform Zurich",
+    "Swiss growth capital platform", "Switzerland angel investor network", "Zurich private equity platform",
     
     // Geographic expansion keywords
-    "European investors", "EU startup funding", "European venture capital", "Scandinavian investors",
-    "German venture capital", "French private equity", "Swedish investors", "Norwegian funding",
-    "Danish venture capital", "Finnish investors", "Swiss private equity", "Austrian funding",
+    "European investors", "EU startup funding", "European venture capital", "German investors",
+    "Austrian venture capital", "French private equity", "Italian investors", "Nordic funding",
+    "DACH region venture capital", "European funding", "Swiss private equity", "Alpine funding",
     
     // Global reach keywords
     "international investors", "global funding platform", "cross-border investment", "worldwide venture capital",
     "American VCs", "Asian investors", "Singapore funding", "Australian venture capital", "Canadian investors",
     
     // Industry-specific keywords  
-    "fintech funding UK", "SaaS funding London", "healthtech investors UK", "edtech venture capital",
-    "cleantech funding UK", "AI startup funding", "blockchain investors UK", "deeptech funding",
-    "biotech venture capital", "proptech investors UK", "cybersecurity funding", "medtech investors",
+    "fintech funding Switzerland", "SaaS funding Zurich", "healthtech investors Switzerland", "cleantech venture capital",
+    "medtech funding Switzerland", "AI startup funding", "blockchain investors Switzerland", "deeptech funding",
+    "biotech venture capital", "proptech investors Switzerland", "cybersecurity funding", "precision instruments funding",
     
     // Funding stage keywords
-    "pre-seed funding UK", "seed funding UK", "series A investors UK", "series B funding UK",
-    "growth stage funding UK", "late stage investors UK", "bridge funding UK", "mezzanine financing UK",
-    "expansion capital UK", "scale-up funding UK", "startup capital UK", "venture debt UK",
+    "pre-seed funding Switzerland", "seed funding Switzerland", "series A investors Switzerland", "series B funding Switzerland",
+    "growth stage funding Switzerland", "late stage investors Switzerland", "bridge funding Switzerland", "mezzanine financing Switzerland",
+    "expansion capital Switzerland", "scale-up funding Switzerland", "startup capital Switzerland", "venture debt Switzerland",
     
     // Investor type keywords
-    "family offices UK", "private investors UK", "angel investor platform UK", "VC network UK",
-    "institutional capital UK", "corporate investors UK", "strategic investors UK", "impact investors UK",
+    "family offices Switzerland", "private investors Switzerland", "angel investor platform Switzerland", "VC network Switzerland",
+    "institutional capital Switzerland", "corporate investors Switzerland", "strategic investors Switzerland", "impact investors Switzerland",
     "pension fund investment", "sovereign wealth fund", "insurance company investors", "asset manager funding",
     
     // Long-tail SEO keywords
-    "how to find investors UK", "startup funding application UK", "venture capital matching UK",
-    "institutional investor network UK", "private equity opportunities UK", "family office investors UK",
-    "growth stage funding UK", "startup scale-up funding", "business angel network UK",
-    "venture capital firms London", "private equity firms UK", "investment opportunities UK",
+    "how to find investors Switzerland", "startup funding application Switzerland", "venture capital matching Switzerland",
+    "institutional investor network Switzerland", "private equity opportunities Switzerland", "family office investors Switzerland",
+    "growth stage funding Switzerland", "startup scale-up funding", "business angel network Switzerland",
+    "venture capital firms Zurich", "private equity firms Switzerland", "investment opportunities Switzerland",
     
     // Company-specific keywords
-    "RaiseSignal UK", "RaiseSignal platform", "investment matching UK", "verified investors UK",
-    "funding connections UK", "startup due diligence UK", "capital raising UK", "investment platform UK",
-    "RaiseSignal investment platform", "raise signal UK", "funding platform UK", "investor platform UK"
+    "Aurum Ascend Capital", "Aurum Ascend platform", "investment matching Switzerland", "verified investors Switzerland",
+    "funding connections Switzerland", "startup due diligence Switzerland", "capital raising Switzerland", "investment platform Switzerland",
+    "Aurum Ascend investment platform", "aurum ascend capital", "funding platform Switzerland", "investor platform Switzerland"
   ],
-  authors: [{ name: "RaiseSignal", url: "https://www.raisesignal.uk" }],
-  creator: "RaiseSignal",
-  publisher: "RaiseSignal",
-  metadataBase: new URL("https://www.raisesignal.uk"),
+  authors: [{ name: "Aurum Ascend Capital", url: "https://www.aurumascend.ch" }],
+  creator: "Aurum Ascend Capital",
+  publisher: "Aurum Ascend Capital",
+  metadataBase: new URL("https://www.aurumascend.ch"),
   // Additional 2025 SEO optimizations
-  applicationName: "RaiseSignal",
+  applicationName: "Aurum Ascend Capital",
   referrer: "origin-when-cross-origin",
   formatDetection: {
     email: false,
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
   },
   other: {
     // Tell Google this site has moved from .nl to .uk permanently
-    "original-source": "https://www.raisesignal.uk",
+    "original-source": "https://www.aurumascend.ch",
     "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
     // Block any .nl domain references
     "x-frame-options": "SAMEORIGIN",
@@ -90,46 +90,43 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
     languages: {
-      'en': 'https://www.raisesignal.uk',
-      'en-US': 'https://www.raisesignal.uk',
-      'en-GB': 'https://www.raisesignal.uk', 
-      'en-EU': 'https://www.raisesignal.uk',
-      'en-SE': 'https://www.raisesignal.uk', // Sweden
-      'en-NO': 'https://www.raisesignal.uk', // Norway  
-      'en-DK': 'https://www.raisesignal.uk', // Denmark
-      'en-FI': 'https://www.raisesignal.uk', // Finland
-      'en-DE': 'https://www.raisesignal.uk', // Germany
-      'en-FR': 'https://www.raisesignal.uk', // France
-      'en-CH': 'https://www.raisesignal.uk', // Switzerland
-      'en-AT': 'https://www.raisesignal.uk', // Austria
-      'en-SG': 'https://www.raisesignal.uk', // Singapore
-      'en-AU': 'https://www.raisesignal.uk', // Australia
-      'en-CA': 'https://www.raisesignal.uk', // Canada
+      'en': 'https://www.aurumascend.ch',
+      'en-US': 'https://www.aurumascend.ch',
+      'en-GB': 'https://www.aurumascend.ch', 
+      'en-EU': 'https://www.aurumascend.ch',
+      'en-CH': 'https://www.aurumascend.ch', // Switzerland
+      'en-DE': 'https://www.aurumascend.ch', // Germany
+      'en-AT': 'https://www.aurumascend.ch', // Austria
+      'en-FR': 'https://www.aurumascend.ch', // France
+      'en-IT': 'https://www.aurumascend.ch', // Italy
+      'en-SG': 'https://www.aurumascend.ch', // Singapore
+      'en-AU': 'https://www.aurumascend.ch', // Australia
+      'en-CA': 'https://www.aurumascend.ch', // Canada
     }
   },
   openGraph: {
-    title: "RaiseSignal - Connect with Institutional Investors for Growth Capital",
-    description: "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. Join 150+ successful funding connections since 2019.",
-    url: "https://www.raisesignal.uk",
-    siteName: "RaiseSignal UK",
+    title: "Aurum Ascend Capital - Connect with Institutional Investors for Growth Capital",
+    description: "Connect with verified institutional investors across Europe, Americas, Asia & global markets. Join 150+ successful funding connections with our Swiss-based expertise.",
+    url: "https://www.aurumascend.ch",
+    siteName: "Aurum Ascend Capital",
     type: "website",
-    locale: "en_GB",
-    alternateLocale: ["en_US", "en_EU", "en_SE", "en_NO", "en_DK", "en_FI", "en_DE", "en_FR", "en_CH", "en_AT", "en_SG", "en_AU", "en_CA"],
+    locale: "en_CH",
+    alternateLocale: ["en_US", "en_EU", "en_DE", "en_AT", "en_FR", "en_IT", "en_SG", "en_AU", "en_CA"],
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "RaiseSignal - UK's Premier Investment Platform for Growth Companies and Institutional Investors",
+        alt: "Aurum Ascend Capital - Switzerland's Premier Investment Platform for Growth Companies and Institutional Investors",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "RaiseSignal - Connect with Institutional Investors for Growth Capital",
-    description: "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. Join 150+ successful funding connections.",
+    title: "Aurum Ascend Capital - Connect with Institutional Investors for Growth Capital",
+    description: "Connect with verified institutional investors across Europe, Americas, Asia & global markets. Join 150+ successful funding connections.",
     images: ["/og-image.png"],
-    creator: "@raisesignal",
+    creator: "@aurumascend",
   },
   robots: {
     index: true,
@@ -181,24 +178,24 @@ export default function RootLayout({
         <link rel="icon" href="/logo.svg" type="image/svg+xml" />
         <link rel="icon" href="/logo.jpg" type="image/jpeg" />
         <link rel="apple-touch-icon" href="/logo.svg" />
-        <link rel="mask-icon" href="/logo.svg" color="#8B5CF6" />
+        <link rel="mask-icon" href="/logo.svg" color="#D4AF37" />
         
         {/* Open Graph Logo */}
-        <meta property="og:logo" content="https://www.raisesignal.uk/logo.svg" />
-        <meta property="og:image:alt" content="RaiseSignal Logo - Global Investment Platform" />
+        <meta property="og:logo" content="https://www.aurumascend.ch/logo.svg" />
+        <meta property="og:image:alt" content="Aurum Ascend Capital Logo - Global Investment Platform" />
         
         {/* Twitter Logo */}
-        <meta name="twitter:image:alt" content="RaiseSignal Logo - Global Investment Platform" />
+        <meta name="twitter:image:alt" content="Aurum Ascend Capital Logo - Global Investment Platform" />
         
         {/* Additional logo references for search engines */}
         <meta name="msapplication-TileImage" content="/logo.svg" />
         <meta name="msapplication-TileColor" content="#000000" />
         
         {/* International SEO */}
-        <meta name="geo.region" content="GB" />
-        <meta name="geo.placename" content="London" />
-        <meta name="geo.position" content="51.5074;-0.1278" />
-        <meta name="ICBM" content="51.5074, -0.1278" />
+        <meta name="geo.region" content="CH" />
+        <meta name="geo.placename" content="Zurich" />
+        <meta name="geo.position" content="47.3769;8.5417" />
+        <meta name="ICBM" content="47.3769, 8.5417" />
         
         {/* Additional meta tags for international presence */}
         <meta name="coverage" content="Worldwide" />
@@ -207,11 +204,11 @@ export default function RootLayout({
         <meta name="audience" content="international" />
         
         {/* Business specific */}
-        <meta name="business:contact_data:street_address" content="3 More London Riverside" />
-        <meta name="business:contact_data:locality" content="London" />
-        <meta name="business:contact_data:region" content="England" />
-        <meta name="business:contact_data:postal_code" content="SE1 2RE" />
-        <meta name="business:contact_data:country_name" content="United Kingdom" />
+        <meta name="business:contact_data:street_address" content="Bahnhofstrasse 100" />
+        <meta name="business:contact_data:locality" content="Zurich" />
+        <meta name="business:contact_data:region" content="Zurich" />
+        <meta name="business:contact_data:postal_code" content="8001" />
+        <meta name="business:contact_data:country_name" content="Switzerland" />
         
         {/* AI SEO 2025 Optimizations - Single robots directive */}
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -220,7 +217,7 @@ export default function RootLayout({
         
         {/* Enhanced AI Search Optimization */}
         <meta name="AI-content-classification" content="business-finance-investment" />
-        <meta name="content-language" content="en-GB" />
+        <meta name="content-language" content="en-CH" />
         <meta name="subject" content="Investment Platform for Growth Companies and Institutional Investors" />
         <meta name="abstract" content="Global investment platform connecting verified institutional investors with growth-stage companies across Europe, Americas, Asia, and Scandinavia" />
         
@@ -231,14 +228,14 @@ export default function RootLayout({
         <meta name="revisit-after" content="3 days" />
         
         {/* Domain preference and canonicalization */}
-        <link rel="canonical" href="https://www.raisesignal.uk" />
-        <meta name="preferred-domain" content="www.raisesignal.uk" />
-        <meta name="original-source" content="https://www.raisesignal.uk" />
+        <link rel="canonical" href="https://www.aurumascend.ch" />
+        <meta name="preferred-domain" content="www.aurumascend.ch" />
+        <meta name="original-source" content="https://www.aurumascend.ch" />
         
-        {/* Enhanced UK/European SEO */}
-        <meta name="DC.identifier" content="https://www.raisesignal.uk" />
-        <meta name="DC.language" content="en-GB" />
-        <meta name="DC.coverage" content="Europe, Americas, Asia, Scandinavia" />
+        {/* Enhanced Swiss/European SEO */}
+        <meta name="DC.identifier" content="https://www.aurumascend.ch" />
+        <meta name="DC.language" content="en-CH" />
+        <meta name="DC.coverage" content="Europe, Americas, Asia, Global" />
         <meta name="DC.subject" content="Investment Platform, Venture Capital, Private Equity, Institutional Investors" />
         
         <script
@@ -247,43 +244,43 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization", 
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk",
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.raisesignal.uk/logo.svg",
+                "url": "https://www.aurumascend.ch/logo.svg",
                 "width": 512,
                 "height": 512,
-                "caption": "RaiseSignal Logo"
+                "caption": "Aurum Ascend Capital Logo"
               },
               "image": {
                 "@type": "ImageObject",
-                "url": "https://www.raisesignal.uk/og-image.png",
+                "url": "https://www.aurumascend.ch/og-image.png",
                 "width": 1200,
                 "height": 630,
-                "caption": "RaiseSignal - Investment Platform"
+                "caption": "Aurum Ascend Capital - Investment Platform"
               },
-              "description": "Investment platform connecting growth-stage companies with verified institutional investors, VCs, private equity, and family offices across Europe, Americas, Asia & Scandinavia. 150+ successful deals completed since 2019.",
+              "description": "Investment platform connecting growth-stage companies with verified institutional investors, VCs, private equity, and family offices across Europe, Americas, Asia & global markets. 150+ successful deals completed with our Swiss-based expertise.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "3 More London Riverside",
-                "addressLocality": "London",
-                "addressCountry": "United Kingdom",
-                "postalCode": "SE1 2RE"
+                "streetAddress": "Bahnhofstrasse 100",
+                "addressLocality": "Zurich",
+                "addressCountry": "Switzerland",
+                "postalCode": "8001"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "+447537126467",
                 "contactType": "customer service",
-                "email": "info@raisesignal.uk",
+                "email": "info@aurumascend.ch",
                 "availableLanguage": ["English"]
               },
               "foundingDate": "2019",
               "industry": "Financial Services",
               "numberOfEmployees": "11-50",
               "sameAs": [
-                "https://linkedin.com/company/raisesignal",
-                "https://twitter.com/raisesignal"
+                "https://linkedin.com/company/aurumascend",
+                "https://twitter.com/aurumascend"
               ],
               "offers": {
                 "@type": "Offer",
@@ -301,14 +298,14 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "FinancialService",
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk",
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.raisesignal.uk/logo.svg",
+                "url": "https://www.aurumascend.ch/logo.svg",
                 "width": 512,
                 "height": 512,
-                "caption": "RaiseSignal Logo"
+                "caption": "Aurum Ascend Capital Logo"
               },
               "description": "Investment platform specializing in connecting growth-stage companies with institutional investors across Europe, Americas, Asia, and Scandinavia. 150+ successful deals completed since 2019.",
               "serviceType": ["Investment Platform", "Capital Markets", "Financial Advisory"],
@@ -425,18 +422,18 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk",
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch",
               "description": "Global investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://www.raisesignal.uk/search?q={search_term_string}",
+                "target": "https://www.aurumascend.ch/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               },
               "publisher": {
                 "@type": "Organization",
-                "name": "RaiseSignal",
-                "logo": "https://www.raisesignal.uk/logo.svg"
+                "name": "Aurum Ascend Capital",
+                "logo": "https://www.aurumascend.ch/logo.svg"
               }
             })
           }}
@@ -447,30 +444,30 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
-              "name": "RaiseSignal UK",
-              "alternateName": ["RaiseSignal", "Raise Signal", "RaiseSignal Investment Platform"],
-              "url": "https://www.raisesignal.uk",
+              "name": "Aurum Ascend Capital",
+              "alternateName": ["Aurum Ascend", "Aurum Ascend Capital", "Aurum Ascend Investment Platform"],
+              "url": "https://www.aurumascend.ch",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.raisesignal.uk/logo.svg",
+                "url": "https://www.aurumascend.ch/logo.svg",
                 "width": 512,
                 "height": 512
               },
               "description": "Investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia",
               "priceRange": "Success-based fees only",
-              "telephone": "+447537126467",
-              "email": "info@raisesignal.uk",
+              "telephone": "+41445881234",
+              "email": "info@aurumascend.ch",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "3 More London Riverside",
-                "addressLocality": "London",
-                "postalCode": "SE1 2RE",
-                "addressCountry": "GB"
+                "streetAddress": "Zurichstrasse 110",
+                "addressLocality": "Zurich",
+                "postalCode": "8008",
+                "addressCountry": "CH"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 51.5074,
-                "longitude": -0.1278
+                "latitude": 47.3769,
+                "longitude": 8.5417
               },
               "areaServed": [
                 "United Kingdom", "Europe", "North America", "Asia", "Scandinavia"
@@ -511,18 +508,18 @@ export default function RootLayout({
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "RaiseSignal connects startups with verified institutional investors through our secure platform. Apply in 3 steps: Submit your application, get matched with relevant investors, and secure funding. We've helped 150+ companies raise capital across Europe, Americas, Asia, and Scandinavia.",
+                  "text": "Aurum Ascend Capital connects startups with verified institutional investors through our secure platform. Apply in 3 steps: Submit your application, get matched with relevant investors, and secure funding. We've helped 150+ companies raise capital across Europe, Americas, Asia, and Scandinavia.",
                   "datePublished": "2024-01-01T00:00:00Z",
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }

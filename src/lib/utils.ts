@@ -7,8 +7,8 @@ export function cn(...inputs: ClassValue[]) {
 
 // Domain configuration for UK only
 export const domainConfig = {
-  primary: process.env.NEXT_PUBLIC_PRIMARY_DOMAIN || 'www.raisesignal.uk',
-  primaryUrl: process.env.NEXT_PUBLIC_PRIMARY_URL || 'https://www.raisesignal.uk',
+  primary: process.env.NEXT_PUBLIC_PRIMARY_DOMAIN || 'www.aurumascend.ch',
+  primaryUrl: process.env.NEXT_PUBLIC_PRIMARY_URL || 'https://www.aurumascend.ch',
 } as const;
 
 export function getPrimaryDomain(): string {
@@ -21,7 +21,7 @@ export function getCanonicalUrl(path: string): string {
 
 export function isUKDomain(host: string | undefined): boolean {
   if (!host) return false;
-  return host.includes('raisesignal.uk') || host.includes('www.raisesignal.uk');
+  return host.includes('aurumascend.ch') || host.includes('www.aurumascend.ch');
 }
 
 export function getLocalizedContent(isUK: boolean = true) {

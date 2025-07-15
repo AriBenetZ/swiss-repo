@@ -34,10 +34,10 @@ export const ContactFormEmail = ({
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://www.raisesignal.uk/logo.jpg"
+            src="https://www.aurumascend.ch/logo.jpg"
             width="200"
             height="50"
-            alt="RaiseSignal"
+            alt="Aurum Ascend Capital"
             style={logo}
           />
           
@@ -78,9 +78,9 @@ export const ContactFormEmail = ({
           </Section>
 
           <Text style={footer}>
-            This email was sent from the RaiseSignal contact form.
+            This email was sent from the Aurum Ascend Capital contact form.
             <br />
-            <Link href="https://www.raisesignal.uk" style={link}>
+            <Link href="https://www.aurumascend.ch" style={link}>
               Visit our website
             </Link>
           </Text>

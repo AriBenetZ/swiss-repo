@@ -140,7 +140,7 @@ export default function TeamPage() {
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6">
                 Meet the People Behind
-                <span className="gradient-text"> RaiseSignal</span>
+                <span className="gradient-text"> Aurum Ascend Capital</span>
               </h1>
               <p className="text-xl text-secondary leading-relaxed mb-8">
                 Our compact, experienced team has been working together since 2019 to provide personal, 
@@ -153,7 +153,7 @@ export default function TeamPage() {
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">5</div>
                 <div className="font-medium text-primary mb-1">Years</div>
-                <div className="text-sm text-tertiary">Operating in London</div>
+                <div className="text-sm text-tertiary">Operating in Zurich</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">150+</div>

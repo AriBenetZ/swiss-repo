@@ -31,29 +31,29 @@ export default function CareersPage() {
     {
       title: "Senior Software Engineer",
       department: "Engineering",
-      location: "London, United Kingdom",
+      location: "Zurich, Switzerland",
       type: "Full-time",
       description: "Build and scale our investment platform infrastructure. Work with modern technologies including React, Node.js, and cloud platforms.",
       requirements: ["5+ years software development", "Experience with React/Node.js", "Fintech or financial services background preferred"],
-      salary: "£75,000 - £110,000"
+      salary: "CHF 120,000 - CHF 150,000"
     },
     {
       title: "Investment Analyst",
       department: "Investment Team",
-      location: "London, United Kingdom", 
+      location: "Zurich, Switzerland", 
       type: "Full-time",
       description: "Conduct due diligence on growth-stage companies and support our investment evaluation process.",
       requirements: ["3+ years investment analysis", "Financial modeling expertise", "Master's degree in Finance/Economics"],
-      salary: "£55,000 - £75,000"
+      salary: "CHF 90,000 - CHF 120,000"
     },
     {
       title: "Product Manager",
       department: "Product",
-      location: "London, United Kingdom",
+      location: "Zurich, Switzerland",
       type: "Full-time", 
       description: "Lead product strategy and development for our investment platform. Work closely with engineering and business teams.",
       requirements: ["4+ years product management", "B2B SaaS experience", "Technical background preferred"],
-      salary: "£65,000 - £90,000"
+      salary: "CHF 100,000 - CHF 130,000"
     },
     {
       title: "Business Development Manager",
