@@ -128,7 +128,7 @@ Perfect for showcasing to clients or as a portfolio piece!
 
 ## 🎯 Business Model
 
-Raisesignal operates as a middleman connecting project owners with private investors:
+Aurum Ascend Capital operates as a middleman connecting project owners with private investors:
 
 1. **No Upfront Fees**: Free to apply and submit projects
 2. **Success-Based Commission**: Success fee only upon successful funding
@@ -170,4 +170,4 @@ For technical support or questions:
 
 ---
 
-Built with ❤️ by the Raisesignal team
+Built with ❤️ by the Aurum Ascend Capital team

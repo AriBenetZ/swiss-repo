@@ -1,17 +1,17 @@
 {
-  "name": "RaiseSignal - Global Investment Platform",
-  "short_name": "RaiseSignal",
+  "name": "Aurum Ascend Capital - Global Investment Platform",
+  "short_name": "Aurum Ascend",
   "description": "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. Secure growth capital for your company through our global investment platform.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#8B5CF6",
+  "theme_color": "#D4AF37",
   "orientation": "portrait-primary",
   "categories": ["finance", "business", "productivity"],
   "lang": "en",
   "dir": "ltr",
   "scope": "/",
-  "id": "raisesignal-app",
+  "id": "aurumascend-app",
   "display_override": ["standalone", "browser"],
   "icons": [
     {
