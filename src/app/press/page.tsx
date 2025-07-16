@@ -209,11 +209,11 @@ export default function PressPage() {
             Subscribe to our press updates to receive the latest news and announcements 
             directly in your inbox.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-white text-neutral-900 hover:bg-neutral-100 w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="bg-white text-neutral-900 hover:bg-neutral-100">
               Subscribe to Updates
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-neutral-900 w-full sm:w-auto">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-neutral-900">
               Follow on LinkedIn
             </Button>
           </div>

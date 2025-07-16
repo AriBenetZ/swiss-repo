@@ -305,12 +305,12 @@ export default function CareersPage() {
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             Be part of the team that's building the future of growth-stage investment in Europe.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="btn-primary w-full sm:w-auto">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="btn-primary">
               Browse Open Positions
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="btn-secondary-outline w-full sm:w-auto">
+            <Button size="lg" variant="outline" className="btn-secondary-outline">
               Learn About Our Culture
             </Button>
           </div>

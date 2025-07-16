@@ -310,16 +310,16 @@ export default function CaseStudiesPage() {
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
               Join the growing number of companies that have successfully raised capital 
-              and scaled their businesses through <span className="font-bold">Aurum</span><span className="font-light">Ascend Capital</span>.
+              and scaled their businesses through <span className="font-bold">Raise</span><span className="font-light">Signal</span>.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button asChild size="lg" className="bg-white hover:bg-gray-100 font-semibold px-8 py-3 rounded-lg shadow-lg w-full sm:w-auto">
+            <div className="flex flex-row gap-4 justify-center items-center flex-wrap">
+              <Button asChild size="lg" className="bg-white hover:bg-gray-100 font-semibold px-8 py-3 rounded-lg shadow-lg">
                 <Link href="/apply">
                   Apply for Funding
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white/10 hover:border-white font-semibold px-8 py-3 rounded-lg w-full sm:w-auto">
+              <Button asChild size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white/10 hover:border-white font-semibold px-8 py-3 rounded-lg">
                 <Link href="/how-it-works">
                   Learn More
                 </Link>

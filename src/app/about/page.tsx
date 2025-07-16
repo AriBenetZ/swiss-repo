@@ -168,10 +168,10 @@ export default function AboutPage() {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 asChild 
-                className="btn btn-primary w-full sm:w-auto btn-large hover-glow"
+                className="btn btn-primary btn-large hover-glow"
               >
                 <Link href="/apply">
                   Join Our Platform <ArrowRight className="ml-2 h-5 w-5" />
@@ -179,7 +179,7 @@ export default function AboutPage() {
               </Button>
               <Button 
                 asChild 
-                className="btn btn-secondary w-full sm:w-auto btn-large"
+                className="btn btn-secondary btn-large"
               >
                 <Link href="/how-it-works">
                   Learn More
@@ -424,8 +424,8 @@ export default function AboutPage() {
             <p className="text-xl mb-8 opacity-90 text-balance">
               Join the 150+ successful entrepreneurs who've scaled their companies through our platform.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/apply" className="btn btn-primary w-full sm:w-auto btn-large hover-lift" style={{
+            <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/apply" className="btn btn-primary btn-large hover-lift" style={{
                 background: 'rgba(255, 255, 255, 0.15)',
                 backdropFilter: 'blur(10px)',
                 borderColor: 'rgba(255, 255, 255, 0.2)'
@@ -436,7 +436,7 @@ export default function AboutPage() {
                 href="https://calendly.com/aurum-ascend/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-secondary w-full sm:w-auto btn-large"
+                className="btn btn-secondary btn-large"
                 style={{
                   background: 'transparent',
                   borderColor: 'rgba(255, 255, 255, 0.3)',

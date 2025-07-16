@@ -196,7 +196,7 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section className="section-content bg-base">
-        <div className="max-w-7xl mx-auto px-6 py-6">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="text-center space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section text-balance">
@@ -319,7 +319,7 @@ export default function HomePage() {
                 Join 150+ companies that have successfully raised growth capital through our verified institutional investor network.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 asChild 
                 className="btn btn-primary w-full sm:w-auto btn-large hover-glow"
