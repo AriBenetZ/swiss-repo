@@ -178,8 +178,8 @@ export default function HomePage() {
       </section>
 
       {/* Metrics Section */}
-      <section className="section-gold-elegant platinum-whisper">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="platinum-whisper">
+        <div className="max-w-7xl mx-auto px-6 sm:py-6">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
             {metrics.map((metric, index) => (
               <div key={index} className="text-center space-y-2">
@@ -309,7 +309,7 @@ export default function HomePage() {
 
       {/* CTA Section */}
       <section className="cta-section section-gold-elegant gold-accent-overlay">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6 py-4 sm:py-6">
           <div className="text-center text-primary max-w-3xl mx-auto space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section text-balance">
@@ -319,7 +319,7 @@ export default function HomePage() {
                 Join 150+ companies that have successfully raised growth capital through our verified institutional investor network.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
               <Button 
                 asChild 
                 className="btn btn-primary w-full sm:w-auto btn-large hover-glow"

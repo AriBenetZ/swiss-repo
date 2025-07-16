@@ -219,7 +219,7 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
         url: "https://www.aurumascend.ch",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.aurumascend.ch/logo.svg",
+          url: "https://www.aurumascend.ch/logo.png",
           width: 512,
           height: 512
         },
@@ -297,7 +297,7 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
           name: "Aurum Ascend Capital",
           logo: {
             "@type": "ImageObject",
-            url: "https://www.aurumascend.ch/logo.svg"
+            url: "https://www.aurumascend.ch/logo.png"
           }
         },
         mainEntityOfPage: {
@@ -484,7 +484,7 @@ export function generateLocalBusinessSchema(data: any = {}) {
     "@context": "https://schema.org",
     "@type": "FinancialService",
     name: "Aurum Ascend Capital",
-    image: "https://www.aurumascend.ch/logo.svg",
+    image: "https://www.aurumascend.ch/logo.png",
     "@id": "https://www.aurumascend.ch",
     url: "https://www.aurumascend.ch",
     telephone: "+41445881234",

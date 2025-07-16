@@ -213,7 +213,7 @@ export default function HowItWorksPage() {
             {/* Hero Content */}
             <div className="space-y-4 sm:space-y-6">
               <h1 className="hero-title heading-display text-balance px-1 sm:px-0">
-                How <span className="gradient-text"><span className="font-bold">Aurum</span><span className="font-light">Ascend</span></span> Works
+                How <span className="gradient-text aurum-ascend-enhanced">Aurum Ascend</span> Works
               </h1>
               
               <div className="space-y-3 sm:space-y-4">
@@ -395,9 +395,7 @@ export default function HowItWorksPage() {
       </section>
 
       {/* CTA Section */}
-      <section ref={ctaRef} className="cta-section section" style={{
-        background: 'linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%)'
-      }}>
+      <section ref={ctaRef} className="cta-section section">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center text-white max-w-3xl mx-auto">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-balance">

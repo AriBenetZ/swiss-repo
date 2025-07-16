@@ -25,7 +25,7 @@ export class PerformanceOptimizer {
     if (typeof document === 'undefined') return;
     
     const criticalResources = [
-      { href: '/logo.svg', as: 'image' },
+      { href: '/logo.png', as: 'image' },
       { href: '/fonts/inter.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }
     ];
 

@@ -131,7 +131,7 @@ export default function ContactPage() {
               Message Received
             </h1>
             <p className="text-lead mb-6 sm:mb-8 px-2 sm:px-0">
-              Thank you for contacting <span className="font-bold">Aurum</span><span className="font-light">Ascend Capital</span>. Our team will review your inquiry and respond within 48 hours (CET business days).
+              Thank you for contacting <span className="aurum-ascend-enhanced">Aurum Ascend Capital</span>. Our team will review your inquiry and respond within 48 hours (CET business days).
             </p>
             <button 
               onClick={() => setIsSuccess(false)}

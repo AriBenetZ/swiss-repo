@@ -52,7 +52,7 @@ export default function HomeLayout({
       "@type": "Organization",
       "name": "Aurum Ascend Capital",
       "url": "https://www.aurumascend.ch",
-      "logo": "https://www.aurumascend.ch/logo.svg",
+      "logo": "https://www.aurumascend.ch/logo.png",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Zurichstrasse 110",

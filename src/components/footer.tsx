@@ -35,20 +35,20 @@ export function Footer() {
             {/* Brand Section - Left Side */}
             <div>
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-8 h-8">
+                <div className="w-32 h-32 logo-gold-enhanced">
                   <Image 
-                    src="/logo.svg" 
+                    src="/logo.png" 
                     alt="Aurum Ascend Capital Logo" 
                     width={32}
                     height={32}
-                    className="w-8 h-8 object-contain"
+                    className="w-32 h-32 object-contain"
                     unoptimized
                   />
                 </div>
                 <div>
                   <div className="text-lg text-primary">
-                    <span className="font-bold">Aurum</span>
-                    <span className="font-light">Ascend</span>
+                    <span className="font-bold text-primary">Aurum</span>
+                    <span className="font-bold text-accent-primary">Ascend</span>
                   </div>
                   <div className="text-xs text-tertiary">Investment Platform</div>
                 </div>
@@ -153,7 +153,7 @@ export function Footer() {
             
             {/* Copyright */}
             <div className="text-sm text-secondary">
-              © {currentYear} <span className="font-bold">Aurum</span><span className="font-light">Ascend Capital</span>, SA. All rights reserved.
+              © {currentYear} <span className="font-bold text-primary">Aurum</span><span className="font-bold text-accent-primary">Ascend Capital</span>, SA. All rights reserved.
             </div>
 
             {/* Legal Notice */}

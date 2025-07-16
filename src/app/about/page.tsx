@@ -164,7 +164,7 @@ export default function AboutPage() {
               </p>
               
               <p className="text-body max-w-2xl mx-auto px-1 sm:px-0">
-                Founded in 2019, <span className="font-bold">Aurum</span><span className="font-light">Ascend Capital</span> has personally guided over 150 companies through successful funding journeys across 25+ countries, building trust through every introduction with our Swiss-based expertise.
+                Founded in 2019, <span className="aurum-ascend-enhanced">Aurum Ascend Capital</span> has personally guided over 150 companies through successful funding journeys across 25+ countries, building trust through every introduction with our Swiss-based expertise.
               </p>
             </div>
             
@@ -199,7 +199,7 @@ export default function AboutPage() {
                 Our <span className="gradient-text">Mission</span>
               </h2>
               <p className="text-body mb-6">
-                <span className="font-bold">Aurum</span><span className="font-light">Ascend</span> was founded with a singular mission: to transform capital allocation through personal relationships and meaningful connections between exceptional companies and the right investors.
+                <span className="aurum-ascend-enhanced">Aurum Ascend</span> was founded with a singular mission: to transform capital allocation through personal relationships and meaningful connections between exceptional companies and the right investors.
               </p>
               <p className="text-body mb-8">
                 We believe that successful funding isn't just about matching criteria—it's about building relationships. While technology enables us to reach global markets, our success comes from the personal touch: understanding your business deeply, knowing our investors personally, and facilitating meaningful conversations that lead to lasting partnerships.
@@ -300,7 +300,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="heading-section">
-              Why Choose <span className="gradient-text"><span className="font-bold">Aurum</span><span className="font-light">Ascend</span></span>
+              Why Choose <span className="gradient-text aurum-ascend-enhanced">Aurum Ascend</span>
             </h2>
             <p className="text-lead max-w-3xl mx-auto">
               Built by operators who understand both sides of the capital markets
@@ -413,9 +413,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section ref={ctaRef} className="cta-section section" style={{
-        background: 'linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%)'
-      }}>
+      <section ref={ctaRef} className="cta-section section">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center text-white max-w-3xl mx-auto">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-balance">

@@ -141,20 +141,20 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/logo.svg", type: "image/svg+xml" },
-      { url: "/logo.svg", sizes: "any", type: "image/svg+xml" },
-      { url: "/logo.jpg", sizes: "32x32", type: "image/jpeg" },
-      { url: "/logo.jpg", sizes: "16x16", type: "image/jpeg" },
+      { url: "/logo.png", type: "image/png+xml" },
+      { url: "/logo.png", sizes: "any", type: "image/png+xml" },
+      { url: "/logo.png", sizes: "32x32", type: "image/png" },
+      { url: "/logo.png", sizes: "16x16", type: "image/png" },
     ],
-    shortcut: "/logo.svg",
+    shortcut: "/logo.png",
     apple: [
-      { url: "/logo.svg", sizes: "180x180", type: "image/svg+xml" },
-      { url: "/logo.jpg", sizes: "152x152", type: "image/jpeg" },
+      { url: "/logo.png", sizes: "180x180", type: "image/png+xml" },
+      { url: "/logo.png", sizes: "152x152", type: "image/png" },
     ],
     other: [
       {
         rel: "mask-icon",
-        url: "/logo.svg",
+        url: "/logo.png",
         color: "#8B5CF6"
       }
     ]
@@ -175,20 +175,20 @@ export default function RootLayout({
         <meta name="theme-color" content="#000000" />
         
         {/* Logo and Branding */}
-        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
-        <link rel="icon" href="/logo.jpg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/logo.svg" />
-        <link rel="mask-icon" href="/logo.svg" color="#D4AF37" />
+        <link rel="icon" href="/logo.png" type="image/png+xml" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+        <link rel="mask-icon" href="/logo.png" color="#D4AF37" />
         
         {/* Open Graph Logo */}
-        <meta property="og:logo" content="https://www.aurumascend.ch/logo.svg" />
+        <meta property="og:logo" content="https://www.aurumascend.ch/logo.png" />
         <meta property="og:image:alt" content="Aurum Ascend Capital Logo - Global Investment Platform" />
         
         {/* Twitter Logo */}
         <meta name="twitter:image:alt" content="Aurum Ascend Capital Logo - Global Investment Platform" />
         
         {/* Additional logo references for search engines */}
-        <meta name="msapplication-TileImage" content="/logo.svg" />
+        <meta name="msapplication-TileImage" content="/logo.png" />
         <meta name="msapplication-TileColor" content="#000000" />
         
         {/* International SEO */}
@@ -248,7 +248,7 @@ export default function RootLayout({
               "url": "https://www.aurumascend.ch",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.aurumascend.ch/logo.svg",
+                "url": "https://www.aurumascend.ch/logo.png",
                 "width": 512,
                 "height": 512,
                 "caption": "Aurum Ascend Capital Logo"
@@ -302,7 +302,7 @@ export default function RootLayout({
               "url": "https://www.aurumascend.ch",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.aurumascend.ch/logo.svg",
+                "url": "https://www.aurumascend.ch/logo.png",
                 "width": 512,
                 "height": 512,
                 "caption": "Aurum Ascend Capital Logo"
@@ -433,7 +433,7 @@ export default function RootLayout({
               "publisher": {
                 "@type": "Organization",
                 "name": "Aurum Ascend Capital",
-                "logo": "https://www.aurumascend.ch/logo.svg"
+                "logo": "https://www.aurumascend.ch/logo.png"
               }
             })
           }}
@@ -449,7 +449,7 @@ export default function RootLayout({
               "url": "https://www.aurumascend.ch",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.aurumascend.ch/logo.svg",
+                "url": "https://www.aurumascend.ch/logo.png",
                 "width": 512,
                 "height": 512
               },

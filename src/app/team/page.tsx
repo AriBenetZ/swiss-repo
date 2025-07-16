@@ -32,7 +32,7 @@ export default function TeamPage() {
     {
       name: "Ari Benet",
       position: "Chief Executive Officer & Founder",
-      bio: "A native of Amsterdam with deep European market expertise, Ari founded <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span> in 2019 to streamline growth-stage funding connections. His background in investment banking and corporate development across Europe drives the platform's strategic vision.",
+      bio: "A native of Amsterdam with deep European market expertise, Ari founded <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2019 to streamline growth-stage funding connections. His background in investment banking and corporate development across Europe drives the platform's strategic vision.",
       expertise: ["Growth Strategy", "Capital Markets", "Platform Development"],
       education: "MBA & Finance Background",
       email: "ari.benet@aurumascend.ch"
@@ -40,7 +40,7 @@ export default function TeamPage() {
     {
       name: "Elena Kovač",
       position: "Head of Client Relations & Reception",
-      bio: "Joined <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span> in 2021, managing all client communications and first-point-of-contact operations. Ensures smooth client onboarding and ongoing relationship management.",
+      bio: "Joined <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2021, managing all client communications and first-point-of-contact operations. Ensures smooth client onboarding and ongoing relationship management.",
       expertise: ["Client Relations", "Operations Management", "Communication"],
       education: "Business Administration Background",
       email: "elena.kovac@aurumascend.ch"
@@ -48,7 +48,7 @@ export default function TeamPage() {
     {
       name: "Raj Patel",
       position: "Chief Technology Officer & Chief Financial Officer",
-      bio: "Joined <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span> as CTO/CFO in 2020, leading technical infrastructure development and financial operations. Born in England to Indian parents, he brings expert fintech platform development and security expertise with experience at London-based tech companies including Revolut and Monzo. He personally joins client calls from the first meeting and works alongside the team throughout the entire process.",
+      bio: "Joined <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> as CTO/CFO in 2020, leading technical infrastructure development and financial operations. Born in England to Indian parents, he brings expert fintech platform development and security expertise with experience at London-based tech companies including Revolut and Monzo. He personally joins client calls from the first meeting and works alongside the team throughout the entire process.",
       expertise: ["Platform Development", "Technical Architecture", "Security", "Financial Management"],
       education: "MSc Computer Science, Imperial College London",
       email: "raj.patel@aurumascend.ch"
@@ -56,7 +56,7 @@ export default function TeamPage() {
     {
       name: "Sarah Mitchell",
       position: "Head of Investor Relations",
-      bio: "Joined <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span> in 2022, bringing 8 years of experience in private equity and institutional investment from mid-tier London firms. Manages our network of 300+ verified investors and handles due diligence processes.",
+      bio: "Joined <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2022, bringing 8 years of experience in private equity and institutional investment from mid-tier London firms. Manages our network of 300+ verified investors and handles due diligence processes.",
       expertise: ["Investor Networks", "Due Diligence", "Deal Structuring"],
       education: "CFA Level II Candidate, University of Manchester",
       email: "sarah.mitchell@aurumascend.ch"
@@ -64,7 +64,7 @@ export default function TeamPage() {
     {
       name: "Marcus Chen",
       position: "Senior Investment Analyst",
-      bio: "Leads deal analysis and market research at <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span> since 2021. Previously worked at top-tier venture capital firms in London and Singapore.",
+      bio: "Leads deal analysis and market research at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> since 2021. Previously worked at top-tier venture capital firms in London and Singapore.",
       expertise: ["Financial Analysis", "Market Research", "Valuation"],
       education: "MSc Finance, London School of Economics",
       email: "marcus.chen@aurumascend.ch"
@@ -72,7 +72,7 @@ export default function TeamPage() {
     {
       name: "Isabella Romano",
       position: "Legal & Compliance Director",
-      bio: "Ensures <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span>'s operations meet regulatory standards across multiple jurisdictions. Joined in 2022 from a Magic Circle law firm.",
+      bio: "Ensures <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s operations meet regulatory standards across multiple jurisdictions. Joined in 2022 from a Magic Circle law firm.",
       expertise: ["Regulatory Compliance", "Contract Law", "Cross-border Transactions"],
       education: "LLM International Business Law",
       email: "isabella.romano@aurumascend.ch"
@@ -80,7 +80,7 @@ export default function TeamPage() {
     {
       name: "David Thompson",
       position: "Head of Business Development",
-      bio: "Drives strategic partnerships and market expansion for <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span>. Joined in 2023 with extensive experience in European fintech growth.",
+      bio: "Drives strategic partnerships and market expansion for <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Joined in 2023 with extensive experience in European fintech growth.",
       expertise: ["Strategic Partnerships", "Market Expansion", "Revenue Growth"],
       education: "MBA, INSEAD",
       email: "david.thompson@aurumascend.ch"
@@ -88,7 +88,7 @@ export default function TeamPage() {
     {
       name: "Arjun Sharma",
       position: "Marketing & Communications Manager",
-      bio: "Manages <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span>'s brand presence and communications strategy. Joined in 2023 from a leading financial PR agency in London.",
+      bio: "Manages <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s brand presence and communications strategy. Joined in 2023 from a leading financial PR agency in London.",
       expertise: ["Brand Strategy", "Digital Marketing", "Public Relations"],
       education: "MA Communications, King's College London",
       email: "arjun.sharma@aurumascend.ch"
@@ -96,7 +96,7 @@ export default function TeamPage() {
     {
       name: "Victoria Sterling",
       position: "Senior Partnership Manager",
-      bio: "Leads strategic outreach and partnership development at <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span>. Former Vice President at Goldman Sachs International's client coverage team, she specializes in institutional relationship building and has strong networks across European investment firms and family offices.",
+      bio: "Leads strategic outreach and partnership development at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Former Vice President at Goldman Sachs International's client coverage team, she specializes in institutional relationship building and has strong networks across European investment firms and family offices.",
       expertise: ["Institutional Sales", "Relationship Management", "Cross-border Deals"],
       education: "MBA Finance, London Business School",
       email: "victoria.sterling@aurumascend.ch"
@@ -104,7 +104,7 @@ export default function TeamPage() {
     {
       name: "Alexander Hartwell",
       position: "Director of Client Acquisition",
-      bio: "Drives new client acquisition and manages high-value prospect relationships at <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span>. Previously Associate Director at Barclays Investment Bank, he brings 7 years of experience in corporate finance and client relationship management across the UK and European markets.",
+      bio: "Drives new client acquisition and manages high-value prospect relationships at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Previously Associate Director at Barclays Investment Bank, he brings 7 years of experience in corporate finance and client relationship management across the UK and European markets.",
       expertise: ["Corporate Finance", "Client Development", "Investment Banking"],
       education: "MSc Finance, University of Cambridge",
       email: "alexander.hartwell@aurumascend.ch"
@@ -112,7 +112,7 @@ export default function TeamPage() {
     {
       name: "Emre Müller",
       position: "Senior Client Director - DACH & EMEA Region",
-      bio: "Leads client relationships and business development across German-speaking and Middle Eastern markets for <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span>. Born in Berlin to Turkish parents and relocated to London in 2018, Emre brings deep understanding of both Germanic and Middle Eastern business cultures with 6 years of experience from Deutsche Bank's corporate finance division. He personally manages client communications and deal processes for companies seeking expansion into European and emerging markets.",
+      bio: "Leads client relationships and business development across German-speaking and Middle Eastern markets for <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Born in Berlin to Turkish parents and relocated to London in 2018, Emre brings deep understanding of both Germanic and Middle Eastern business cultures with 6 years of experience from Deutsche Bank's corporate finance division. He personally manages client communications and deal processes for companies seeking expansion into European and emerging markets.",
       expertise: ["DACH Markets", "EMEA Markets", "Cross-cultural Communication", "Corporate Finance"],
       education: "Diplom-Kaufmann, Universität zu Köln & MSc Finance, London Business School",
       email: "emre.mueller@aurumascend.ch"
@@ -120,7 +120,7 @@ export default function TeamPage() {
     {
       name: "Richard Weber",
       position: "Investment Relations Associate",
-      bio: "Joined <span className=\"font-bold\">Aurum Ascend</span><span className=\"font-light\"> Capital</span> in 2024 as our youngest team member at age 22. Originally from Zurich and family of Ari Benet, Richard focuses on investor outreach and relationship building. He actively connects growth-stage companies with potential investors from our network, leveraging his Swiss banking knowledge and family connections to facilitate meaningful introductions. His enthusiasm and dedication make him a key point of contact for new investment opportunities.",
+      bio: "Joined <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2024 as our youngest team member at age 22. Originally from Zurich and family of Ari Benet, Richard focuses on investor outreach and relationship building. He actively connects growth-stage companies with potential investors from our network, leveraging his Swiss banking knowledge and family connections to facilitate meaningful introductions. His enthusiasm and dedication make him a key point of contact for new investment opportunities.",
       expertise: ["Investor Outreach", "Swiss Markets", "Relationship Building", "Deal Sourcing"],
       education: "BSc Economics, University of St. Gallen (HSG)",
       email: "richard.weber@aurumascend.ch"
@@ -140,7 +140,7 @@ export default function TeamPage() {
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6">
                 Meet the People Behind
-                <span className="gradient-text"> Aurum Ascend Capital</span>
+                <span className="gradient-text aurum-ascend-enhanced">Aurum Ascend Capital</span>
               </h1>
               <p className="text-xl text-secondary leading-relaxed mb-8">
                 Our compact, experienced team has been working together since 2019 to provide personal, 

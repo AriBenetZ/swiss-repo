@@ -253,7 +253,7 @@ export default function CareersPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-                Why Work at <span className="font-bold">Raise</span><span className="font-light">Signal</span>?
+                Why Work at <span className="aurum-ascend-enhanced">Aurum Ascend</span>?
               </h2>
               <div className="space-y-6">
                 <div>

@@ -16,7 +16,7 @@ export default function CompliancePage() {
             </div>
             <h1 className="heading-display mb-4">Compliance & Regulatory Information</h1>
             <p className="text-lead text-secondary">
-              <span className="font-bold">Raise</span><span className="font-light">Signal</span> maintains the highest standards of regulatory compliance and security
+              <span className="aurum-ascend-enhanced">Aurum Ascend</span> maintains the highest standards of regulatory compliance and security
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function CompliancePage() {
             <Card className="card glass-card p-6 hover-lift">
               <h3 className="font-semibold text-primary mb-3">FINRA Registration</h3>
               <p className="text-secondary text-sm mb-4">
-                <span className="font-bold">Raise</span><span className="font-light">Signal</span> operates under FINRA regulations as a registered broker-dealer, 
+                <span className="aurum-ascend-enhanced">Aurum Ascend</span> operates under FINRA regulations as a registered broker-dealer, 
                 ensuring compliance with securities laws and investor protection standards.
               </p>
               <Button variant="outline" size="sm" className="btn-secondary">
@@ -52,7 +52,7 @@ export default function CompliancePage() {
             <h2 className="heading-section mt-12 mb-6">Regulatory Framework</h2>
             
             <p className="text-body mb-6">
-              <span className="font-bold">Raise</span><span className="font-light">Signal</span> B.V. operates under comprehensive regulatory oversight to ensure 
+              <span className="aurum-ascend-enhanced">Aurum Ascend</span> B.V. operates under comprehensive regulatory oversight to ensure 
               investor protection and market integrity:
             </p>
 

@@ -34,7 +34,7 @@ export const ContactFormEmail = ({
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://www.aurumascend.ch/logo.jpg"
+            src="https://www.aurumascend.ch/logo.png"
             width="200"
             height="50"
             alt="Aurum Ascend Capital"

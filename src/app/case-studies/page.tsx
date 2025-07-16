@@ -118,7 +118,7 @@ export default function CaseStudiesPage() {
             
             <p className="hero-subtitle text-lead max-w-3xl mx-auto text-balance">
               Discover how growth-stage companies have successfully raised capital and scaled 
-              their businesses through the <span className="font-bold">Raise</span><span className="font-light">Signal</span> platform.
+              their businesses through the <span className="aurum-ascend-enhanced">Aurum Ascend</span> platform.
             </p>
           </div>
         </div>
@@ -310,7 +310,7 @@ export default function CaseStudiesPage() {
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
               Join the growing number of companies that have successfully raised capital 
-              and scaled their businesses through <span className="font-bold">Raise</span><span className="font-light">Signal</span>.
+              and scaled their businesses through <span className="aurum-ascend-enhanced">Aurum Ascend</span>.
             </p>
             <div className="flex flex-row gap-4 justify-center items-center flex-wrap">
               <Button asChild size="lg" className="bg-white hover:bg-gray-100 font-semibold px-8 py-3 rounded-lg shadow-lg">

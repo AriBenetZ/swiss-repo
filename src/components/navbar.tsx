@@ -50,21 +50,21 @@ export function Navbar() {
 					{/* Logo */}
 					<div className="flex-shrink-0">
 						<Link href="/" className="flex items-center gap-3 group">
-							<div className="relative w-8 h-8 group-hover:scale-110 transition-transform duration-300">
+							<div className="relative w-20 h-20 group-hover:scale-110 transition-transform duration-300">
 								<Image 
-									src="/logo.svg" 
+									src="/logo.png" 
 									alt="Aurum Ascend Capital Logo" 
-									width={32}
-									height={32}
-									className="w-8 h-8 object-contain"
+									width={34}
+									height={34}
+									className="w-20 h-20 object-contain"
 									priority
 									unoptimized
 								/>
 							</div>
 							<div className="flex flex-col">
 								<span className="text-lg text-primary">
-									<span className="font-bold">Aurum</span>
-									<span className="font-light">Ascend</span>
+									<span className="font-bold text-primary">Aurum</span>
+									<span className="font-bold text-accent-primary">Ascend</span>
 								</span>
 								<span className="text-xs text-secondary leading-none">Investment Platform</span>
 							</div>
