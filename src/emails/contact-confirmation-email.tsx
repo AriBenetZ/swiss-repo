@@ -24,14 +24,14 @@ export const ContactConfirmationEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Thank you for contacting RaiseSignal</Preview>
+      <Preview>Thank you for contacting Aurum Ascend Capital</Preview>
       <Body style={main}>
         <Container style={container}>
           <Img
-            src="https://www.raisesignal.uk/logo.jpg"
+            src="https://www.aurumascend.ch/logo.png"
             width="200"
             height="50"
-            alt="RaiseSignal"
+            alt="Aurum Ascend Capital"
             style={logo}
           />
           
@@ -40,49 +40,48 @@ export const ContactConfirmationEmail = ({
           <Text style={greeting}>Hi {name},</Text>
           
           <Text style={text}>
-            Thank you for contacting RaiseSignal. We've received your message and will get back to you within 48 hours.
+            Thank you for contacting <span className="aurum-ascend-enhanced">Aurum Ascend</span>. We've received your inquiry and a senior investment professional will personally respond within 24 hours.
           </Text>
 
           <Text style={text}>
-            Our team of experts is dedicated to helping growth-stage companies connect with institutional investors. 
-            We'll review your inquiry and provide you with the most relevant information for your funding needs.
+            As Europe's leading growth-stage investment platform, our experienced team personally handles every inquiry. We'll review your message and provide tailored guidance for accessing our network of 500+ verified institutional investors.
           </Text>
 
           <Section style={highlights}>
             <Heading style={h2}>What happens next?</Heading>
-            <Text style={bulletPoint}>• Our team will review your message within 24 hours</Text>
+            <Text style={bulletPoint}>• A senior team member will personally review your message within 24 hours</Text>
             <Text style={bulletPoint}>• We'll respond with relevant information and next steps</Text>
-            <Text style={bulletPoint}>• If applicable, we'll schedule a consultation call</Text>
+            <Text style={bulletPoint}>• If applicable, we'll schedule a personal consultation call</Text>
           </Section>
 
           <Hr style={hr} />
 
           <Section style={buttonContainer}>
-            <Button style={button} href="https://calendly.com/ari-raisesignal-68nf/30min">
+            <Button style={button} href="https://www.aurumascend.ch/contact">
               Schedule a Call
             </Button>
           </Section>
 
           <Text style={text}>
-            In the meantime, feel free to explore our success stories and learn more about how we've helped 150+ companies secure funding.
+            In the meantime, explore how we've helped 200+ European growth-stage companies secure institutional funding through our proven investment platform with an 89% success rate.
           </Text>
 
           <Section style={linksSection}>
-            <Link href="https://www.raisesignal.uk/case-studies" style={link}>View Case Studies</Link>
+            <Link href="https://www.aurumascend.ch/case-studies" style={link}>View Case Studies</Link>
             <Text style={separator}> • </Text>
-            <Link href="https://www.raisesignal.uk/how-it-works" style={link}>How It Works</Link>
+            <Link href="https://www.aurumascend.ch/how-it-works" style={link}>How It Works</Link>
             <Text style={separator}> • </Text>
-            <Link href="https://www.raisesignal.uk/about" style={link}>About Us</Link>
+            <Link href="https://www.aurumascend.ch/about" style={link}>About Us</Link>
           </Section>
 
           <Text style={footer}>
             Best regards,<br />
-            The RaiseSignal Team
+            The Aurum Ascend Capital Team
             <br /><br />
             <Text style={footerSmall}>
-              RaiseSignal - Global Investment Platform<br />
-              3 More London Riverside, London SE1 2RE, UK<br />
-              <Link href="https://www.raisesignal.uk" style={link}>raisesignal.uk</Link>
+              Aurum Ascend Capital - Global Investment Platform<br />
+              Bahnhofstrasse 100, 8001 Zurich, Switzerland<br />
+              <Link href="https://www.aurumascend.ch" style={link}>aurumascend.ch</Link>
             </Text>
           </Text>
         </Container>

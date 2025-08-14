@@ -26,7 +26,7 @@ export default function TermsPage() {
                 <div>
                   <p className="text-primary font-medium mb-2">Important Legal Agreement</p>
                   <p className="text-secondary text-sm">
-                    By using RaiseSignal's platform, you agree to these terms. Please read carefully 
+                    By using Aurum Ascend Capital's platform, you agree to these terms. Please read carefully 
                     as they contain important information about your rights and obligations.
                   </p>
                 </div>
@@ -37,7 +37,7 @@ export default function TermsPage() {
             
             <p className="text-body mb-6">
               These Terms of Service ("Terms") constitute a legally binding agreement between you and 
-              RaiseSignal B.V., a company incorporated under Dutch law ("RaiseSignal", "we", "us", or "our"). 
+              Aurum Ascend Capital B.V., a company incorporated under Dutch law ("Aurum Ascend Capital", "we", "us", or "our"). 
               By accessing or using our platform, you acknowledge that you have read, understood, and agree 
               to be bound by these Terms.
             </p>
@@ -45,7 +45,7 @@ export default function TermsPage() {
             <h2 className="heading-section mt-12 mb-6">2. Platform Description</h2>
             
             <p className="text-body mb-4">
-              RaiseSignal operates an investment platform that connects growth-stage companies with 
+              Aurum Ascend Capital operates an investment platform that connects growth-stage companies with 
               institutional investors. Our services include:
             </p>
             <ul className="space-y-2 mb-6">
@@ -119,7 +119,7 @@ export default function TermsPage() {
                     </li>
                     <li className="flex gap-2 items-start">
                       <div className="rounded-full w-1.5 h-1.5 bg-semantic-warning mt-2"></div>
-                      <span>RaiseSignal does not provide investment advice or recommendations</span>
+                      <span>Aurum Ascend Capital does not provide investment advice or recommendations</span>
                     </li>
                     <li className="flex gap-2 items-start">
                       <div className="rounded-full w-1.5 h-1.5 bg-semantic-warning mt-2"></div>
@@ -131,7 +131,7 @@ export default function TermsPage() {
             </div>
 
             <p className="text-primary mb-6">
-              RaiseSignal acts as an intermediary platform and does not provide investment advice, 
+              Aurum Ascend Capital acts as an intermediary platform and does not provide investment advice, 
               recommendations, or guarantees regarding any investment opportunities. All investment 
               decisions are your sole responsibility.
             </p>
@@ -209,14 +209,14 @@ export default function TermsPage() {
             
             <p className="text-primary mb-6">
               The platform, including its software, content, trademarks, and other intellectual property, 
-              is owned by RaiseSignal or our licensors. You are granted a limited, non-exclusive, 
+              is owned by Aurum Ascend Capital or our licensors. You are granted a limited, non-exclusive, 
               non-transferable license to use the platform for its intended purpose.
             </p>
 
             <h2 className="heading-section mt-12 mb-6">9. Limitation of Liability</h2>
             
             <p className="text-primary mb-6">
-              To the maximum extent permitted by law, RaiseSignal shall not be liable for any indirect, 
+              To the maximum extent permitted by law, Aurum Ascend Capital shall not be liable for any indirect, 
               incidental, special, consequential, or punitive damages, including but not limited to 
               loss of profits, data, or business opportunities. Our total liability shall not exceed 
               the fees paid by you in the 12 months preceding the claim.
@@ -225,7 +225,7 @@ export default function TermsPage() {
             <h2 className="heading-section mt-12 mb-6">10. Indemnification</h2>
             
             <p className="text-primary mb-6">
-              You agree to indemnify and hold harmless RaiseSignal from any claims, damages, or expenses 
+              You agree to indemnify and hold harmless Aurum Ascend Capital from any claims, damages, or expenses 
               arising from your use of the platform, violation of these Terms, or infringement of any 
               third-party rights.
             </p>
@@ -233,7 +233,7 @@ export default function TermsPage() {
             <h2 className="heading-section mt-12 mb-6">11. Termination</h2>
             
             <p className="text-primary mb-6">
-              Either party may terminate this agreement at any time with written notice. RaiseSignal 
+              Either party may terminate this agreement at any time with written notice. Aurum Ascend Capital 
               may immediately terminate or suspend your access for violation of these Terms or applicable 
               law. Upon termination, your right to use the platform ceases immediately.
             </p>
@@ -279,11 +279,11 @@ export default function TermsPage() {
               <div className="space-y-2">
                 <div className="text-primary">
                   <strong>Legal Department</strong><br />
-                  Email: <a href="mailto:legal@raisesignal.uk" className="text-accent-blue hover:underline">legal@raisesignal.uk</a><br />
+                  Email: <a href="mailto:legal@aurumascend.ch" className="text-accent-blue hover:underline">legal@aurumascend.ch</a><br />
                   Phone: +44 7537 126467
                 </div>
                 <div className="text-primary">
-                  <strong>RaiseSignal Ltd.</strong><br />
+                  <strong>Aurum Ascend Capital Ltd.</strong><br />
                   3 More London Riverside<br />
                   London SE1 2RE<br />
                   United Kingdom<br />

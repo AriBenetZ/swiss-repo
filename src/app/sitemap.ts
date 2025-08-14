@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://www.raisesignal.uk'
+  const baseUrl = 'https://www.aurumascend.ch'
   const currentDate = new Date()
   
   // Define static routes with optimized priorities and frequencies for 2025 SEO best practices

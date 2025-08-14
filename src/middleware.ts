@@ -5,16 +5,16 @@ export function middleware(request: NextRequest) {
   const { hostname, pathname } = request.nextUrl
 
   // Redirect old .nl domain to .uk
-  if (hostname.includes('raisesignal.nl')) {
+  if (hostname.includes('aurumascend.nl')) {
     const newUrl = new URL(request.url)
-    newUrl.hostname = 'www.raisesignal.uk'
+    newUrl.hostname = 'www.aurumascend.ch'
     return NextResponse.redirect(newUrl, 301)
   }
 
   // Force www subdomain for the .uk domain
-  if (hostname === 'raisesignal.uk') {
+  if (hostname === 'aurumascend.ch') {
     const newUrl = new URL(request.url)
-    newUrl.hostname = 'www.raisesignal.uk'
+    newUrl.hostname = 'www.aurumascend.ch'
     return NextResponse.redirect(newUrl, 301)
   }
 
@@ -26,7 +26,7 @@ export function middleware(request: NextRequest) {
   response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')
   
   // Add canonical header
-  response.headers.set('Link', `<https://www.raisesignal.uk${pathname}>; rel="canonical"`)
+  response.headers.set('Link', `<https://www.aurumascend.ch${pathname}>; rel="canonical"`)
 
   return response
 }

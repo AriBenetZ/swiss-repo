@@ -1,11 +1,11 @@
-# Force HTTPS and redirect old .nl domain
+# Force HTTPS and redirect old domains
 
 RewriteEngine On
 
-# Redirect all .nl domain traffic to .uk
+# Redirect all old domain traffic to .ch
 
-RewriteCond %{HTTP_HOST} ^(www\.)?raisesignal\.nl$ [NC]
-RewriteRule ^(.\*)$ https://www.raisesignal.uk/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^(www\.)?aurumascend\.(ch)$ [NC]
+RewriteRule ^(.\*)$ https://www.aurumascend.ch/$1 [R=301,L]
 
 # Force HTTPS
 
@@ -14,8 +14,8 @@ RewriteRule ^(.\*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Force www subdomain
 
-RewriteCond %{HTTP_HOST} ^raisesignal\.uk$ [NC]
-RewriteRule ^(.\*)$ https://www.raisesignal.uk/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^aurumascend\.ch$ [NC]
+RewriteRule ^(.\*)$ https://www.aurumascend.ch/$1 [R=301,L]
 
 # Add security headers
 

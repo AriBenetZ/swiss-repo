@@ -1,31 +1,31 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | RaiseSignal - Legal Agreement & Platform Rules",
-  description: "Read RaiseSignal's terms of service. Legal agreement covering platform usage, user obligations, service provision, and terms for companies and investors.",
+  title: "Terms of Service | Aurum Ascend Capital - Legal Agreement & Platform Rules",
+  description: "Read Aurum Ascend Capital's terms of service. Legal agreement covering platform usage, user obligations, service provision, and terms for companies and investors.",
   keywords: [
     "terms of service", "terms and conditions", "legal agreement", "platform rules",
-    "user obligations", "service terms", "RaiseSignal terms", "investment platform terms",
+    "user obligations", "service terms", "Aurum Ascend Capital terms", "investment platform terms",
     "legal compliance", "user agreement", "service agreement"
   ],
   openGraph: {
-    title: "Terms of Service | RaiseSignal",
-    description: "Read RaiseSignal's terms of service covering platform usage and legal agreements.",
-    url: "https://www.raisesignal.uk/terms",
-    siteName: "RaiseSignal",
+    title: "Terms of Service | Aurum Ascend Capital",
+    description: "Read Aurum Ascend Capital's terms of service covering platform usage and legal agreements.",
+    url: "https://www.aurumascend.ch/terms",
+    siteName: "Aurum Ascend Capital",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Terms of Service | RaiseSignal",
-    description: "Read RaiseSignal's terms of service covering platform usage and legal agreements.",
+    title: "Terms of Service | Aurum Ascend Capital",
+    description: "Read Aurum Ascend Capital's terms of service covering platform usage and legal agreements.",
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: "https://www.raisesignal.uk/terms",
+    canonical: "https://www.aurumascend.ch/terms",
   },
 };
 
@@ -44,20 +44,20 @@ export default function TermsLayout({
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Terms of Service",
-            "description": "RaiseSignal's terms of service detailing platform usage rules, user obligations, and legal agreements.",
-            "url": "https://www.raisesignal.uk/terms",
+            "description": "Aurum Ascend Capital's terms of service detailing platform usage rules, user obligations, and legal agreements.",
+            "url": "https://www.aurumascend.ch/terms",
             "publisher": {
               "@type": "Organization",
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk"
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch"
             },
             "datePublished": "2024-01-15T00:00:00Z",
             "dateModified": "2025-01-15T00:00:00Z",
             "inLanguage": "en-GB",
             "isPartOf": {
               "@type": "WebSite",
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk"
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch"
             },
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -66,13 +66,13 @@ export default function TermsLayout({
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://www.raisesignal.uk"
+                  "item": "https://www.aurumascend.ch"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Terms of Service",
-                  "item": "https://www.raisesignal.uk/terms"
+                  "item": "https://www.aurumascend.ch/terms"
                 }
               ]
             }
@@ -90,14 +90,14 @@ export default function TermsLayout({
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "What are RaiseSignal's main terms of service?",
+                "name": "What are Aurum Ascend Capital's main terms of service?",
                 "answerCount": 1,
                 "datePublished": "2024-01-15T00:00:00Z",
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -106,22 +106,22 @@ export default function TermsLayout({
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }
               },
               {
                 "@type": "Question",
-                "name": "What fees does RaiseSignal charge?",
+                "name": "What fees does Aurum Ascend Capital charge?",
                 "answerCount": 1,
                 "datePublished": "2024-01-15T00:00:00Z",
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -130,22 +130,22 @@ export default function TermsLayout({
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }
               },
               {
                 "@type": "Question",
-                "name": "Can I cancel my RaiseSignal agreement?",
+                "name": "Can I cancel my Aurum Ascend Capital agreement?",
                 "answerCount": 1,
                 "datePublished": "2024-01-15T00:00:00Z",
                 "dateModified": "2025-07-10T00:00:00Z",
                 "author": {
                   "@type": "Organization",
-                  "name": "RaiseSignal",
-                  "url": "https://www.raisesignal.uk"
+                  "name": "Aurum Ascend Capital",
+                  "url": "https://www.aurumascend.ch"
                 },
                 "acceptedAnswer": {
                   "@type": "Answer",
@@ -154,8 +154,8 @@ export default function TermsLayout({
                   "dateModified": "2025-07-10T00:00:00Z",
                   "author": {
                     "@type": "Organization",
-                    "name": "RaiseSignal",
-                    "url": "https://www.raisesignal.uk"
+                    "name": "Aurum Ascend Capital",
+                    "url": "https://www.aurumascend.ch"
                   },
                   "upvoteCount": 0
                 }

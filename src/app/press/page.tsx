@@ -29,7 +29,7 @@ export default function PressPage() {
 
   const pressReleases = [
     {
-      title: "RaiseSignal Completes €5M Series A to Expand European Investment Platform",
+      title: "Aurum Ascend Capital Completes €5M Series A to Expand European Investment Platform",
       date: "December 15, 2024",
       excerpt: "London-based investment platform secures growth funding to enhance technology and expand institutional investor network across Europe.",
       link: "#"
@@ -37,11 +37,11 @@ export default function PressPage() {
     {
       title: "Platform Facilitates Record €42M in Q4 Growth-Stage Investments",
       date: "January 8, 2025", 
-      excerpt: "European growth-stage companies raise record funding through RaiseSignal's verified investor network in fourth quarter.",
+      excerpt: "European growth-stage companies raise record funding through Aurum Ascend Capital's verified investor network in fourth quarter.",
       link: "#"
     },
     {
-      title: "RaiseSignal Achieves SOC 2 Type II Compliance Certification",
+      title: "Aurum Ascend Capital Achieves SOC 2 Type II Compliance Certification",
       date: "November 22, 2024",
       excerpt: "Investment platform demonstrates commitment to security and data protection with independent compliance audit.",
       link: "#"
@@ -67,12 +67,11 @@ export default function PressPage() {
                 Press & Media
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-neutral-900 leading-tight mb-6">
-                Latest News &
+                Investment Platform News &
                 <span className="text-gradient"> Media Resources</span>
               </h1>
               <p className="text-xl text-neutral-600 leading-relaxed mb-8">
-                Stay updated with the latest news, announcements, and media resources 
-                from RaiseSignal's journey in European growth-stage investment.
+                Latest news, announcements, and media resources from Europe's leading growth-stage investment platform. Track our journey connecting companies with institutional investors.
               </p>
             </div>
             
@@ -95,10 +94,10 @@ export default function PressPage() {
         <div ref={el => { if (el) sectionsRef.current[0] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-neutral-900 mb-6">
-              Recent News & Announcements
+              European Investment Platform Updates
             </h2>
             <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
-              Latest updates on company milestones, platform developments, and industry insights.
+              Company milestones, platform developments, and growth-stage investment insights from Europe's leading institutional investor network.
             </p>
           </div>
           
@@ -180,16 +179,16 @@ export default function PressPage() {
                   <div className="space-y-2 text-left">
                     <div className="text-neutral-600">Emma Rodriguez</div>
                     <div className="text-sm text-neutral-500">Head of Communications</div>
-                    <a href="mailto:press@raisesignal.uk" className="text-accent-blue hover:underline">press@raisesignal.uk</a>
+                    <a href="mailto:press@aurumascend.ch" className="text-accent-blue hover:underline">press@aurumascend.ch</a>
                     <a href="tel:+447537126467" className="text-neutral-600 hover:underline">+44 7537 126467</a>
                   </div>
                 </div>
                 <div>
                   <h3 className="font-semibold text-neutral-900 mb-4">General Inquiries</h3>
                   <div className="space-y-2 text-left">
-                    <div className="text-neutral-600">RaiseSignal Press Team</div>
+                    <div className="text-neutral-600">Aurum Ascend Capital Press Team</div>
                     <div className="text-sm text-neutral-500">Media Relations</div>
-                    <a href="mailto:media@raisesignal.uk" className="text-accent-blue hover:underline">media@raisesignal.uk</a>
+                    <a href="mailto:media@aurumascend.ch" className="text-accent-blue hover:underline">media@aurumascend.ch</a>
                     <div className="text-neutral-600">Response within 24 hours</div>
                   </div>
                 </div>

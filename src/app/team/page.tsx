@@ -30,100 +30,100 @@ export default function TeamPage() {
 
   const teamMembers = [
     {
-      name: "Ari Benet",
+      name: "Matthias Schneider",
       position: "Chief Executive Officer & Founder",
-      bio: "A native of Amsterdam with deep European market expertise, Ari founded <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span> in 2019 to streamline growth-stage funding connections. His background in investment banking and corporate development across Europe drives the platform's strategic vision.",
+      bio: "Originally from Geneva with dual Swiss-French citizenship, Matthias founded <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2019 after working at UBS Investment Bank in Zurich. His multilingual capabilities (German, French, English, Italian) and deep understanding of European financial markets drive the company's cross-border success. Previously led corporate development initiatives across Switzerland and the DACH region.",
       expertise: ["Growth Strategy", "Capital Markets", "Platform Development"],
-      education: "MBA & Finance Background",
-      email: "ari.benet@raisesignal.uk"
+      education: "MBA Finance, INSEAD & BSc Economics, University of St. Gallen",
+      email: "matthias.schneider@aurumascend.ch"
     },
     {
-      name: "Elena Kovač",
+      name: "Francesca Dubois",
       position: "Head of Client Relations & Reception",
-      bio: "Joined <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span> in 2021, managing all client communications and first-point-of-contact operations. Ensures smooth client onboarding and ongoing relationship management.",
+      bio: "Born in Lyon and moved to Zurich in 2020, Francesca brings a warm approach to client communications at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Fluent in French and English, she ensures seamless onboarding for international clients. Her previous experience at Credit Suisse's private banking division helps her understand the nuanced needs of high-net-worth European clients. She's currently learning German to better serve DACH region clients.",
       expertise: ["Client Relations", "Operations Management", "Communication"],
-      education: "Business Administration Background",
-      email: "elena.kovac@raisesignal.uk"
+      education: "MA International Business, HEC Paris",
+      email: "francesca.dubois@aurumascend.ch"
     },
     {
-      name: "Raj Patel",
+      name: "Arjun Khan",
       position: "Chief Technology Officer & Chief Financial Officer",
-      bio: "Joined <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span> as CTO/CFO in 2020, leading technical infrastructure development and financial operations. Born in England to Indian parents, he brings expert fintech platform development and security expertise with experience at London-based tech companies including Revolut and Monzo. He personally joins client calls from the first meeting and works alongside the team throughout the entire process.",
+      bio: "Joined <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> as CTO/CFO in 2020, bringing expertise from London's fintech scene. Born in Manchester to Pakistani parents and educated in England, Arjun developed his technical expertise at companies like Wise (formerly TransferWise) and Klarna's London office. He personally joins client calls from day one and maintains hands-on involvement throughout every deal process, ensuring both technical excellence and financial precision.",
       expertise: ["Platform Development", "Technical Architecture", "Security", "Financial Management"],
-      education: "MSc Computer Science, Imperial College London",
-      email: "raj.patel@raisesignal.uk"
+      education: "MSc Computer Science, Imperial College London & CFA Charter",
+      email: "arjun.khan@aurumascend.ch"
     },
     {
-      name: "Sarah Mitchell",
+      name: "Camilla Andersson",
       position: "Head of Investor Relations",
-      bio: "Joined <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span> in 2022, bringing 8 years of experience in private equity and institutional investment from mid-tier London firms. Manages our network of 300+ verified investors and handles due diligence processes.",
+      bio: "Swedish-born and Zurich-based since 2021, Camilla joined <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> with 8 years of Nordic institutional investment experience. Previously worked at Stockholm-based private equity firms and EQT Partners, she manages our network of 300+ verified investors across Scandinavia, DACH, and the UK. Working primarily in English, she leverages her deep understanding of Nordic capital markets to bring unique opportunities to our platform.",
       expertise: ["Investor Networks", "Due Diligence", "Deal Structuring"],
-      education: "CFA Level II Candidate, University of Manchester",
-      email: "sarah.mitchell@raisesignal.uk"
+      education: "MSc Finance, Stockholm School of Economics & CFA Level III",
+      email: "camilla.andersson@aurumascend.ch"
     },
     {
-      name: "Marcus Chen",
+      name: "Lorenzo Benedetti",
       position: "Senior Investment Analyst",
-      bio: "Leads deal analysis and market research at <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span> since 2021. Previously worked at top-tier venture capital firms in London and Singapore.",
+      bio: "Originally from Milan, Lorenzo moved to Zurich in 2021 to lead deal analysis and market research at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. His previous experience at Bain Capital and London-based VC firms provides unique insights into cross-border European investment opportunities. Works primarily in English with international clients, while his Italian background helps with Southern European market access.",
       expertise: ["Financial Analysis", "Market Research", "Valuation"],
-      education: "MSc Finance, London School of Economics",
-      email: "marcus.chen@raisesignal.uk"
+      education: "MSc Finance, Bocconi University & Advanced Finance, London Business School",
+      email: "lorenzo.benedetti@aurumascend.ch"
     },
     {
-      name: "Isabella Romano",
+      name: "Astrid van der Berg",
       position: "Legal & Compliance Director",
-      bio: "Ensures <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span>'s operations meet regulatory standards across multiple jurisdictions. Joined in 2022 from a Magic Circle law firm.",
+      bio: "Dutch legal expert who relocated from Amsterdam to Zurich in 2022, Astrid ensures <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s operations comply with complex European regulations. Previously partner at a leading Amsterdam law firm specializing in cross-border transactions, she works primarily in English while bringing expertise in EU financial regulations, Swiss banking law, and international corporate structuring.",
       expertise: ["Regulatory Compliance", "Contract Law", "Cross-border Transactions"],
-      education: "LLM International Business Law",
-      email: "isabella.romano@raisesignal.uk"
+      education: "LLM European Law, University of Amsterdam & Swiss Law Certificate",
+      email: "astrid.vandeberg@aurumascend.ch"
     },
     {
-      name: "David Thompson",
+      name: "Klaus Zimmermann",
       position: "Head of Business Development",
-      bio: "Drives strategic partnerships and market expansion for <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span>. Joined in 2023 with extensive experience in European fintech growth.",
+      bio: "Austrian-born Klaus moved to Zurich from Vienna in 2023, bringing extensive DACH region fintech experience to <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Previously led business development at Bitpanda and other Vienna-based fintech scale-ups, he specializes in strategic partnerships across German-speaking markets. Fluent in German and English, his network spans from startup ecosystems in Berlin and Vienna to established financial institutions in Frankfurt and Zurich.",
       expertise: ["Strategic Partnerships", "Market Expansion", "Revenue Growth"],
-      education: "MBA, INSEAD",
-      email: "david.thompson@raisesignal.uk"
+      education: "MBA, Vienna University of Economics & Business",
+      email: "klaus.zimmermann@aurumascend.ch"
     },
     {
-      name: "Arjun Sharma",
+      name: "Sophie Larsson",
       position: "Marketing & Communications Manager",
-      bio: "Manages <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span>'s brand presence and communications strategy. Joined in 2023 from a leading financial PR agency in London.",
+      bio: "Born in Copenhagen and based in Zurich since 2023, Sophie manages <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s brand presence across European markets. Previously worked at leading Scandinavian fintech companies and a top-tier communications agency in London. Working primarily in English, her Scandinavian background helps position the company effectively in Nordic markets while she's learning basic German for local Swiss operations.",
       expertise: ["Brand Strategy", "Digital Marketing", "Public Relations"],
-      education: "MA Communications, King's College London",
-      email: "arjun.sharma@raisesignal.uk"
+      education: "MA Communications, Copenhagen Business School",
+      email: "sophie.larsson@aurumascend.ch"
     },
     {
-      name: "Victoria Sterling",
+      name: "Giulia Rossi",
       position: "Senior Partnership Manager",
-      bio: "Leads strategic outreach and partnership development at <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span>. Former Vice President at Goldman Sachs International's client coverage team, she specializes in institutional relationship building and has strong networks across European investment firms and family offices.",
+      bio: "Italian-Swiss dual citizen, Giulia leads strategic outreach and partnership development at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Former Associate at Goldman Sachs Milan and previously worked in London's investment banking sector, she specializes in institutional relationship building across Southern European markets. Works primarily in English and Italian, with her extensive network including family offices from Italy, Spain, and Monaco, as well as Swiss private banks.",
       expertise: ["Institutional Sales", "Relationship Management", "Cross-border Deals"],
-      education: "MBA Finance, London Business School",
-      email: "victoria.sterling@raisesignal.uk"
+      education: "MSc Finance, Bocconi University & Executive Program, London Business School",
+      email: "giulia.rossi@aurumascend.ch"
     },
     {
-      name: "Alexander Hartwell",
+      name: "James Wellington",
       position: "Director of Client Acquisition",
-      bio: "Drives new client acquisition and manages high-value prospect relationships at <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span>. Previously Associate Director at Barclays Investment Bank, he brings 7 years of experience in corporate finance and client relationship management across the UK and European markets.",
+      bio: "British expat who moved to Zurich from London in 2022, James drives new client acquisition at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Previously Associate Director at Rothschild & Co in London, he brings 7 years of investment banking experience and strong relationships with UK-based growth companies seeking European expansion. Working exclusively in English, his expertise in cross-channel deal structuring helps British and Irish companies access continental European capital.",
       expertise: ["Corporate Finance", "Client Development", "Investment Banking"],
-      education: "MSc Finance, University of Cambridge",
-      email: "alexander.hartwell@raisesignal.uk"
+      education: "MSc Finance, University of Edinburgh & CFA Charter",
+      email: "james.wellington@aurumascend.ch"
     },
     {
-      name: "Emre Müller",
+      name: "Henrik Müller",
       position: "Senior Client Director - DACH & EMEA Region",
-      bio: "Leads client relationships and business development across German-speaking and Middle Eastern markets for <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span>. Born in Berlin to Turkish parents and relocated to London in 2018, Emre brings deep understanding of both Germanic and Middle Eastern business cultures with 6 years of experience from Deutsche Bank's corporate finance division. He personally manages client communications and deal processes for companies seeking expansion into European and emerging markets.",
+      bio: "German-Turkish dual citizen born in Frankfurt, Henrik relocated from Berlin to Zurich in 2020 to lead <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s DACH and emerging European markets. Previously worked at Deutsche Bank's corporate finance division in Frankfurt and has deep cultural understanding of both Germanic and Middle Eastern business practices. Fluent in German, Turkish, and English, he personally manages client relationships for companies expanding into European and emerging markets.",
       expertise: ["DACH Markets", "EMEA Markets", "Cross-cultural Communication", "Corporate Finance"],
-      education: "Diplom-Kaufmann, Universität zu Köln & MSc Finance, London Business School",
-      email: "emre.mueller@raisesignal.uk"
+      education: "Diplom-Kaufmann, Goethe University Frankfurt & MSc Finance, WHU Otto Beisheim",
+      email: "henrik.mueller@aurumascend.ch"
     },
     {
-      name: "Richard Weber",
+      name: "Lukas Weber",
       position: "Investment Relations Associate",
-      bio: "Joined <span className=\"font-bold\">Raise</span><span className=\"font-light\">Signal</span> in 2024 as our youngest team member at age 22. Originally from Zurich and family of Ari Benet, Richard focuses on investor outreach and relationship building. He actively connects growth-stage companies with potential investors from our network, leveraging his Swiss banking knowledge and family connections to facilitate meaningful introductions. His enthusiasm and dedication make him a key point of contact for new investment opportunities.",
+      bio: "Zurich native and our youngest team member at 22, Lukas joined <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2024 as a rising star in investor relations. Son of a prominent Swiss banking family, he brings fresh energy and strong local connections to the team. Native in German and French with excellent English, he focuses on connecting growth-stage companies with Swiss and international investors, leveraging both traditional Swiss banking networks and next-generation investment platforms.",
       expertise: ["Investor Outreach", "Swiss Markets", "Relationship Building", "Deal Sourcing"],
       education: "BSc Economics, University of St. Gallen (HSG)",
-      email: "richard.weber@raisesignal.uk"
+      email: "lukas.weber@aurumascend.ch"
     }
   ];
 
@@ -139,13 +139,11 @@ export default function TeamPage() {
                 Our Team
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6">
-                Meet the People Behind
-                <span className="gradient-text"> RaiseSignal</span>
+                Meet Europe's Leading
+                <span className="gradient-text aurum-ascend-enhanced">Growth Investment Team</span>
               </h1>
               <p className="text-xl text-secondary leading-relaxed mb-8">
-                Our compact, experienced team has been working together since 2019 to provide personal, 
-                white-glove service to founders and investors. Every client works directly with senior team 
-                members—no junior staff or account managers between you and decision-makers.
+                Our experienced team of investment professionals connects growth-stage companies with institutional investors across Europe. With deep expertise in fintech, SaaS, and enterprise technology, we deliver personalized service that drives results.
               </p>
             </div>
             
@@ -153,7 +151,7 @@ export default function TeamPage() {
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">5</div>
                 <div className="font-medium text-primary mb-1">Years</div>
-                <div className="text-sm text-tertiary">Operating in London</div>
+                <div className="text-sm text-tertiary">Operating in Zurich</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-accent mb-1">150+</div>
@@ -175,12 +173,10 @@ export default function TeamPage() {
         <div ref={el => { if (el) sectionsRef.current[0] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-              Our Team
+              Expert Investment Professionals
             </h2>
             <p className="text-lg text-secondary max-w-3xl mx-auto">
-              Our core team combines complementary expertise in finance, technology, and operations 
-              to deliver focused, high-quality service. We believe in building lasting relationships—
-              your success becomes our reputation, and every interaction is treated with the attention it deserves.
+              Our team combines deep financial markets expertise with technology innovation to deliver exceptional results for growth-stage companies and institutional investors across European markets.
             </p>
           </div>
           
@@ -213,7 +209,7 @@ export default function TeamPage() {
                 </div>
                 
                 <div className="flex justify-center">
-                  <a href={`mailto:${member.email}`} className="text-tertiary hover:text-accent transition-colors">
+                  <a href={`mailto:${member.email}`} className="text-tertiary hover:text-accent transition-colors no-underline hover:no-underline">
                     <Mail className="w-4 h-4" />
                   </a>
                 </div>
@@ -228,11 +224,10 @@ export default function TeamPage() {
         <div ref={el => { if (el) sectionsRef.current[1] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-              Our Approach
+              Why Leading Companies Choose Us
             </h2>
             <p className="text-lg text-secondary max-w-3xl mx-auto">
-              We've built our business on the principles that matter most to growing companies 
-              and institutional investors.
+              Our proven approach combines deep market expertise with personalized service to deliver exceptional results for growth-stage companies and institutional investors.
             </p>
           </div>
           

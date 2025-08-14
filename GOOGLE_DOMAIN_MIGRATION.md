@@ -14,7 +14,7 @@
 
 1. **Ga naar Google Search Console**
    - Bezoek: https://search.google.com/search-console/
-   - Selecteer property: `www.raisesignal.uk`
+   - Selecteer property: `www.aurumascend.ch`
 
 2. **URL Removal Tool gebruiken**
    - Ga naar: **Indexing** → **Removals**
@@ -36,11 +36,11 @@
 ### **Stap 2: Voeg .uk domein toe als verified property**
 
 1. **Add Property in Search Console**
-   - Voeg toe: `https://www.raisesignal.uk`
+   - Voeg toe: `https://www.aurumascend.ch`
    - Verify via HTML tag of DNS
 
 2. **Submit nieuwe sitemap**
-   - URL: `https://www.raisesignal.uk/sitemap.xml`
+   - URL: `https://www.aurumascend.ch/sitemap.xml`
    - Dit helpt Google de nieuwe URL's te indexeren
 
 ### **Stap 3: Monitor de migratie**
@@ -70,14 +70,14 @@ Disallow: *.nl*
 ### **2. Canonical headers toegevoegd**
 
 ```
-Link: <https://www.raisesignal.uk>; rel="canonical"
+Link: <https://www.aurumascend.ch>; rel="canonical"
 X-Robots-Tag: index, follow
 ```
 
 ### **3. Meta tags in layout.tsx**
 
 ```
-original-source: https://www.raisesignal.uk
+original-source: https://www.aurumascend.ch
 robots: index, follow, max-snippet:-1
 ```
 
@@ -121,5 +121,5 @@ robots: index, follow, max-snippet:-1
 
 ---
 
-**📧 Contact voor hulp:** info@raisesignal.uk  
-**🔗 Nieuwe canonical URL:** https://www.raisesignal.uk
+**📧 Contact voor hulp:** info@aurumascend.ch  
+**🔗 Nieuwe canonical URL:** https://www.aurumascend.ch

@@ -151,7 +151,7 @@ const blogPosts = {
     `,
     publishedAt: '2024-12-15',
     modifiedAt: '2024-12-15',
-    author: 'RaiseSignal Team',
+    author: 'Aurum Ascend Capital Team',
     readTime: '8 min read',
     category: 'Funding Guides',
     tags: ['startup funding', 'venture capital', 'series A', 'seed funding', 'pre-seed'],
@@ -214,8 +214,8 @@ export default async function BlogPost({ params }: PageProps) {
     },
     datePublished: post.publishedAt,
     dateModified: post.modifiedAt,
-    image: `https://www.raisesignal.uk/og-blog-${resolvedParams.slug}.png`,
-    url: `https://www.raisesignal.uk/blog/${resolvedParams.slug}`
+    image: `https://www.aurumascend.ch/og-blog-${resolvedParams.slug}.png`,
+    url: `https://www.aurumascend.ch/blog/${resolvedParams.slug}`
   })
 
   // Generate How-To structured data

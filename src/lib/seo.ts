@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 // Domain configuration
 const domainConfig = {
-  primaryUrl: 'https://www.raisesignal.uk',
+  primaryUrl: 'https://www.aurumascend.ch',
 } as const;
 
 interface SEOConfig {
@@ -22,20 +22,63 @@ interface SEOConfig {
   alternateLocales?: string[];
 }
 
-// Enhanced keyword sets for better targeting
+// Enhanced keyword sets for 2025 SEO best practices
 export const coreKeywords = [
-  'startup funding',
-  'private investors',
-  'angel investors', 
-  'venture capital',
-  'investment platform',
-  'fundraising',
-  'seed funding',
-  'series A funding',
-  'series B funding',
-  'growth capital',
-  'startup capital',
-  'investor network',
+  // Primary business keywords
+  'institutional investment platform',
+  'verified investor network',
+  'B2B investment matching',
+  'startup funding solutions',
+  'growth capital platform',
+  'European investment services',
+  'venture capital connections',
+  'private equity introductions',
+  'investment facilitation',
+  'capital raising platform',
+  // Intent-based keywords
+  'how to raise capital',
+  'find institutional investors',
+  'startup funding process',
+  'investment platform benefits',
+  'verified investor access',
+  // Location + service keywords
+  'Swiss investment platform',
+  'European capital raising',
+  'Zurich investment services',
+  'DACH region funding',
+  'EU startup capital'
+];
+
+export const longTailKeywords = [
+  // Problem-solving keywords
+  'how to connect with institutional investors',
+  'best platform for startup funding',
+  'verified investor network access',
+  'professional investment introduction services',
+  'European growth capital solutions',
+  'institutional investor matching services',
+  'startup funding success rate',
+  'professional capital raising platform',
+  // Competitor comparison keywords
+  'alternative to AngelList',
+  'better than Crunchbase pro',
+  'professional investor platform',
+  'curated investor network',
+  'relationship-driven investment platform'
+];
+
+export const semanticKeywords = [
+  // Related terms for semantic SEO
+  'due diligence',
+  'investment criteria',
+  'funding rounds',
+  'cap table management',
+  'investor relations',
+  'financial projections',
+  'business valuation',
+  'term sheets',
+  'investment memorandum',
+  'pitch deck preparation'
 ];
 
 export function generateMetadata(config: SEOConfig): Metadata {
@@ -53,28 +96,28 @@ export function generateMetadata(config: SEOConfig): Metadata {
     authors = [],
     section,
     tags = [],
-    locale = 'en_GB',
-    alternateLocales = ['en_US', 'en_NL']
+    locale = 'en_CH',
+    alternateLocales = ['en_US', 'en_EU']
   } = config;
 
   const fullTitle = path === '/' 
     ? title 
-    : `${title} | RaiseSignal - Global Investment Platform`;
+    : `${title} | Aurum Ascend Capital - Global Investment Platform`;
 
   const metadata: Metadata = {
     title: fullTitle,
     description,
     keywords: keywords.join(', '),
     authors: authors.map(author => ({ name: author })),
-    creator: 'RaiseSignal',
-    publisher: 'RaiseSignal',
+    creator: 'Aurum Ascend Capital',
+    publisher: 'Aurum Ascend Capital',
     category: 'finance',
     openGraph: {
       title: fullTitle,
       description,
       url: `${baseUrl}${path}`,
       type,
-      siteName: 'RaiseSignal',
+      siteName: 'Aurum Ascend Capital',
       locale,
       images: [
         {
@@ -98,13 +141,13 @@ export function generateMetadata(config: SEOConfig): Metadata {
       title: fullTitle,
       description,
       images: [`${baseUrl}${ogImage}`],
-      creator: '@raisesignal',
-      site: '@raisesignal',
+      creator: '@aurumascend',
+      site: '@aurumascend',
     },
     alternates: {
       canonical: `${domainConfig.primaryUrl}${path}`,
       languages: {
-        'en-GB': `${domainConfig.primaryUrl}${path}`,
+        'en-CH': `${domainConfig.primaryUrl}${path}`,
         'en-US': `${domainConfig.primaryUrl}${path}`,
         'en': `${domainConfig.primaryUrl}${path}`,
         'x-default': `${domainConfig.primaryUrl}${path}`,
@@ -133,17 +176,17 @@ export function generateMetadata(config: SEOConfig): Metadata {
 }
 
 export const geographicKeywords = [
-  // UK-specific keywords
-  'UK startup funding',
-  'London investors',
-  'British venture capital',
-  'UK angel investors',
-  'startup funding UK',
-  'venture capital London',
-  'UK investment platform',
-  'British startup capital',
-  'London startup funding',
-  'UK fundraising',
+  // Swiss-specific keywords
+  'Swiss startup funding',
+  'Zurich investors',
+  'Swiss venture capital',
+  'Swiss angel investors',
+  'startup funding Switzerland',
+  'venture capital Zurich',
+  'Swiss investment platform',
+  'Swiss startup capital',
+  'Zurich startup funding',
+  'Swiss fundraising',
   // European keywords
   'European investors',
   'EU startup funding',
@@ -199,8 +242,8 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
         "@type": "Service",
         provider: {
           "@type": "Organization",
-          name: "RaiseSignal",
-          url: "https://www.raisesignal.uk"
+          name: "Aurum Ascend Capital",
+          url: "https://www.aurumascend.ch"
         },
         areaServed: [
           "United Kingdom", "United States", "Germany", "France", 
@@ -213,34 +256,34 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
       return {
         ...baseStructuredData,
         "@type": "Organization",
-        "@id": "https://www.raisesignal.uk/#organization",
-        name: "RaiseSignal",
-        alternateName: ["Raise Signal", "RaiseSignal Platform"],
-        url: "https://www.raisesignal.uk",
+        "@id": "https://www.aurumascend.ch/#organization",
+        name: "Aurum Ascend Capital",
+        alternateName: ["Aurum Ascend", "Aurum Ascend Platform"],
+        url: "https://www.aurumascend.ch",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.raisesignal.uk/logo.svg",
+          url: "https://www.aurumascend.ch/logo.png",
           width: 512,
           height: 512
         },
         sameAs: [
-          "https://linkedin.com/company/raisesignal",
-          "https://twitter.com/raisesignal"
+          "https://linkedin.com/company/aurumascend",
+          "https://twitter.com/aurumascend"
         ],
         contactPoint: {
           "@type": "ContactPoint",
-          telephone: "+447537126467",
+          telephone: "+41445881234",
           contactType: "customer service",
-          email: "info@raisesignal.uk",
+          email: "info@aurumascend.ch",
           availableLanguage: ["English"],
-          areaServed: ["GB", "US", "EU"]
+          areaServed: ["CH", "US", "EU"]
         },
         address: {
           "@type": "PostalAddress",
-          streetAddress: "3 More London Riverside",
-          addressLocality: "London",
-          addressCountry: "United Kingdom",
-          postalCode: "SE1 2RE"
+          streetAddress: "Zurichstrasse 110",
+          addressLocality: "Zurich",
+          addressCountry: "Switzerland",
+          postalCode: "8008"
         },
         ...data
       };
@@ -257,8 +300,8 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
           dateModified: q.dateModified || "2025-07-10T00:00:00Z",
           author: {
             "@type": "Organization",
-            "name": "RaiseSignal",
-            "url": "https://www.raisesignal.uk"
+            "name": "Aurum Ascend Capital",
+            "url": "https://www.aurumascend.ch"
           },
           acceptedAnswer: {
             "@type": "Answer",
@@ -267,8 +310,8 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
             dateModified: q.dateModified || "2025-07-10T00:00:00Z",
             author: {
               "@type": "Organization",
-              "name": "RaiseSignal",
-              "url": "https://www.raisesignal.uk"
+              "name": "Aurum Ascend Capital",
+              "url": "https://www.aurumascend.ch"
             },
             upvoteCount: q.upvoteCount || 0
           }
@@ -294,10 +337,10 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
         "@type": "Article",
         publisher: {
           "@type": "Organization",
-          name: "RaiseSignal",
+          name: "Aurum Ascend Capital",
           logo: {
             "@type": "ImageObject",
-            url: "https://www.raisesignal.uk/logo.svg"
+            url: "https://www.aurumascend.ch/logo.png"
           }
         },
         mainEntityOfPage: {
@@ -311,18 +354,18 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
       return {
         ...baseStructuredData,
         "@type": "WebSite",
-        "@id": "https://www.raisesignal.uk/#website",
-        url: "https://www.raisesignal.uk",
-        name: "RaiseSignal",
+        "@id": "https://www.aurumascend.ch/#website",
+        url: "https://www.aurumascend.ch",
+        name: "Aurum Ascend Capital",
         description: "Global investment platform connecting growth companies with institutional investors",
         publisher: {
-          "@id": "https://www.raisesignal.uk/#organization"
+          "@id": "https://www.aurumascend.ch/#organization"
         },
         potentialAction: {
           "@type": "SearchAction",
           target: {
             "@type": "EntryPoint",
-            urlTemplate: "https://www.raisesignal.uk/search?q={search_term_string}"
+            urlTemplate: "https://www.aurumascend.ch/search?q={search_term_string}"
           },
           "query-input": "required name=search_term_string"
         },
@@ -354,7 +397,7 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
         "@type": "Review",
         itemReviewed: {
           "@type": "Service",
-          name: "RaiseSignal Investment Platform"
+          name: "Aurum Ascend Capital Investment Platform"
         },
         ...data
       };
@@ -367,16 +410,16 @@ export function generateStructuredData(type: 'service' | 'organization' | 'faq' 
 // Generate page-specific metadata configurations
 export const pageConfigs = {
   home: {
-    title: "RaiseSignal - UK's Premier Investment Platform | Connect with Institutional Investors",
-    description: "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia through the UK's leading investment platform. Join 150+ companies that have successfully raised growth capital since 2019.",
+    title: "Aurum Ascend Capital - Switzerland's Premier Investment Platform | Connect with Institutional Investors",
+    description: "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia through Switzerland's leading investment platform. Join 150+ companies that have successfully raised growth capital since 2019.",
     keywords: [...coreKeywords, ...geographicKeywords.slice(0, 15)],
     path: "/",
     ogImage: "/og-home.png"
   },
   
   about: {
-    title: "About RaiseSignal - Global Investment Platform Leadership",
-    description: "Learn about RaiseSignal's mission to democratize access to growth capital. Meet our team of investment professionals connecting companies with institutional investors worldwide.",
+    title: "About Aurum Ascend Capital - Global Investment Platform Leadership",
+    description: "Learn about Aurum Ascend Capital's mission to democratize access to growth capital. Meet our team of investment professionals connecting companies with institutional investors worldwide.",
     keywords: [...coreKeywords, "investment team", "company mission", "startup platform"],
     path: "/about",
     ogImage: "/og-about.png"
@@ -391,7 +434,7 @@ export const pageConfigs = {
   },
   
   howItWorks: {
-    title: "How RaiseSignal Works - Step-by-Step Funding Process",
+    title: "How Aurum Ascend Capital Works - Step-by-Step Funding Process",
     description: "Discover our proven 4-step process for connecting growth companies with institutional investors. From application to funding, we guide you through every step.",
     keywords: [...coreKeywords, "funding process", "how to raise capital", "investment process"],
     path: "/how-it-works",
@@ -400,14 +443,14 @@ export const pageConfigs = {
   
   caseStudies: {
     title: "Success Stories - Funding Case Studies & Results",
-    description: "Read inspiring success stories from companies that raised capital through RaiseSignal. See real funding outcomes and investor connections.",
+    description: "Read inspiring success stories from companies that raised capital through Aurum Ascend Capital. See real funding outcomes and investor connections.",
     keywords: [...coreKeywords, "success stories", "case studies", "funding results", "portfolio companies"],
     path: "/case-studies",
     ogImage: "/og-case-studies.png"
   },
   
   contact: {
-    title: "Contact RaiseSignal - Get Support for Your Funding Journey",
+    title: "Contact Aurum Ascend Capital - Get Support for Your Funding Journey",
     description: "Get in touch with our investment team. Whether you're seeking funding or looking to invest, we're here to help connect you with the right opportunities.",
     keywords: [...coreKeywords, "contact", "support", "investment team"],
     path: "/contact",
@@ -416,15 +459,15 @@ export const pageConfigs = {
 
   team: {
     title: "Our Team - Investment Professionals & Advisors",
-    description: "Meet the experienced investment professionals and advisors behind RaiseSignal. Our team brings decades of experience in venture capital, private equity, and startup growth.",
+    description: "Meet the experienced investment professionals and advisors behind Aurum Ascend Capital. Our team brings decades of experience in venture capital, private equity, and startup growth.",
     keywords: [...coreKeywords, "investment team", "advisors", "professionals", "experience"],
     path: "/team",
     ogImage: "/og-team.png"
   },
 
   careers: {
-    title: "Careers at RaiseSignal - Join Our Investment Team",
-    description: "Join RaiseSignal and help shape the future of startup funding. Explore career opportunities in investment, technology, and business development.",
+    title: "Careers at Aurum Ascend Capital - Join Our Investment Team",
+    description: "Join Aurum Ascend Capital and help shape the future of startup funding. Explore career opportunities in investment, technology, and business development.",
     keywords: [...coreKeywords, "careers", "jobs", "investment careers", "fintech jobs"],
     path: "/careers",
     ogImage: "/og-careers.png"
@@ -448,7 +491,7 @@ export function generateHowToData(name: string, description: string, steps: Arra
     totalTime: "PT30M", // 30 minutes default
     estimatedCost: {
       "@type": "MonetaryAmount",
-      currency: "GBP",
+      currency: "CHF",
       value: "0"
     }
   });
@@ -461,7 +504,7 @@ export function generateCanonicalUrl(path: string, domain = domainConfig.primary
 
 export function generateAlternateUrls(path: string) {
   return {
-    'en-GB': `${domainConfig.primaryUrl}${path}`,
+    'en-CH': `${domainConfig.primaryUrl}${path}`,
     'en-US': `${domainConfig.primaryUrl}${path}`,
     'en': `${domainConfig.primaryUrl}${path}`,
     'x-default': `${domainConfig.primaryUrl}${path}`,
@@ -483,22 +526,22 @@ export function generateLocalBusinessSchema(data: any = {}) {
   return {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    name: "RaiseSignal",
-    image: "https://www.raisesignal.uk/logo.svg",
-    "@id": "https://www.raisesignal.uk",
-    url: "https://www.raisesignal.uk",
-    telephone: "+447537126467",
+    name: "Aurum Ascend Capital",
+    image: "https://www.aurumascend.ch/logo.png",
+    "@id": "https://www.aurumascend.ch",
+    url: "https://www.aurumascend.ch",
+    telephone: "+41445881234",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "3 More London Riverside",
-      addressLocality: "London",
-      postalCode: "SE1 2RE",
-      addressCountry: "GB"
+      streetAddress: "Zurichstrasse 110",
+      addressLocality: "Zurich",
+      postalCode: "8008",
+      addressCountry: "CH"
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 51.5074,
-      longitude: -0.1278
+      latitude: 47.3769,
+      longitude: 8.5417
     },
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
@@ -507,8 +550,8 @@ export function generateLocalBusinessSchema(data: any = {}) {
       closes: "18:00"
     },
     sameAs: [
-      "https://linkedin.com/company/raisesignal",
-      "https://twitter.com/raisesignal"
+      "https://linkedin.com/company/aurumascend",
+      "https://twitter.com/aurumascend"
     ],
     ...data
   };

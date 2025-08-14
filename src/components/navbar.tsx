@@ -6,7 +6,6 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { CalendlyWidget } from '@/components/ui/calendly-widget';
 
 export function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -43,28 +42,28 @@ export function Navbar() {
 
 	return (
 		<nav
-			className="fixed top-0 w-full z-50 nav-glass"
+			className="fixed top-0 w-full z-50 nav-gold-elegant gold-accent-overlay"
 		>
 			<div className="max-w-7xl mx-auto px-6">
 				<div className="flex justify-between items-center h-16">
 					{/* Logo */}
 					<div className="flex-shrink-0">
-						<Link href="/" className="flex items-center gap-3 group">
-							<div className="relative w-8 h-8 group-hover:scale-110 transition-transform duration-300">
+						<Link href="/" className="flex items-center gap-3 group navbar-logo-link">
+							<div className="relative w-20 h-20 group-hover:scale-110 transition-transform duration-300">
 								<Image 
-									src="/logo.svg" 
-									alt="RaiseSignal Logo" 
-									width={32}
-									height={32}
-									className="w-8 h-8 object-contain"
+									src="/logo.png" 
+									alt="Aurum Ascend Capital Logo" 
+									width={34}
+									height={34}
+									className="w-20 h-20 object-contain"
 									priority
 									unoptimized
 								/>
 							</div>
 							<div className="flex flex-col">
 								<span className="text-lg text-primary">
-									<span className="font-bold">Raise</span>
-									<span className="font-light">Signal</span>
+									<span className="font-bold text-primary">Aurum</span>
+									<span className="font-bold text-accent-primary">Ascend</span>
 								</span>
 								<span className="text-xs text-secondary leading-none">Investment Platform</span>
 							</div>
@@ -83,11 +82,6 @@ export function Navbar() {
 							</Link>
 						))}
 						<div className="ml-6 flex items-center gap-3">
-							<CalendlyWidget 
-								text="Book Call" 
-								variant="link"
-								className="text-sm font-medium text-secondary hover:text-accent-primary transition-colors"
-							/>
 							<Link href="/apply">
 								<Button
 									className="btn btn-primary btn-small hover-glow"
@@ -127,11 +121,6 @@ export function Navbar() {
 								</Link>
 							))}
 							<div className="pt-3 sm:pt-4 space-y-2 sm:space-y-3 border-t border-glass">
-								<CalendlyWidget 
-									text="Book Call" 
-									variant="link"
-									className="flex w-full text-center py-2 text-sm font-medium text-secondary hover:text-accent-primary transition-colors min-h-[44px] items-center justify-center"
-								/>
 								<Link href="/apply" onClick={() => setIsOpen(false)} className="block w-full">
 									<Button className="btn btn-primary w-full min-h-[44px]">
 										Get Started

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "How It Works - Simple 3-Step Funding Process",
-  description: "Discover how RaiseSignal connects startups with investors in 3 simple steps: Apply, Match, Fund. Learn about our secure platform, verification process, and success stories from 10,000+ funded startups.",
+  description: "Discover how Aurum Ascend Capital connects startups with investors in 3 simple steps: Apply, Match, Fund. Learn about our secure platform, verification process, and success stories from 10,000+ funded startups.",
   keywords: [
-    "how raisesignal works",
+    "how aurum ascend capital works",
     "funding process",
     "startup investment process", 
     "investor matching",
@@ -16,22 +16,22 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "How It Works - Simple 3-Step Funding Process", 
-    description: "Discover how RaiseSignal connects startups with investors in 3 simple steps: Apply, Match, Fund. Learn about our secure platform and verification process.",
-    url: "https://www.raisesignal.uk/how-it-works",
+    description: "Discover how Aurum Ascend Capital connects startups with investors in 3 simple steps: Apply, Match, Fund. Learn about our secure platform and verification process.",
+    url: "https://www.aurumascend.ch/how-it-works",
     type: "website",
     images: [
       {
         url: "/og-how-it-works.png",
         width: 1200,
         height: 630,
-        alt: "How RaiseSignal Works - Funding Process",
+        alt: "How Aurum Ascend Capital Works - Funding Process",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "How It Works - Simple 3-Step Funding Process",
-    description: "Discover how RaiseSignal connects startups with investors in 3 simple steps: Apply, Match, Fund.",
+    description: "Discover how Aurum Ascend Capital connects startups with investors in 3 simple steps: Apply, Match, Fund.",
   },
   alternates: {
     canonical: "/how-it-works",

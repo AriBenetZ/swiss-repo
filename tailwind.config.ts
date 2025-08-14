@@ -77,6 +77,31 @@ const config: Config = {
         'accent-emerald': '#10B981',
         'accent-amber': '#F59E0B',
         'accent-red': '#EF4444',
+        
+        // Enhanced Gold Color Palette
+        'gold': {
+          50: '#FFFDF7',   // Cream white
+          100: '#FFF9E6',  // Light cream
+          200: '#FFF3CC',  // Pale gold
+          300: '#FFEB99',  // Light gold
+          400: '#FFE066',  // Medium gold
+          500: '#D4AF37',  // Rich gold (primary)
+          600: '#B8941F',  // Darker gold
+          700: '#9C7D1A',  // Deep gold
+          800: '#7A6115',  // Bronze gold
+          900: '#5C4910',  // Dark bronze
+        },
+        
+        // Champagne Variants
+        'champagne': {
+          100: '#F5F2E8',
+          200: '#E6B800',  // Champagne gold (secondary)
+          300: '#CC9900',
+          400: '#B38600',
+          500: '#997300',
+          600: '#806000',
+          700: '#664D00',
+        },
       },
       
       // Enhanced Shadow System for Dark Theme
@@ -233,6 +258,19 @@ const config: Config = {
         'wide': '0.025em',
         'wider': '0.05em',
         'widest': '0.1em',
+      },
+      
+      // Enhanced Font Weight System
+      fontWeight: {
+        'thin': '100',
+        'extralight': '200',
+        'light': '600',      // Override light to be semi-bold
+        'normal': '700',     // Override normal to be bold
+        'medium': '700',     // Make medium bold
+        'semibold': '700',   // Keep semibold as bold
+        'bold': '800',       // Make bold extra bold
+        'extrabold': '900',  // Keep extrabold
+        'black': '900',      // Keep black
       },
     },
   },

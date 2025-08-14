@@ -1,6 +1,6 @@
 /**
  * Error Handling System - Centralized Export
- * Complete error management solution for RaiseSignal
+ * Complete error management solution for Aurum Ascend Capital
  */
 
 import React from 'react';

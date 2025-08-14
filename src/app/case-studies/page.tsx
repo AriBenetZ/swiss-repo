@@ -51,7 +51,7 @@ export default function CaseStudiesPage() {
       sector: "Enterprise Software",
       fundingAmount: "€4.2M Series A",
       timeline: "9 months",
-      description: "London-based workforce analytics platform connected with German institutional investors to fund European expansion.",
+      description: "Zurich-based workforce analytics platform connected with German institutional investors to fund European expansion.",
       metrics: [
         { label: "ARR Growth", value: "280%" },
         { label: "Enterprise Clients", value: "450+" },
@@ -112,13 +112,12 @@ export default function CaseStudiesPage() {
             </div>
             
             <h1 className="hero-title heading-display mb-6">
-              Real Companies,{' '}
-              <span className="gradient-text">Real Results</span>
+              Growth-Stage Success Stories{' '}
+              <span className="gradient-text">From Europe's Leading Platform</span>
             </h1>
             
             <p className="hero-subtitle text-lead max-w-3xl mx-auto text-balance">
-              Discover how growth-stage companies have successfully raised capital and scaled 
-              their businesses through the <span className="font-bold">Raise</span><span className="font-light">Signal</span> platform.
+              Discover how European growth-stage companies have successfully raised institutional capital and scaled operations through proven investment platform expertise.
             </p>
           </div>
         </div>
@@ -144,11 +143,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="heading-section mb-6">
-              Featured Success Stories
+              European Growth-Stage Investment Success Stories
             </h2>
             <p className="text-lead max-w-3xl mx-auto">
-              These examples represent the types of deals facilitated through our platform. 
-              Specific details are protected under Non-Disclosure Agreements (NDAs).
+              Real examples of growth-stage companies that successfully raised institutional capital through our verified investor network. All company details are protected under strict confidentiality agreements.
             </p>
             <div className="mt-6 inline-flex items-center gap-2 glass-subtle px-4 py-2 rounded-full">
               <Target className="w-4 h-4 text-accent-primary" />
@@ -253,11 +251,10 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="heading-section mb-6">
-              Our Success Framework
+              Proven Growth-Stage Investment Framework
             </h2>
             <p className="text-lead max-w-3xl mx-auto">
-              Every successful funding round follows our proven framework for connecting 
-              growth-stage companies with the right institutional investors.
+              Our institutional-grade process connects verified growth-stage companies with qualified European investors through a proven four-step framework.
             </p>
           </div>
           
@@ -310,7 +307,7 @@ export default function CaseStudiesPage() {
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
               Join the growing number of companies that have successfully raised capital 
-              and scaled their businesses through <span className="font-bold">Raise</span><span className="font-light">Signal</span>.
+              and scaled their businesses through <span className="aurum-ascend-enhanced">Aurum Ascend</span>.
             </p>
             <div className="flex flex-row gap-4 justify-center items-center flex-wrap">
               <Button asChild size="lg" className="bg-white hover:bg-gray-100 font-semibold px-8 py-3 rounded-lg shadow-lg">

@@ -31,29 +31,29 @@ export default function CareersPage() {
     {
       title: "Senior Software Engineer",
       department: "Engineering",
-      location: "London, United Kingdom",
+      location: "Zurich, Switzerland",
       type: "Full-time",
       description: "Build and scale our investment platform infrastructure. Work with modern technologies including React, Node.js, and cloud platforms.",
       requirements: ["5+ years software development", "Experience with React/Node.js", "Fintech or financial services background preferred"],
-      salary: "£75,000 - £110,000"
+      salary: "CHF 120,000 - CHF 150,000"
     },
     {
       title: "Investment Analyst",
       department: "Investment Team",
-      location: "London, United Kingdom", 
+      location: "Zurich, Switzerland", 
       type: "Full-time",
       description: "Conduct due diligence on growth-stage companies and support our investment evaluation process.",
       requirements: ["3+ years investment analysis", "Financial modeling expertise", "Master's degree in Finance/Economics"],
-      salary: "£55,000 - £75,000"
+      salary: "CHF 90,000 - CHF 120,000"
     },
     {
       title: "Product Manager",
       department: "Product",
-      location: "London, United Kingdom",
+      location: "Zurich, Switzerland",
       type: "Full-time", 
       description: "Lead product strategy and development for our investment platform. Work closely with engineering and business teams.",
       requirements: ["4+ years product management", "B2B SaaS experience", "Technical background preferred"],
-      salary: "£65,000 - £90,000"
+      salary: "CHF 100,000 - CHF 130,000"
     },
     {
       title: "Business Development Manager",
@@ -101,12 +101,11 @@ export default function CareersPage() {
                 Join Our Team
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6">
-                Build the Future of
-                <span className="text-gradient"> Investment Platforms</span>
+                Build Europe's Leading
+                <span className="text-gradient"> Growth Investment Platform</span>
               </h1>
               <p className="text-xl text-secondary leading-relaxed mb-8">
-                Join a fast-growing fintech company that's transforming how growth-stage 
-                companies connect with institutional investors across Europe.
+                Join Europe's fastest-growing investment platform connecting growth-stage companies with institutional investors. Shape the future of fintech innovation across European markets.
               </p>
             </div>
             
@@ -136,11 +135,10 @@ export default function CareersPage() {
         <div ref={el => { if (el) sectionsRef.current[0] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-              Open Positions
+              Join Europe's Leading Investment Platform
             </h2>
             <p className="text-lg text-secondary max-w-3xl mx-auto">
-              We're looking for exceptional talent to join our mission of transforming 
-              growth-stage investment across Europe.
+              We're seeking exceptional talent to join our mission of connecting growth-stage companies with institutional investors across European markets.
             </p>
           </div>
           
@@ -253,7 +251,7 @@ export default function CareersPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-                Why Work at <span className="font-bold">Raise</span><span className="font-light">Signal</span>?
+                Why Work at <span className="aurum-ascend-enhanced">Aurum Ascend</span>?
               </h2>
               <div className="space-y-6">
                 <div>

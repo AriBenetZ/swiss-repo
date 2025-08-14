@@ -1,4 +1,4 @@
-# Error Handling System - RaiseSignal
+# Error Handling System - Aurum Ascend Capital
 
 ## Overview
 

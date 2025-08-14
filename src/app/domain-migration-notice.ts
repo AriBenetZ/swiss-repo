@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 // This tells Google about the domain migration from .nl to .uk
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.raisesignal.uk'
+  const baseUrl = 'https://www.aurumascend.ch'
   const lastModified = new Date()
 
   // Core pages with high priority

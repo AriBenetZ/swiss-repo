@@ -161,32 +161,32 @@ export default function ApplicationPage() {
               Application Received
             </h1>
             <p className="text-lead mb-8">
-              Thank you for submitting your funding application to RaiseSignal. Our institutional capital team will review your submission and respond within 48 hours.
+              Thank you for submitting your funding application to <span className="aurum-ascend-enhanced">Aurum Ascend</span>. Our investment team will review your submission and respond within 48 hours with next steps.
             </p>
             
             <div className="card-glass mb-8">
-              <h3 className="text-lg font-semibold text-primary mb-6">Next Steps in Our Process</h3>
+              <h3 className="text-lg font-semibold text-primary mb-6">Your Investment Process Journey</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="w-12 h-12 bg-accent-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Building2 className="h-6 w-6 text-accent-primary" />
                   </div>
-                  <h4 className="font-medium text-primary mb-2">Initial Review</h4>
-                  <p className="text-small text-secondary">Preliminary assessment within 24 hours</p>
+                  <h4 className="font-medium text-primary mb-2">Expert Review</h4>
+                  <p className="text-small text-secondary">Professional assessment within 48 hours</p>
                 </div>
                 <div className="text-center">
                   <div className="w-12 h-12 bg-accent-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Users className="h-6 w-6 text-accent-primary" />
                   </div>
-                  <h4 className="font-medium text-primary mb-2">Due Diligence</h4>
-                  <p className="text-small text-secondary">Investor matching and vetting process</p>
+                  <h4 className="font-medium text-primary mb-2">Investor Matching</h4>
+                  <p className="text-small text-secondary">Strategic matching with suitable investors</p>
                 </div>
                 <div className="text-center">
                   <div className="w-12 h-12 bg-accent-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
                     <TrendingUp className="h-6 w-6 text-accent-primary" />
                   </div>
-                  <h4 className="font-medium text-primary mb-2">Investor Presentation</h4>
-                  <p className="text-small text-secondary">Introduction to qualified investors</p>
+                  <h4 className="font-medium text-primary mb-2">Professional Introductions</h4>
+                  <p className="text-small text-secondary">Expert-facilitated investor meetings</p>
                 </div>
               </div>
             </div>
@@ -215,15 +215,14 @@ export default function ApplicationPage() {
           <div className="form-header text-center mb-6 sm:mb-12">
             <div className="inline-flex items-center gap-2 glass-subtle px-2 py-1 sm:px-4 sm:py-2 rounded-full mb-4 sm:mb-6">
               <Shield className="h-3 w-3 sm:h-4 sm:w-4 text-accent-primary" />
-              <span className="text-xs font-medium text-accent-primary">Institutional Capital Application • Confidential Process</span>
+              <span className="text-xs font-medium text-accent-primary">Professional Investment Application • Secure Process</span>
             </div>
             
             <h1 className="heading-display px-1 sm:px-0">
-              Apply for <span className="gradient-text">Growth Capital</span>
+              Apply for <span className="gradient-text">Institutional Funding</span>
             </h1>
             <p className="text-lead max-w-3xl mx-auto px-1 sm:px-0">
-              Begin your personal consultation with our London-based team. We'll review your application 
-              personally and arrange strategic introductions to institutional investors who truly understand your vision.
+              Submit your comprehensive funding application to connect with verified institutional investors. Our expert team will review your submission and match you with suitable investment partners.
             </p>
           </div>
 

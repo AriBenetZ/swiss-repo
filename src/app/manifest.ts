@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'RaiseSignal - Global Investment Platform',
-    short_name: 'RaiseSignal',
+    name: 'Aurum Ascend Capital - Global Investment Platform',
+    short_name: 'Aurum Ascend Capital',
     description: 'Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. Secure growth capital for your company through our global investment platform.',
     start_url: '/',
     display: 'standalone',
@@ -14,25 +14,25 @@ export default function manifest(): MetadataRoute.Manifest {
     lang: 'en',
     dir: 'ltr',
     scope: '/',
-    id: 'raisesignal-app',
+    id: 'aurumascend-app',
     display_override: ['standalone', 'browser'],
     icons: [
       {
-        src: '/logo.svg',
+        src: '/logo.png',
         sizes: 'any',
-        type: 'image/svg+xml',
+        type: 'image/png+xml',
         purpose: 'any'
       },
       {
-        src: '/logo.svg',
+        src: '/logo.png',
         sizes: '192x192',
-        type: 'image/svg+xml',
+        type: 'image/png+xml',
         purpose: 'maskable'
       },
       {
-        src: '/logo.svg',
+        src: '/logo.png',
         sizes: '512x512',
-        type: 'image/svg+xml',
+        type: 'image/png+xml',
         purpose: 'maskable'
       }
     ],
@@ -44,21 +44,21 @@ export default function manifest(): MetadataRoute.Manifest {
         short_name: 'Apply',
         description: 'Start your funding application',
         url: '/apply',
-        icons: [{ src: '/logo.svg', sizes: '96x96' }]
+        icons: [{ src: '/logo.png', sizes: '96x96' }]
       },
       {
         name: 'Browse Case Studies',
         short_name: 'Cases',
         description: 'View successful funding stories',
         url: '/case-studies',
-        icons: [{ src: '/logo.svg', sizes: '96x96' }]
+        icons: [{ src: '/logo.png', sizes: '96x96' }]
       },
       {
         name: 'Schedule Call',
         short_name: 'Schedule',
         description: 'Book a consultation call',
-        url: 'https://calendly.com/ari-raisesignal-68nf/30min',
-        icons: [{ src: '/logo.svg', sizes: '96x96' }]
+        url: '/contact',
+        icons: [{ src: '/logo.png', sizes: '96x96' }]
       }
     ]
   }
