@@ -1,34 +1,62 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Compress pages for better performance
+  // Server external packages (moved from experimental)
+  serverExternalPackages: ['sharp'],
+  
+  // Enable Next.js 15 stable features for better SEO and performance
+  experimental: {
+    optimizePackageImports: ['lucide-react', '@radix-ui/react-slot', 'framer-motion'],
+    // Note: typedRoutes not supported with Turbopack yet
+  },
+  
+  // Turbopack configuration (moved from experimental.turbo)
+  turbopack: {
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
+  },
+  
+  // Performance optimizations
   compress: true,
-  
-  // Enable trailing slash for consistent URLs
+  poweredByHeader: false, // Remove X-Powered-By header for security
   trailingSlash: false,
-  
-  // Generate static sitemaps at build time
   generateEtags: true,
   
-  // Optimize images for better SEO scores
+  // Advanced image optimization for 2025 Core Web Vitals
   images: {
-    formats: ['image/webp', 'image/avif'],
-    minimumCacheTTL: 60,
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.aurumascend.ch',
+      },
+      {
+        protocol: 'https',
+        hostname: 'aurumascend.ch',
+      },
+    ],
+    unoptimized: false,
   },
   
-  // Add security headers for better SEO trust signals
+  // Add advanced security and SEO headers for 2025 best practices
   async headers() {
     return [
       {
         source: '/(.*)',
         headers: [
+          // Security headers
           {
             key: 'X-Frame-Options',
-            value: 'SAMEORIGIN' // Changed from DENY to SAMEORIGIN for better compatibility
+            value: 'SAMEORIGIN'
           },
           {
             key: 'X-Content-Type-Options',
@@ -40,7 +68,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: 'Permissions-Policy',
-            value: 'camera=(), microphone=(), geolocation=()'
+            value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()'
           },
           {
             key: 'X-DNS-Prefetch-Control',
@@ -50,15 +78,37 @@ const nextConfig: NextConfig = {
             key: 'Strict-Transport-Security',
             value: 'max-age=31536000; includeSubDomains; preload'
           },
-          // Domain migration headers for Google
+          // SEO optimization headers
           {
             key: 'X-Robots-Tag',
-            value: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1',
+            value: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1, max-preview:-1'
           },
           {
             key: 'Link',
-            value: '<https://www.aurumascend.ch>; rel="canonical"',
+            value: '<https://www.aurumascend.ch>; rel="canonical"'
           },
+          // Performance headers
+          {
+            key: 'X-Response-Time',
+            value: '${Date.now()}'
+          },
+          {
+            key: 'Cross-Origin-Embedder-Policy',
+            value: 'require-corp'
+          },
+          {
+            key: 'Cross-Origin-Opener-Policy',
+            value: 'same-origin'
+          },
+          // SEO trust signals
+          {
+            key: 'X-Powered-By',
+            value: 'Aurum Ascend Capital'
+          },
+          {
+            key: 'Server',
+            value: 'AurumAscend/2025'
+          }
         ]
       },
       {
@@ -106,11 +156,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       }
     ];
-  },
-  
-  // Optimize for search engines
-  experimental: {
-    optimizePackageImports: ['lucide-react'],
   },
   
   // Bundle analyzer for performance optimization
