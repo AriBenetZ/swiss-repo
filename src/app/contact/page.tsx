@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
-import { CalendlyWidget } from '@/components/ui/calendly-widget';
 import { contactSchema, type ContactFormData } from '@/lib/validations';
 import {
   Mail,
@@ -163,12 +162,7 @@ export default function ContactPage() {
               Ready to accelerate your growth? Connect directly with our Zurich-based team for a personal consultation on institutional funding. We believe in building relationships, not just facilitating transactions.
             </p>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center items-center mt-4 sm:mt-6">
-              <CalendlyWidget 
-                text="Schedule a Call" 
-                url="https://calendly.com/aurum-ascend/30min"
-                className="btn-primary btn-large hover-glow"
-              />
-              <span className="text-small text-secondary">or fill out the form below</span>
+              <span className="text-small text-secondary">Schedule a call or fill out the form below</span>
             </div>
           </div>
         </div>
@@ -319,12 +313,8 @@ export default function ContactPage() {
                 Prefer to Talk Directly?
               </h3>
               <p className="text-body mb-6">
-                Schedule a 30-minute call with our founder to discuss your funding goals and explore how Aurum Ascend Capital can help accelerate your growth.
+                Schedule a 30-minute call with our founder to discuss your funding goals and explore how Aurum Ascend Capital can help accelerate your growth. Use the contact form above to get started.
               </p>
-              <CalendlyWidget 
-                text="Book a 30-Minute Call" 
-                className="btn-secondary btn-large hover-glow mx-auto"
-              />
             </div>
           </div>
         </div>

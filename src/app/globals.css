@@ -772,6 +772,15 @@ button, .btn {
   width: 100%;
 }
 
+/* Exclude navbar logo from underline effect */
+.navbar-logo-link::after {
+  display: none !important;
+}
+
+.navbar-logo-link:hover::after {
+  display: none !important;
+}
+
 /* Enhanced input and form styling */
 input, textarea, select {
   font-weight: 500 !important;
@@ -2379,10 +2388,6 @@ h3 .aurum-ascend-enhanced {
 }
 
 /* Navigation enhancements */
-nav a:hover {
-  color: var(--accent-primary) !important;
-  text-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
-}
 
 /* Form enhancements */
 input:focus,

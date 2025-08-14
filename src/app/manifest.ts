@@ -57,7 +57,7 @@ export default function manifest(): MetadataRoute.Manifest {
         name: 'Schedule Call',
         short_name: 'Schedule',
         description: 'Book a consultation call',
-        url: 'https://calendly.com/ari-aurumascend-68nf/30min',
+        url: '/contact',
         icons: [{ src: '/logo.png', sizes: '96x96' }]
       }
     ]

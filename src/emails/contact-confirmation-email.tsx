@@ -58,7 +58,7 @@ export const ContactConfirmationEmail = ({
           <Hr style={hr} />
 
           <Section style={buttonContainer}>
-            <Button style={button} href="https://calendly.com/aurum-ascend/30min">
+            <Button style={button} href="https://www.aurumascend.ch/contact">
               Schedule a Call
             </Button>
           </Section>

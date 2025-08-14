@@ -430,19 +430,19 @@ export default function AboutPage() {
               }}>
                 Apply for Funding <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-              <a
-                href="https://calendly.com/aurum-ascend/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-secondary btn-large"
-                style={{
-                  background: 'transparent',
-                  borderColor: 'rgba(255, 255, 255, 0.3)',
-                  color: 'white'
-                }}
-              >
-                Schedule a Call
-              </a>
+              <Link href="/contact">
+                <Button
+                  size="lg"
+                  className="btn btn-secondary btn-large"
+                  style={{
+                    background: 'transparent',
+                    borderColor: 'rgba(255, 255, 255, 0.3)',
+                    color: 'white'
+                  }}
+                >
+                  Schedule a Call
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

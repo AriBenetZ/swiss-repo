@@ -46,9 +46,8 @@ export function Footer() {
                   />
                 </div>
                 <div>
-                  <div className="text-lg text-primary">
-                    <span className="font-bold text-primary">Aurum</span>
-                    <span className="font-bold text-accent-primary">Ascend</span>
+                  <div className="text-lg text-primary font-bold">
+                    Aurum<span className="text-accent-primary">Ascend</span>
                   </div>
                   <div className="text-xs text-tertiary">Investment Platform</div>
                 </div>
@@ -153,7 +152,7 @@ export function Footer() {
             
             {/* Copyright */}
             <div className="text-sm text-secondary">
-              © {currentYear} <span className="font-bold text-primary">Aurum</span><span className="font-bold text-accent-primary">Ascend Capital</span>, SA. All rights reserved.
+              © {currentYear} <span className="font-bold">Aurum<span className="text-accent-primary">Ascend Capital</span></span>, SA. All rights reserved.
             </div>
 
             {/* Legal Notice */}

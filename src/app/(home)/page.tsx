@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { CalendlyWidget } from '@/components/ui/calendly-widget';
 import {
   CheckCircle,
   Shield,
@@ -328,11 +327,11 @@ export default function HomePage() {
                   Apply for Funding <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <CalendlyWidget 
-                text="Schedule a Call" 
-                url="https://calendly.com/aurum-ascend/30min"
-                className="btn btn-secondary w-full sm:w-auto btn-large"
-              />
+              <Link href="/contact">
+                <Button className="btn btn-secondary w-full sm:w-auto btn-large">
+                  Schedule a Call
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
