@@ -22,20 +22,63 @@ interface SEOConfig {
   alternateLocales?: string[];
 }
 
-// Enhanced keyword sets for better targeting
+// Enhanced keyword sets for 2025 SEO best practices
 export const coreKeywords = [
-  'startup funding',
-  'private investors',
-  'angel investors', 
-  'venture capital',
-  'investment platform',
-  'fundraising',
-  'seed funding',
-  'series A funding',
-  'series B funding',
-  'growth capital',
-  'startup capital',
-  'investor network',
+  // Primary business keywords
+  'institutional investment platform',
+  'verified investor network',
+  'B2B investment matching',
+  'startup funding solutions',
+  'growth capital platform',
+  'European investment services',
+  'venture capital connections',
+  'private equity introductions',
+  'investment facilitation',
+  'capital raising platform',
+  // Intent-based keywords
+  'how to raise capital',
+  'find institutional investors',
+  'startup funding process',
+  'investment platform benefits',
+  'verified investor access',
+  // Location + service keywords
+  'Swiss investment platform',
+  'European capital raising',
+  'Zurich investment services',
+  'DACH region funding',
+  'EU startup capital'
+];
+
+export const longTailKeywords = [
+  // Problem-solving keywords
+  'how to connect with institutional investors',
+  'best platform for startup funding',
+  'verified investor network access',
+  'professional investment introduction services',
+  'European growth capital solutions',
+  'institutional investor matching services',
+  'startup funding success rate',
+  'professional capital raising platform',
+  // Competitor comparison keywords
+  'alternative to AngelList',
+  'better than Crunchbase pro',
+  'professional investor platform',
+  'curated investor network',
+  'relationship-driven investment platform'
+];
+
+export const semanticKeywords = [
+  // Related terms for semantic SEO
+  'due diligence',
+  'investment criteria',
+  'funding rounds',
+  'cap table management',
+  'investor relations',
+  'financial projections',
+  'business valuation',
+  'term sheets',
+  'investment memorandum',
+  'pitch deck preparation'
 ];
 
 export function generateMetadata(config: SEOConfig): Metadata {
