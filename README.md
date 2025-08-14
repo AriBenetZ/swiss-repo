@@ -1,6 +1,33 @@
-# Aurum Ascend Capital - Connect Founders & Investors
+# Aurum Ascend - Relationship-Driven Investment Matchmaking
 
-A professional Next.js 15 website that connects project owners with private investors. Built with modern technologies and best practices.
+A premier investment matchmaking platform that connects growth-stage companies with institutional investors through personal relationships, not database algorithms. The relationship-driven alternative to traditional platforms.
+
+## 🎯 Core Business Model
+
+**What Aurum Ascend Does:**
+
+- **Investment Matchmaking**: Connect companies ($5M to $200M+ funding) with verified institutional investors
+- **Personal Relationships**: Every introduction comes from established investor relationships, not database matching
+- **Global Network**: 500+ verified investors across 25+ countries (VCs, PE funds, family offices, strategic corporates)
+- **Senior Team Access**: Direct access to senior team members throughout the process—no junior staff handling your journey
+- **Success-Only Model**: No upfront fees—only charge success fees when funding is completed
+- **82% Success Rate**: Achieve 4x the industry average (15-20%) through relationship-driven approach
+
+**What We DON'T Do:**
+
+- ❌ No database matching or automated algorithms
+- ❌ No upfront fees or monthly subscriptions
+- ❌ No junior staff handling client relationships
+- ❌ No spray-and-pray investor outreach
+- ❌ No one-size-fits-all approach
+
+## 🚀 Our Process (8-12 weeks total)
+
+1. **Personal Consultation & Assessment** (1-2 weeks) - Direct consultation with senior team
+2. **Strategic Investor Matching** (2-3 weeks) - Manual matching with 3-5 highly relevant investors
+3. **Context-Rich Introductions** (1 week) - Personal introductions leveraging our relationships
+4. **Due Diligence & Deal Support** (4-6 weeks) - Hands-on support through closing
+5. **Funding Completion & Partnership** - Ongoing support for future rounds
 
 ## ✨ Features Complete
 
@@ -112,17 +139,28 @@ src/
 - **Forms**: Consistent styling with validation states
 - **Layout**: Grid-based with proper spacing
 
-## 🚀 Demo Features
+## 🚀 Key Differentiators
 
-This is a fully functional demo showcasing:
+**Relationship-Driven Approach:**
 
-- **Complete UI/UX**: All pages designed and implemented
-- **Form Validation**: Real-time validation with error handling
-- **Animations**: Smooth GSAP animations throughout
-- **Responsive Design**: Works perfectly on all devices
-- **Professional Styling**: Modern 2025 design with glass morphism
-- **Console Logging**: All form submissions log to browser console
-- **Visual Feedback**: Success/error states for all interactions
+- Personal investor relationships built over years, not database searches
+- Context-rich introductions explaining why matches are perfect for both parties
+- Senior team members handle all client interactions—no junior staff or account managers
+- Multi-round partnerships that evolve with your business growth
+
+**Proven Results:**
+
+- 82% success rate vs 15-20% industry average
+- 8-12 week process from consultation to funding completion
+- 500+ verified institutional investors across 25+ countries
+- 48-hour response times for personal consultations
+
+**Success-Aligned Model:**
+
+- No upfront fees—only success fees when funding completes
+- Technology enhances human connections, doesn't replace them
+- Built by entrepreneurs who understand fundraising challenges firsthand
+- Long-term partnership approach beyond single transactions
 
 Perfect for showcasing to clients or as a portfolio piece!
 

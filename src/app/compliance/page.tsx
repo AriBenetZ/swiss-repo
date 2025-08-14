@@ -14,19 +14,18 @@ export default function CompliancePage() {
               <FileText className="w-4 h-4 text-accent-secondary" />
               <span className="text-small font-medium text-secondary">Regulatory Compliance</span>
             </div>
-            <h1 className="heading-display mb-4">Compliance & Regulatory Information</h1>
+            <h1 className="heading-display mb-4">European Investment Platform Compliance</h1>
             <p className="text-lead text-secondary">
-              <span className="aurum-ascend-enhanced">Aurum Ascend</span> maintains the highest standards of regulatory compliance and security
+              <span className="aurum-ascend-enhanced">Aurum Ascend</span> operates under strict European financial regulations with institutional-grade security and compliance standards
             </p>
           </div>
 
           {/* Compliance Overview */}
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <Card className="card glass-card p-6 hover-lift">
-              <h3 className="font-semibold text-primary mb-3">FINRA Registration</h3>
+              <h3 className="font-semibold text-primary mb-3">European Investment Services</h3>
               <p className="text-secondary text-sm mb-4">
-                <span className="aurum-ascend-enhanced">Aurum Ascend</span> operates under FINRA regulations as a registered broker-dealer, 
-                ensuring compliance with securities laws and investor protection standards.
+                <span className="aurum-ascend-enhanced">Aurum Ascend</span> operates as a licensed investment platform under European financial regulations, ensuring institutional-grade investor protection and market compliance.
               </p>
               <Button variant="outline" size="sm" className="btn-secondary">
                 View FINRA Record
@@ -35,10 +34,9 @@ export default function CompliancePage() {
             </Card>
             
             <Card className="card glass-card p-6 hover-lift">
-              <h3 className="font-semibold text-primary mb-3">SOC 2 Type II</h3>
+              <h3 className="font-semibold text-primary mb-3">Institutional Security Standards</h3>
               <p className="text-secondary text-sm mb-4">
-                Independently audited and certified for security, availability, processing integrity, 
-                confidentiality, and privacy controls.
+                Independently audited SOC 2 Type II compliance ensures institutional-grade security, data protection, and operational controls for growth-stage investment platform operations.
               </p>
               <Button variant="outline" size="sm" className="btn-secondary">
                 Download Report

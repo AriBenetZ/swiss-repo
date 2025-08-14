@@ -101,12 +101,11 @@ export default function CareersPage() {
                 Join Our Team
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6">
-                Build the Future of
-                <span className="text-gradient"> Investment Platforms</span>
+                Build Europe's Leading
+                <span className="text-gradient"> Growth Investment Platform</span>
               </h1>
               <p className="text-xl text-secondary leading-relaxed mb-8">
-                Join a fast-growing fintech company that's transforming how growth-stage 
-                companies connect with institutional investors across Europe.
+                Join Europe's fastest-growing investment platform connecting growth-stage companies with institutional investors. Shape the future of fintech innovation across European markets.
               </p>
             </div>
             
@@ -136,11 +135,10 @@ export default function CareersPage() {
         <div ref={el => { if (el) sectionsRef.current[0] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-              Open Positions
+              Join Europe's Leading Investment Platform
             </h2>
             <p className="text-lg text-secondary max-w-3xl mx-auto">
-              We're looking for exceptional talent to join our mission of transforming 
-              growth-stage investment across Europe.
+              We're seeking exceptional talent to join our mission of connecting growth-stage companies with institutional investors across European markets.
             </p>
           </div>
           

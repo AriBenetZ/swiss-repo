@@ -139,13 +139,11 @@ export default function TeamPage() {
                 Our Team
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6">
-                Meet the People Behind
-                <span className="gradient-text aurum-ascend-enhanced">Aurum Ascend Capital</span>
+                Meet Europe's Leading
+                <span className="gradient-text aurum-ascend-enhanced">Growth Investment Team</span>
               </h1>
               <p className="text-xl text-secondary leading-relaxed mb-8">
-                Our compact, experienced team has been working together since 2019 to provide personal, 
-                white-glove service to founders and investors. Every client works directly with senior team 
-                members—no junior staff or account managers between you and decision-makers.
+                Our experienced team of investment professionals connects growth-stage companies with institutional investors across Europe. With deep expertise in fintech, SaaS, and enterprise technology, we deliver personalized service that drives results.
               </p>
             </div>
             
@@ -175,12 +173,10 @@ export default function TeamPage() {
         <div ref={el => { if (el) sectionsRef.current[0] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-              Our Team
+              Expert Investment Professionals
             </h2>
             <p className="text-lg text-secondary max-w-3xl mx-auto">
-              Our core team combines complementary expertise in finance, technology, and operations 
-              to deliver focused, high-quality service. We believe in building lasting relationships—
-              your success becomes our reputation, and every interaction is treated with the attention it deserves.
+              Our team combines deep financial markets expertise with technology innovation to deliver exceptional results for growth-stage companies and institutional investors across European markets.
             </p>
           </div>
           
@@ -228,11 +224,10 @@ export default function TeamPage() {
         <div ref={el => { if (el) sectionsRef.current[1] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6">
-              Our Approach
+              Why Leading Companies Choose Us
             </h2>
             <p className="text-lg text-secondary max-w-3xl mx-auto">
-              We've built our business on the principles that matter most to growing companies 
-              and institutional investors.
+              Our proven approach combines deep market expertise with personalized service to deliver exceptional results for growth-stage companies and institutional investors.
             </p>
           </div>
           

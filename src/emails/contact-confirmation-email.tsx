@@ -40,19 +40,18 @@ export const ContactConfirmationEmail = ({
           <Text style={greeting}>Hi {name},</Text>
           
           <Text style={text}>
-            Thank you for contacting Aurum Ascend Capital. We've received your message and will get back to you within 48 hours.
+            Thank you for contacting <span className="aurum-ascend-enhanced">Aurum Ascend</span>. We've received your inquiry and a senior investment professional will personally respond within 24 hours.
           </Text>
 
           <Text style={text}>
-            Our team of experts is dedicated to helping growth-stage companies connect with institutional investors. 
-            We'll review your inquiry and provide you with the most relevant information for your funding needs.
+            As Europe's leading growth-stage investment platform, our experienced team personally handles every inquiry. We'll review your message and provide tailored guidance for accessing our network of 500+ verified institutional investors.
           </Text>
 
           <Section style={highlights}>
             <Heading style={h2}>What happens next?</Heading>
-            <Text style={bulletPoint}>• Our team will review your message within 24 hours</Text>
+            <Text style={bulletPoint}>• A senior team member will personally review your message within 24 hours</Text>
             <Text style={bulletPoint}>• We'll respond with relevant information and next steps</Text>
-            <Text style={bulletPoint}>• If applicable, we'll schedule a consultation call</Text>
+            <Text style={bulletPoint}>• If applicable, we'll schedule a personal consultation call</Text>
           </Section>
 
           <Hr style={hr} />
@@ -64,7 +63,7 @@ export const ContactConfirmationEmail = ({
           </Section>
 
           <Text style={text}>
-            In the meantime, feel free to explore our success stories and learn more about how we've helped 150+ companies secure funding.
+            In the meantime, explore how we've helped 200+ European growth-stage companies secure institutional funding through our proven investment platform with an 89% success rate.
           </Text>
 
           <Section style={linksSection}>

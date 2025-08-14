@@ -43,7 +43,7 @@ export const ApplicationConfirmationEmail = ({
           
           <Text style={text}>
             Thank you for submitting your funding application for <strong>{company}</strong>. 
-            We've received your application and our team will begin the review process immediately.
+            Unlike database platforms, our senior team will personally review your application and begin identifying the right investor relationships for your business.
           </Text>
 
           <Section style={processSection}>
@@ -52,9 +52,9 @@ export const ApplicationConfirmationEmail = ({
             <Section style={step}>
               <Text style={stepNumber}>1</Text>
               <div>
-                <Text style={stepTitle}>Initial Review (48 hours)</Text>
+                <Text style={stepTitle}>Personal Review by Senior Team (48 hours)</Text>
                 <Text style={stepDescription}>
-                  Our team will conduct an initial assessment of your application and company profile.
+                  Our senior team will personally review your application and assess investor readiness—no junior staff or automated screening.
                 </Text>
               </div>
             </Section>
@@ -62,9 +62,9 @@ export const ApplicationConfirmationEmail = ({
             <Section style={step}>
               <Text style={stepNumber}>2</Text>
               <div>
-                <Text style={stepTitle}>Due Diligence (1-2 weeks)</Text>
+                <Text style={stepTitle}>Personal Consultation (1-2 weeks)</Text>
                 <Text style={stepDescription}>
-                  We'll verify your company information and prepare materials for investor presentation.
+                  Direct consultation with our senior team to understand your business and funding needs in detail.
                 </Text>
               </div>
             </Section>
@@ -72,9 +72,9 @@ export const ApplicationConfirmationEmail = ({
             <Section style={step}>
               <Text style={stepNumber}>3</Text>
               <div>
-                <Text style={stepTitle}>Investor Matching (2-4 weeks)</Text>
+                <Text style={stepTitle}>Relationship-Based Matching (2-3 weeks)</Text>
                 <Text style={stepDescription}>
-                  We'll connect you with relevant institutional investors from our global network.
+                  We'll identify 3-5 perfect investor matches from our personal network of 500+ verified institutional investors.
                 </Text>
               </div>
             </Section>
@@ -82,28 +82,28 @@ export const ApplicationConfirmationEmail = ({
             <Section style={step}>
               <Text style={stepNumber}>4</Text>
               <div>
-                <Text style={stepTitle}>Funding Process (8-12 weeks)</Text>
+                <Text style={stepTitle}>Personal Introductions & Support (4-6 weeks)</Text>
                 <Text style={stepDescription}>
-                  We'll support you through negotiations and closing with institutional partners.
+                  Context-rich introductions leveraging our relationships, plus hands-on support through due diligence and closing.
                 </Text>
               </div>
             </Section>
           </Section>
 
           <Section style={statsSection}>
-            <Heading style={h2}>Our Track Record</Heading>
+            <Heading style={h2}>Why We're Different</Heading>
             <div style={statsGrid}>
               <div style={statItem}>
-                <Text style={statNumber}>150+</Text>
-                <Text style={statLabel}>Successful Deals</Text>
+                <Text style={statNumber}>82%</Text>
+                <Text style={statLabel}>Success Rate</Text>
               </div>
               <div style={statItem}>
-                <Text style={statNumber}>25+</Text>
-                <Text style={statLabel}>Countries</Text>
+                <Text style={statNumber}>500+</Text>
+                <Text style={statLabel}>Verified Investors</Text>
               </div>
               <div style={statItem}>
-                <Text style={statNumber}>8-12 weeks</Text>
-                <Text style={statLabel}>Average Timeline</Text>
+                <Text style={statNumber}>No Junior Staff</Text>
+                <Text style={statLabel}>Senior Team Only</Text>
               </div>
             </div>
           </Section>

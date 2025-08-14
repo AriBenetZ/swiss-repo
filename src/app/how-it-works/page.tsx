@@ -62,106 +62,106 @@ export default function HowItWorksPage() {
     {
       step: "01",
       icon: <FileText className="h-8 w-8 text-accent" />,
-      title: "Personal Business Understanding",
-      description: "We take time to deeply understand your business, vision, and growth plans through personal conversations—not just forms and documents.",
+      title: "Personal Consultation & Assessment",
+      description: "Direct consultation with our senior team to understand your business, funding needs, and investor-readiness. No automated screening or junior staff—only experienced professionals.",
       details: [
-        "One-on-one founder consultation",
-        "Business model deep dive",
-        "Growth strategy discussion",
-        "Personal vision alignment"
+        "One-on-one founder consultation with senior team",
+        "Investment readiness assessment and guidance",
+        "Business model and growth strategy review",
+        "Personal funding journey planning"
       ],
-      duration: "24-48 hours"
+      duration: "1-2 weeks"
     },
     {
       step: "02",
       icon: <Search className="h-8 w-8 text-accent" />,
-      title: "Relationship-Based Matching",
-      description: "Using our personal knowledge of both your business and our investor relationships, we identify the perfect fit beyond just criteria matching.",
+      title: "Strategic Investor Matching",
+      description: "Manual matching with 3-5 highly relevant investors from our personal network. We consider sector expertise, stage preferences, ticket size, and cultural fit—not database algorithms.",
       details: [
-        "Personal investor relationships",
-        "Cultural fit assessment",
-        "Strategic value alignment",
-        "Long-term partnership potential"
+        "Personal investor relationship leverage",
+        "Sector expertise and stage alignment",
+        "Cultural and strategic fit assessment",
+        "Long-term partnership potential evaluation"
       ],
-      duration: "48-72 hours"
+      duration: "2-3 weeks"
     },
     {
       step: "03",
       icon: <Users className="h-8 w-8 text-accent" />,
-      title: "Thoughtful Introductions",
-      description: "Personal introductions to investors we know will be genuinely interested, with context about why this is a perfect match for both parties.",
+      title: "Context-Rich Introductions",
+      description: "Personal introductions leveraging our established relationships. We provide context about why this is a perfect match, including your unique value and the investor's strategic interests.",
       details: [
-        "Personal relationship leverage",
-        "Context-rich introductions",
-        "Pre-conversation preparation",
-        "Ongoing relationship facilitation"
+        "Relationship-based introductions, not cold outreach",
+        "Context-rich communication explaining the fit",
+        "Pre-meeting preparation for both parties",
+        "Ongoing facilitation throughout discussions"
       ],
       duration: "1 week"
     },
     {
       step: "04",
       icon: <Handshake className="h-8 w-8 text-accent" />,
-      title: "Due Diligence Process",
-      description: "Structured due diligence with standardized documentation and legal support throughout the process.",
+      title: "Due Diligence & Deal Support",
+      description: "Hands-on support through investor meetings, due diligence processes, and term negotiations. We facilitate discussions and help structure deals that work for both parties.",
       details: [
-        "Document room setup",
-        "Legal review support",
-        "Financial verification",
-        "Reference checks"
+        "Investor meeting facilitation and preparation",
+        "Due diligence process guidance and support",
+        "Term sheet review and negotiation assistance",
+        "Deal structuring and closing coordination"
       ],
-      duration: "2-4 weeks"
+      duration: "4-6 weeks"
     },
     {
       step: "05",
       icon: <DollarSign className="h-8 w-8 text-accent" />,
-      title: "Term Negotiation & Closing",
-      description: "Facilitated negotiations with legal guidance and market-standard term optimization for successful closure.",
+      title: "Funding Completion & Ongoing Partnership",
+      description: "Support through final documentation and closing. Continue working together for future funding rounds as your business grows and needs evolve.",
       details: [
-        "Term sheet review",
-        "Legal documentation",
-        "Closing coordination",
-        "Capital transfer"
+        "Closing process coordination and support",
+        "Legal documentation assistance",
+        "Post-funding relationship management",
+        "Future round planning and preparation"
       ],
-      duration: "2-3 weeks"
+      duration: "1-2 weeks"
     }
   ];
 
   const benefits = [
     {
       icon: <Shield className="h-6 w-6 text-accent" />,
-      title: "Institutional-Grade Security",
-      metric: "SOC 2 Compliant",
-      description: "Bank-level encryption and compliance standards protect all stakeholder information."
+      title: "No Database Matching",
+      metric: "Personal Relationships",
+      description: "Every introduction comes from our established investor relationships, not automated algorithms."
     },
     {
       icon: <Clock className="h-6 w-6 text-accent" />,
-      title: "Accelerated Timeline", 
-      metric: "60% Faster",
-      description: "Streamlined process reduces average time-to-funding from 6+ months to 8-12 weeks."
+      title: "Senior Team Access", 
+      metric: "No Junior Staff",
+      description: "Direct access to experienced decision-makers throughout your entire funding journey."
     },
     {
       icon: <TrendingUp className="h-6 w-6 text-accent" />,
-      title: "Higher Success Rate",
-      metric: "3.2x Better",
-      description: "Data-driven matching increases funding success rates compared to traditional methods."
+      title: "82% Success Rate",
+      metric: "4x Industry Average",
+      description: "Relationship-driven approach achieves funding success rates 4x higher than traditional platforms."
     },
     {
       icon: <Building2 className="h-6 w-6 text-accent" />,
-      title: "Quality Investor Network",
-      metric: "Investors",
-      description: "Access to verified institutional investors, family offices, and strategic partners."
+      title: "500+ Verified Investors",
+      metric: "Quality Network",
+      description: "Access to institutional investors, family offices, and strategic partners across 25+ countries."
     },
     {
       icon: <Target className="h-6 w-6 text-accent" />,
-      title: "Precision Matching",
-      metric: "AI-Powered",
-      description: "Advanced algorithms ensure optimal investor-startup fit based on multiple criteria."
+      title: "Context-Rich Introductions",
+      metric: "Personal Touch",
+      description: "Meaningful introductions with context about why this is a perfect match for both parties."
     },
     {
       icon: <Award className="h-6 w-6 text-accent" />,
-      title: "Success-Based Fees",
-      metric: "No Risk",
-      description: "Pay only when you successfully close funding. Aligned incentives for mutual success."
+      title: "Success-Only Fees",
+      metric: "Aligned Incentives",
+      description: "We only get paid when you successfully close funding. Your success is our success."
     }
   ];
 
@@ -207,7 +207,7 @@ export default function HowItWorksPage() {
             {/* Trust Badge */}
             <div className="hero-badge inline-flex items-center px-2 py-1 sm:px-4 sm:py-2 rounded-full glass-subtle">
               <Zap className="h-3 w-3 sm:h-4 sm:w-4 text-accent-secondary mr-1 sm:mr-2" />
-              <span className="text-xs sm:text-sm font-medium text-secondary">Proven Process • 450+ Successful Deals</span>
+              <span className="text-xs sm:text-sm font-medium text-secondary">Professional Investment Process • Proven Results</span>
             </div>
 
             {/* Hero Content */}
@@ -218,11 +218,11 @@ export default function HowItWorksPage() {
               
               <div className="space-y-3 sm:space-y-4">
                 <p className="hero-subtitle text-lead text-balance max-w-3xl mx-auto px-1 sm:px-0">
-                  A personal, relationship-driven approach that connects ambitious founders with the right institutional partners through trusted introductions.
+                  Professional investment matchmaking process connecting growth-stage companies with institutional investors through expert guidance and proven methodologies.
                 </p>
                 
                 <p className="text-body text-muted mb-12 max-w-2xl mx-auto">
-                  From personal consultation to successful funding in 8-12 weeks through our bespoke, white-glove service.
+                  From initial consultation to successful funding completion in 8-12 weeks. Expert support, verified investors, proven results.
                 </p>
                 
                 <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
@@ -244,10 +244,10 @@ export default function HowItWorksPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="heading-section text-balance">
-              Our Proven 5-Step Process
+              Professional Investment Process
             </h2>
             <p className="text-lead max-w-3xl mx-auto">
-              A systematic approach designed to maximize your funding success while minimizing time and effort.
+              Our proven 5-step investment process guides you from initial consultation to successful funding completion with expert support at every stage.
             </p>
           </div>
           

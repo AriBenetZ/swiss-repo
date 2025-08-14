@@ -91,21 +91,21 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: <Mail className="h-6 w-6" />,
-      title: "Business Inquiries",
+      title: "Investment Inquiries",
       content: "info@aurumascend.ch",
-      description: "For funding applications and business partnerships",
+      description: "For funding applications and investment consultation",
       href: "mailto:info@aurumascend.ch"
     },
     {
       icon: <Phone className="h-6 w-6" />,
-      title: "Direct Line",
+      title: "Direct Consultation Line",
       content: "+41 44 555 0123",
       description: "Available Monday to Friday, 9 AM - 6 PM CET",
       href: "tel:+41445550123"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
-      title: "Headquarters",
+      title: "Swiss Headquarters",
       content: "Bahnhofstrasse 100, 8001 Zurich",
       description: "Switzerland - Central European Time",
       href: "https://maps.google.com/?q=Bahnhofstrasse+100,+8001+Zurich,+Switzerland"
@@ -114,7 +114,7 @@ export default function ContactPage() {
       icon: <Clock className="h-6 w-6" />,
       title: "Response Time",
       content: "Within 48 hours",
-      description: "We review all inquiries personally"
+      description: "Professional review of all investment inquiries"
     }
   ];
 
@@ -152,17 +152,17 @@ export default function ContactPage() {
           <div className="text-center">
             <div className="inline-flex items-center gap-2 glass-subtle px-2 py-1 sm:px-4 sm:py-2 rounded-full mb-4 sm:mb-6">
               <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4 text-accent-secondary" />
-              <span className="text-xs sm:text-small font-medium text-accent-secondary">Available Mon-Fri • Response Within 48 Hours CET</span>
+              <span className="text-xs sm:text-small font-medium text-accent-secondary">Professional Investment Consultation • 48-Hour Response</span>
             </div>
             <h1 className="heading-display px-1 sm:px-0">
-              Connect with Our{' '}
-              <span className="gradient-text">Investment Partners</span>
+              Get Expert{' '}
+              <span className="gradient-text">Investment Guidance</span>
             </h1>
             <p className="text-lead max-w-2xl mx-auto text-balance px-1 sm:px-0">
-              Ready to accelerate your growth? Connect directly with our Zurich-based team for a personal consultation on institutional funding. We believe in building relationships, not just facilitating transactions.
+              Connect with our experienced investment team for professional consultation on institutional funding opportunities. We provide expert guidance throughout your funding journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center items-center mt-4 sm:mt-6">
-              <span className="text-small text-secondary">Schedule a call or fill out the form below</span>
+              <span className="text-small text-secondary">Schedule a consultation or fill out the form below</span>
             </div>
           </div>
         </div>
@@ -176,10 +176,10 @@ export default function ContactPage() {
             <div>
               <div className="max-w-xl">
                 <h2 className="heading-section">
-                  Start the Conversation
+                  Request Investment Consultation
                 </h2>
                 <p className="text-body mb-8">
-                  Tell us about your business and funding goals. We'll arrange a personal consultation to discuss how our investor relationships can support your growth journey.
+                  Tell us about your business and funding requirements. Our expert team will review your information and provide personalized guidance on institutional investment opportunities.
                 </p>
 
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">

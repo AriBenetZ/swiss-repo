@@ -67,12 +67,11 @@ export default function PressPage() {
                 Press & Media
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-neutral-900 leading-tight mb-6">
-                Latest News &
+                Investment Platform News &
                 <span className="text-gradient"> Media Resources</span>
               </h1>
               <p className="text-xl text-neutral-600 leading-relaxed mb-8">
-                Stay updated with the latest news, announcements, and media resources 
-                from Aurum Ascend Capital's journey in European growth-stage investment.
+                Latest news, announcements, and media resources from Europe's leading growth-stage investment platform. Track our journey connecting companies with institutional investors.
               </p>
             </div>
             
@@ -95,10 +94,10 @@ export default function PressPage() {
         <div ref={el => { if (el) sectionsRef.current[0] = el; }} className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-neutral-900 mb-6">
-              Recent News & Announcements
+              European Investment Platform Updates
             </h2>
             <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
-              Latest updates on company milestones, platform developments, and industry insights.
+              Company milestones, platform developments, and growth-stage investment insights from Europe's leading institutional investor network.
             </p>
           </div>
           

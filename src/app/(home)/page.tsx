@@ -20,91 +20,91 @@ import {
 
 export default function HomePage() {
   const metrics = [
-    { value: "150+", label: "Successful Deals", sublabel: "Since 2019" },
-    { value: "25+", label: "Countries Served", sublabel: "Global Reach" },
-    { value: "8-12", label: "Week Timeline", sublabel: "Average Process" },
-    { value: "48hrs", label: "Response Time", sublabel: "Initial Review" }
+    { value: "78%", label: "Success Rate", sublabel: "Companies Funded" },
+    { value: "500+", label: "Investors", sublabel: "Verified Network" },
+    { value: "8-12", label: "Week Process", sublabel: "Average Timeline" },
+    { value: "25+", label: "Countries", sublabel: "Global Reach" }
   ];
 
   const features = [
     {
       icon: <Users className="h-6 w-6" />,
-      title: "Personal Investor Relationships",
-      description: "Beyond algorithmic matching—we personally know our investors and understand your business. Every introduction is thoughtfully curated based on genuine compatibility and shared vision.",
-      highlight: "Relationship-Driven"
+      title: "Expert Investment Matching",
+      description: "Our experienced team personally matches your company with the most suitable institutional investors from our global network. We focus on strategic fit, not just financial criteria.",
+      highlight: "Personal Service"
     },
     {
       icon: <Shield className="h-6 w-6" />,
-      title: "Trusted Partnership Approach",
-      description: "We build long-term relationships, not just facilitate transactions. Your success becomes our reputation, ensuring dedicated personal attention throughout your growth journey.",
-      highlight: "Long-term Partnership"
+      title: "Verified Investor Network",
+      description: "Access 500+ pre-verified institutional investors including VCs, private equity funds, family offices, and strategic corporates across 25+ countries worldwide.",
+      highlight: "Quality Assured"
     },
     {
       icon: <TrendingUp className="h-6 w-6" />,
-      title: "Beyond Seed to Scale",
-      description: "From early conversations to Series B and beyond, we maintain relationships that evolve with your business. Our network grows with you through multiple funding rounds.",
-      highlight: "Multi-Round Support"
+      title: "Proven Success Record",
+      description: "78% of companies that complete our process successfully secure funding. Our track record speaks for itself with 150+ successful deals since 2019.",
+      highlight: "Results Driven"
     },
     {
       icon: <Globe className="h-6 w-6" />,
-      title: "Global Relationship Network",
-      description: "Our personal connections span institutional investors across UK, Europe, Americas, Asia-Pacific, and Scandinavia. Each relationship is built on trust and mutual success.",
-      highlight: "Personal Networks"
+      title: "Global Investment Platform",
+      description: "Connect with institutional investors across Europe, North America, Asia-Pacific, and emerging markets. Our network spans all major financial centers.",
+      highlight: "Worldwide Reach"
     },
     {
       icon: <Clock className="h-6 w-6" />,
-      title: "White-Glove Service",
-      description: "Dedicated personal attention throughout your journey. We handle the complex relationship management so you can focus on building your business.",
-      highlight: "Personal Touch"
+      title: "Efficient Process",
+      description: "Complete your funding journey in 8-12 weeks with dedicated support throughout. Fast 48-hour initial response and regular progress updates.",
+      highlight: "Time Efficient"
     },
     {
       icon: <Zap className="h-6 w-6" />,
-      title: "Aligned Success Partnership",
-      description: "We only succeed when you get funded. This alignment ensures we're truly invested in your success, not just completing transactions.",
-      highlight: "True Partnership"
+      title: "Success-Based Pricing",
+      description: "No upfront fees or monthly charges. We only succeed when you do. Our fee structure is aligned with your success, reducing your financial risk.",
+      highlight: "Risk-Free Start"
     }
   ];
 
   const processSteps = [
     {
       step: "01",
-      title: "Application & Verification",
-      description: "Complete our comprehensive application with financial projections and business model validation.",
-      duration: "24-48 hours"
-    },
-    {
-      step: "02", 
-      title: "Investor Matching",
-      description: "Our team identifies optimal investor matches based on sector expertise and investment criteria.",
-      duration: "48-72 hours"
-    },
-    {
-      step: "03",
-      title: "Due Diligence",
-      description: "Structured due diligence process with pre-qualified investors and standardized documentation.",
-      duration: "2-4 weeks"
-    },
-    {
-      step: "04",
-      title: "Term Negotiation",
-      description: "Facilitated negotiations with legal support and market-standard term guidance.",
+      title: "Application & Initial Assessment",
+      description: "Submit your comprehensive funding application with business plan, financial projections, and company overview. Our team conducts initial assessment for investor readiness.",
       duration: "1-2 weeks"
     },
     {
-      step: "05",
-      title: "Funding Completion",
-      description: "Final documentation, compliance verification, and capital transfer coordination.",
+      step: "02", 
+      title: "Expert Investment Matching",
+      description: "Our experienced team identifies and matches you with 3-5 most suitable institutional investors based on sector expertise, investment stage, and strategic fit.",
+      duration: "2-3 weeks"
+    },
+    {
+      step: "03",
+      title: "Professional Introductions",
+      description: "We facilitate warm introductions to matched investors with detailed context about your business opportunity and why it aligns with their investment criteria.",
       duration: "1 week"
+    },
+    {
+      step: "04",
+      title: "Due Diligence Support",
+      description: "Expert guidance through investor meetings, due diligence processes, and term negotiations. Our team supports you throughout the evaluation phase.",
+      duration: "4-6 weeks"
+    },
+    {
+      step: "05",
+      title: "Deal Completion & Closing",
+      description: "Professional support through final negotiations, legal documentation, and deal closing. Ongoing partnership for future funding rounds as you scale.",
+      duration: "1-2 weeks"
     }
   ];
 
   const trustIndicators = [
-    { name: "Professional Network", type: "Verified Members", logo: <Building2 className="h-8 w-8" /> },
-    { name: "Due Diligence", type: "Thorough Process", logo: <Briefcase className="h-8 w-8" /> },
-    { name: "Success Tracking", type: "Transparent Results", logo: <Target className="h-8 w-8" /> },
-    { name: "Industry Focus", type: "Sector Expertise", logo: <Award className="h-8 w-8" /> },
+    { name: "Expert Matching", type: "Professional Service", logo: <Building2 className="h-8 w-8" /> },
+    { name: "Verified Network", type: "500+ Investors", logo: <Briefcase className="h-8 w-8" /> },
+    { name: "Success-Based Fees", type: "No Upfront Costs", logo: <Target className="h-8 w-8" /> },
+    { name: "Proven Results", type: "78% Success Rate", logo: <Award className="h-8 w-8" /> },
     { name: "Global Reach", type: "25+ Countries", logo: <BarChart3 className="h-8 w-8" /> },
-    { name: "No Upfront Fees", type: "Success-Based", logo: <Building2 className="h-8 w-8" /> }
+    { name: "Fast Response", type: "48-Hour Reply", logo: <Clock className="h-8 w-8" /> }
   ];
 
   return (
@@ -116,23 +116,24 @@ export default function HomePage() {
             {/* Trust Badge */}
             <div className="inline-flex items-center px-4 py-2 rounded-full glass-subtle">
               <Shield className="h-4 w-4 text-accent-secondary mr-2" />
-              <span className="text-sm font-medium text-secondary">Switzerland's Leading Investment Platform - 150+ Successful Deals</span>
+              <span className="text-sm font-medium text-secondary">Global B2B Investment Platform - International Partnerships</span>
             </div>
 
             {/* Hero Content */}
             <div className="space-y-8">
               <h1 className="heading-display">
-                Your Trusted Partner in{' '}
-                <span className="gradient-text">Institutional Funding</span>
+                Connect with{' '}
+                <span className="gradient-text">Institutional Investors</span>{' '}
+                Worldwide
               </h1>
               
               <div className="space-y-4">
                 <p className="text-lead max-w-3xl mx-auto text-balance">
-                  We don't just facilitate introductions—we build lasting relationships. Our Zurich-based team personally guides you through every step, leveraging our trusted connections with <span className="font-bold">institutional investors</span> across Europe, Americas, Asia & global markets to secure the right partnership for your growth.
+                  The premier B2B investment platform connecting companies with verified institutional investors worldwide. 78% success rate • 500+ investors • 25+ countries • No upfront fees.
                 </p>
                 
                 <p className="text-body max-w-2xl mx-auto text-balance">
-                  From personal consultations to strategic introductions, experience the difference of working with a team that treats your success as our reputation. Join 150+ companies that have benefited from our relationship-driven approach.
+                  Personal relationship management, not database matching. Join 150+ companies that have successfully raised capital since 2019.
                 </p>
               </div>
             </div>
@@ -199,10 +200,10 @@ export default function HomePage() {
           <div className="text-center space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section text-balance">
-                Why Choose Aurum Ascend Capital
+                Why Choose <span className="aurum-ascend-enhanced">Aurum Ascend</span> for Investment Funding
               </h2>
               <p className="text-lead max-w-3xl mx-auto text-balance">
-                Switzerland's premier investment platform connecting growth-stage companies with verified institutional investors through a structured, transparent process.
+                Professional investment matchmaking services connecting growth-stage companies with institutional investors worldwide through proven processes and expert guidance.
               </p>
             </div>
             
@@ -234,10 +235,10 @@ export default function HomePage() {
           <div className="text-center space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section">
-                Proven Funding Process
+                Our Relationship-Driven Process
               </h2>
               <p className="text-lead max-w-3xl mx-auto">
-                From application to funding in 8-12 weeks with our proven, transparent process trusted by 150+ companies.
+                From personal consultation to funding completion in 8-12 weeks. Every step involves direct access to our senior team and personal investor relationships.
               </p>
             </div>
             
@@ -276,10 +277,10 @@ export default function HomePage() {
           <div className="text-center space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section">
-                Trusted by Leading Companies & Investors
+                Trusted by Companies Worldwide
               </h2>
               <p className="text-lead">
-                Our Swiss-based platform serves companies globally with institutional investors, family offices, and strategic partners across Europe, Americas, Asia-Pacific, and beyond.
+                Professional investment platform serving growth-stage companies through our verified network of institutional investors, family offices, and strategic partners worldwide.
               </p>
             </div>
             
@@ -312,10 +313,10 @@ export default function HomePage() {
           <div className="text-center text-primary max-w-3xl mx-auto space-y-16">
             <div className="space-y-4">
               <h2 className="heading-section text-balance">
-                Ready to Scale Your Business?
+                Ready to Secure Investment Funding?
               </h2>
               <p className="text-lead text-balance">
-                Join 150+ companies that have successfully raised growth capital through our verified institutional investor network.
+                Join 150+ companies that have successfully raised capital through our professional investment platform. Expert matching, verified investors, proven results.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">

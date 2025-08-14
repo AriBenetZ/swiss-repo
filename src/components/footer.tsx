@@ -54,7 +54,7 @@ export function Footer() {
               </div>
               
               <p className="text-secondary mb-8 leading-relaxed max-w-md">
-                Building lasting partnerships between ambitious founders and institutional investors through personal relationships and white-glove service. Based in Zurich, serving clients globally with dedicated personal attention.
+                Professional B2B investment platform connecting companies at all stages with verified institutional investors worldwide. Expert matching services, proven results, global network coverage across 25+ countries.
               </p>
               
               <div className="space-y-4">
