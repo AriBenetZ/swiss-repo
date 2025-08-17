@@ -2,20 +2,23 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Aurum Ascend Capital - Global Investment Platform',
-    short_name: 'Aurum Ascend Capital',
-    description: 'Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia. Secure growth capital for your company through our global investment platform.',
+    name: 'Aurum Ascend Capital - European Investment Platform',
+    short_name: 'AurumAscend',
+    description: 'Professional B2B investment platform connecting companies at all stages with verified institutional investors worldwide. Expert matching services, proven results, global network coverage.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#000000',
-    theme_color: '#8B5CF6', // Updated to match your accent color
+    background_color: '#ffffff',
+    theme_color: '#1a365d',
     orientation: 'portrait-primary',
-    categories: ['finance', 'business', 'productivity'],
+    categories: ['finance', 'business', 'productivity', 'investment'],
     lang: 'en',
     dir: 'ltr',
     scope: '/',
-    id: 'aurumascend-app',
-    display_override: ['standalone', 'browser'],
+    id: 'aurumascend-investment-platform',
+    display_override: ['standalone', 'minimal-ui', 'browser'],
+    launch_handler: {
+      client_mode: 'focus-existing'
+    },
     icons: [
       {
         src: '/logo.png',

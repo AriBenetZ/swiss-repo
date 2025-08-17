@@ -3,17 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
-    "email:dev": "email dev --dir src/emails --port 3001"
+    "email:dev": "email dev --dir src/emails --port 3001",
+    "seo:audit": "lighthouse https://www.aurumascend.ch --output html --output-path ./seo-audit.html --chrome-flags='--headless'",
+    "seo:test": "next build && npm run seo:lighthouse && npm run seo:structured-data",
+    "seo:lighthouse": "lighthouse https://localhost:3000 --output json --output-path ./lighthouse-report.json",
+    "seo:structured-data": "node scripts/validate-structured-data.js",
+    "seo:sitemap": "node scripts/generate-sitemap.js",
+    "seo:robots": "node scripts/validate-robots.js",
+    "seo:dashboard": "node scripts/seo-dashboard.js",
+    "seo:monitor": "npm run seo:dashboard && open seo-dashboard.html",
+    "performance:check": "node scripts/performance-check.js"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@hookform/resolvers": "^3.3.2",
     "@next/bundle-analyzer": "^15.3.4",
+    "@next/third-parties": "^15.4.6",
     "@radix-ui/react-slot": "^1.2.3",
     "@react-email/components": "^0.1.1",
     "@react-email/render": "^1.1.3",
@@ -34,6 +45,7 @@
     "resend": "^4.6.0",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
+    "web-vitals": "^4.2.4",
     "zod": "^3.22.4"
   },
   "devDependencies": {

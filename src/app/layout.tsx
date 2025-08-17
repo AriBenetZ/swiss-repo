@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { SEOProvider } from "@/components/seo-provider";
+import { OrganizationSchema, WebsiteSchema } from "@/components/schema-org";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -529,13 +531,17 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-sans antialiased bg-base text-primary dark`}>
-        <div className="min-h-screen flex flex-col relative">
-          <Navbar />
-          <main className="flex-1 flex flex-col mb-auto">
-            {children}
-          </main>
-          <Footer />
-        </div>
+        <SEOProvider>
+          <OrganizationSchema />
+          <WebsiteSchema />
+          <div className="min-h-screen flex flex-col relative">
+            <Navbar />
+            <main className="flex-1 flex flex-col mb-auto">
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </SEOProvider>
       </body>
     </html>
   );

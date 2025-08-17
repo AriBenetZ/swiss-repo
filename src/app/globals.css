@@ -748,16 +748,16 @@ button, .btn {
 }
 
 /* Navigation links with enhanced styling */
-.nav-link, nav a {
+.nav-link, nav a:not(.btn):not([class*="btn"]):not(.btn-link-wrapper) {
   font-weight: 600 !important;
   position: relative;
 }
 
-.nav-link:hover, nav a:hover {
+.nav-link:hover, nav a:not(.btn):not([class*="btn"]):not(.btn-link-wrapper):hover {
   color: var(--accent-primary) !important;
 }
 
-.nav-link::after, nav a::after {
+.nav-link::after, nav a:not(.btn):not([class*="btn"]):not(.btn-link-wrapper)::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -768,16 +768,24 @@ button, .btn {
   transition: width var(--duration-normal) var(--ease-smooth);
 }
 
-.nav-link:hover::after, nav a:hover::after {
+.nav-link:hover::after, nav a:not(.btn):not([class*="btn"]):not(.btn-link-wrapper):hover::after {
   width: 100%;
 }
 
-/* Exclude navbar logo from underline effect */
-.navbar-logo-link::after {
+/* Exclude navbar logo and buttons from underline effect */
+.navbar-logo-link::after,
+.btn::after,
+button::after,
+[class*="btn"]::after,
+.btn-link-wrapper::after {
   display: none !important;
 }
 
-.navbar-logo-link:hover::after {
+.navbar-logo-link:hover::after,
+.btn:hover::after,
+button:hover::after,
+[class*="btn"]:hover::after,
+.btn-link-wrapper:hover::after {
   display: none !important;
 }
 

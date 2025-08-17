@@ -225,12 +225,12 @@ export default function HowItWorksPage() {
                   From initial consultation to successful funding completion in 8-12 weeks. Expert support, verified investors, proven results.
                 </p>
                 
-                <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
-                  <Link href="/apply" className="btn btn-primary w-fit btn-large">
-                    Start Your Application <ArrowRight className="ml-2 h-5 w-5" />
+                <div className="flex max-sm:flex-col sm:flex-row gap-4 items-center justify-center">
+                  <Link href="/apply" className="btn btn-primary w-fit btn-large h-14">
+                    Start Your Application <ArrowRight className="ml-2 h-1 w-4" />
                   </Link>
-                  <Link href="/contact">
-                    <Button className="btn btn-secondary w-fit btn-large">
+                  <Link href="/contact" className='w-fit btn-large'>
+                    <Button className="btn btn-secondary w-fit btn-large h-14">
                       Schedule a Call
                     </Button>
                   </Link>
@@ -402,7 +402,7 @@ export default function HowItWorksPage() {
               Join 450+ companies that have successfully raised capital through our proven process.
             </p>
             <div className="flex max-sm:flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/apply" className="btn btn-primary btn-large hover-lift" style={{
+              <Link href="/apply" className="btn btn-primary btn-large hover-lift h-14" style={{
                 background: 'rgba(255, 255, 255, 0.15)',
                 backdropFilter: 'blur(10px)',
                 borderColor: 'rgba(255, 255, 255, 0.2)'
@@ -411,7 +411,7 @@ export default function HowItWorksPage() {
               </Link>
               <Link href="/contact">
                 <Button
-                  className="btn btn-secondary btn-large"
+                  className="btn btn-secondary btn-large h-14"
                   style={{
                     background: 'transparent',
                     borderColor: 'rgba(255, 255, 255, 0.3)',

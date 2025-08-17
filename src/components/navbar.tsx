@@ -82,7 +82,7 @@ export function Navbar() {
 							</Link>
 						))}
 						<div className="ml-6 flex items-center gap-3">
-							<Link href="/apply">
+							<Link href="/apply" className="btn-link-wrapper">
 								<Button
 									className="btn btn-primary btn-small hover-glow"
 								>

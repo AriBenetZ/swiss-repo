@@ -142,18 +142,18 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
                 asChild 
-                className="btn btn-primary w-full sm:w-auto btn-large hover-glow"
+                className="btn btn-primary w-full sm:w-auto btn-large hover-glow h-14"
               >
                 <Link href="/apply">
-                  Apply for Funding <ArrowRight className="ml-2 h-5 w-5" />
+                  Start Your Application
                 </Link>
               </Button>
               <Button 
                 asChild 
-                className="btn btn-secondary w-full sm:w-auto btn-large"
+                className="btn btn-secondary w-full sm:w-auto btn-large h-14"
               >
-                <Link href="/how-it-works">
-                  How It Works
+                <Link href="/contact">
+                  Schedule a Call
                 </Link>
               </Button>
             </div>

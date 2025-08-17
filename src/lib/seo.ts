@@ -102,29 +102,49 @@ export function generateMetadata(config: SEOConfig): Metadata {
 
   const fullTitle = path === '/' 
     ? title 
-    : `${title} | Aurum Ascend Capital - Global Investment Platform`;
+    : `${title} | Aurum Ascend Capital - European Investment Platform`;
 
+  // Enhanced metadata with 2025 best practices
   const metadata: Metadata = {
-    title: fullTitle,
+    title: {
+      template: '%s | Aurum Ascend Capital - European Investment Platform',
+      default: title,
+      absolute: path === '/' ? title : undefined
+    },
     description,
-    keywords: keywords.join(', '),
+    keywords: [...keywords, ...coreKeywords.slice(0, 10)].join(', '),
     authors: authors.map(author => ({ name: author })),
     creator: 'Aurum Ascend Capital',
     publisher: 'Aurum Ascend Capital',
-    category: 'finance',
+    category: 'Business and Finance',
+    classification: 'Investment Services',
+    referrer: 'origin-when-cross-origin',
+    formatDetection: {
+      email: false,
+      address: false,
+      telephone: false,
+    },
+    metadataBase: new URL(baseUrl),
     openGraph: {
       title: fullTitle,
       description,
-      url: `${baseUrl}${path}`,
+      url: path,
       type,
       siteName: 'Aurum Ascend Capital',
       locale,
       images: [
         {
-          url: `${baseUrl}${ogImage}`,
+          url: ogImage,
           width: 1200,
           height: 630,
-          alt: title,
+          alt: `${title} - Aurum Ascend Capital`,
+          type: 'image/png',
+        },
+        {
+          url: '/og-image-square.png',
+          width: 1200,
+          height: 1200,
+          alt: `${title} - Aurum Ascend Capital`,
           type: 'image/png',
         },
       ],
@@ -140,17 +160,17 @@ export function generateMetadata(config: SEOConfig): Metadata {
       card: 'summary_large_image',
       title: fullTitle,
       description,
-      images: [`${baseUrl}${ogImage}`],
+      images: [ogImage],
       creator: '@aurumascend',
       site: '@aurumascend',
     },
     alternates: {
-      canonical: `${domainConfig.primaryUrl}${path}`,
+      canonical: path,
       languages: {
-        'en-CH': `${domainConfig.primaryUrl}${path}`,
-        'en-US': `${domainConfig.primaryUrl}${path}`,
-        'en': `${domainConfig.primaryUrl}${path}`,
-        'x-default': `${domainConfig.primaryUrl}${path}`,
+        'en-CH': path,
+        'en-US': path,
+        'en': path,
+        'x-default': path,
       },
     },
     robots: {
@@ -169,6 +189,18 @@ export function generateMetadata(config: SEOConfig): Metadata {
     verification: {
       google: process.env.GOOGLE_SITE_VERIFICATION,
       yandex: process.env.YANDEX_VERIFICATION,
+      yahoo: process.env.YAHOO_VERIFICATION,
+      other: {
+        'facebook-domain-verification': process.env.FACEBOOK_DOMAIN_VERIFICATION || '',
+        'bing': process.env.BING_VERIFICATION || '',
+      },
+    },
+    other: {
+      'mobile-web-app-capable': 'yes',
+      'apple-mobile-web-app-capable': 'yes',
+      'apple-mobile-web-app-status-bar-style': 'default',
+      'theme-color': '#1a365d',
+      'color-scheme': 'light dark',
     },
   };
 
