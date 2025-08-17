@@ -30,12 +30,12 @@ export default function TeamPage() {
 
   const teamMembers = [
     {
-      name: "Matthias Schneider",
+      name: "David Rosen",
       position: "Chief Executive Officer & Founder",
-      bio: "Originally from Geneva with dual Swiss-French citizenship, Matthias founded <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2019 after working at UBS Investment Bank in Zurich. His multilingual capabilities (German, French, English, Italian) and deep understanding of European financial markets drive the company's cross-border success. Previously led corporate development initiatives across Switzerland and the DACH region.",
+      bio: "Born in Amsterdam to a Dutch-Jewish family, David founded <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span> in 2019 after relocating to Zurich from London. Previously worked at Goldman Sachs International and UBS Investment Bank, he brings deep expertise in European capital markets. Fluent in English and Dutch, David's international background and strong network across London, Amsterdam, and Zurich financial circles drive the company's cross-border success.",
       expertise: ["Growth Strategy", "Capital Markets", "Platform Development"],
-      education: "MBA Finance, INSEAD & BSc Economics, University of St. Gallen",
-      email: "matthias.schneider@aurumascend.ch"
+      education: "MSc Finance, London School of Economics & BSc Economics, University of Amsterdam",
+      email: "david.rosen@aurumascend.ch"
     },
     {
       name: "Francesca Dubois",
@@ -70,12 +70,12 @@ export default function TeamPage() {
       email: "lorenzo.benedetti@aurumascend.ch"
     },
     {
-      name: "Astrid van der Berg",
+      name: "Astrid Vermeulen",
       position: "Legal & Compliance Director",
-      bio: "Dutch legal expert who relocated from Amsterdam to Zurich in 2022, Astrid ensures <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s operations comply with complex European regulations. Previously partner at a leading Amsterdam law firm specializing in cross-border transactions, she works primarily in English while bringing expertise in EU financial regulations, Swiss banking law, and international corporate structuring.",
+      bio: "Dutch legal expert who relocated from Amsterdam to Zurich in 2022, Astrid ensures <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s operations comply with complex European regulations. Previously senior associate at a leading Amsterdam law firm specializing in cross-border transactions, she works primarily in English while bringing expertise in EU financial regulations, Swiss banking law, and international corporate structuring.",
       expertise: ["Regulatory Compliance", "Contract Law", "Cross-border Transactions"],
       education: "LLM European Law, University of Amsterdam & Swiss Law Certificate",
-      email: "astrid.vandeberg@aurumascend.ch"
+      email: "astrid.vermeulen@aurumascend.ch"
     },
     {
       name: "Klaus Zimmermann",
@@ -96,7 +96,7 @@ export default function TeamPage() {
     {
       name: "Giulia Rossi",
       position: "Senior Partnership Manager",
-      bio: "Italian-Swiss dual citizen, Giulia leads strategic outreach and partnership development at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Former Associate at Goldman Sachs Milan and previously worked in London's investment banking sector, she specializes in institutional relationship building across Southern European markets. Works primarily in English and Italian, with her extensive network including family offices from Italy, Spain, and Monaco, as well as Swiss private banks.",
+      bio: "Italian-Swiss dual citizen, Giulia leads strategic outreach and partnership development at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Former Associate at a Milan-based investment bank and previously worked in London's financial services sector, she specializes in institutional relationship building across Southern European markets. Works primarily in English and Italian, with her extensive network including family offices from Italy, Spain, and Monaco, as well as Swiss private banks.",
       expertise: ["Institutional Sales", "Relationship Management", "Cross-border Deals"],
       education: "MSc Finance, Bocconi University & Executive Program, London Business School",
       email: "giulia.rossi@aurumascend.ch"
@@ -104,15 +104,15 @@ export default function TeamPage() {
     {
       name: "James Wellington",
       position: "Director of Client Acquisition",
-      bio: "British expat who moved to Zurich from London in 2022, James drives new client acquisition at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Previously Associate Director at Rothschild & Co in London, he brings 7 years of investment banking experience and strong relationships with UK-based growth companies seeking European expansion. Working exclusively in English, his expertise in cross-channel deal structuring helps British and Irish companies access continental European capital.",
+      bio: "British expat who moved to Zurich from London in 2022, James drives new client acquisition at <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>. Previously Senior Associate at a mid-tier London investment firm, he brings 6 years of corporate finance experience and strong relationships with UK-based growth companies seeking European expansion. Working exclusively in English, his expertise in cross-channel deal structuring helps British and Irish companies access continental European capital.",
       expertise: ["Corporate Finance", "Client Development", "Investment Banking"],
-      education: "MSc Finance, University of Edinburgh & CFA Charter",
+      education: "MSc Finance, University of Edinburgh & CFA Level II",
       email: "james.wellington@aurumascend.ch"
     },
     {
       name: "Henrik Müller",
       position: "Senior Client Director - DACH & EMEA Region",
-      bio: "German-Turkish dual citizen born in Frankfurt, Henrik relocated from Berlin to Zurich in 2020 to lead <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s DACH and emerging European markets. Previously worked at Deutsche Bank's corporate finance division in Frankfurt and has deep cultural understanding of both Germanic and Middle Eastern business practices. Fluent in German, Turkish, and English, he personally manages client relationships for companies expanding into European and emerging markets.",
+      bio: "German-Turkish dual citizen born in Frankfurt, Henrik relocated from Berlin to Zurich in 2022 to lead <span className=\"aurum-ascend-enhanced\">Aurum Ascend Capital</span>'s DACH and emerging European markets. Previously worked at Deutsche Bank's corporate finance division in Frankfurt and has deep cultural understanding of both Germanic and Middle Eastern business practices. Fluent in German, Turkish, and English, he personally manages client relationships for companies expanding into European and emerging markets.",
       expertise: ["DACH Markets", "EMEA Markets", "Cross-cultural Communication", "Corporate Finance"],
       education: "Diplom-Kaufmann, Goethe University Frankfurt & MSc Finance, WHU Otto Beisheim",
       email: "henrik.mueller@aurumascend.ch"
