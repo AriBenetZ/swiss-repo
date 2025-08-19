@@ -112,7 +112,7 @@
   --space-20: 5rem;      /* 80px */
   --space-24: 6rem;      /* 96px */
   --space-32: 8rem;      /* 128px */
-  --space-40: 10rem;     /* 160px */
+  --space-40: 4rem;     /* 160px */
   
   /* Layout Breakpoints */
   --breakpoint-sm: 640px;
