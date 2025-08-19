@@ -94,12 +94,12 @@ export function Footer() {
                 {/* Platform */}
                 <div>
                   <h3 className="font-semibold text-primary mb-4">Platform</h3>
-                  <ul className="space-y-3">
+                  <ul className="sm:space-y-3">
                     {footerLinks.platform.map((link) => (
                       <li key={link.name}>
                         <Link 
                           href={link.href}
-                          className="footer-link text-sm text-secondary"
+                          className="footer-link max-sm:!px-0 max-sm:!py-0  text-sm text-secondary"
                         >
                           <span>{link.name}</span>
                         </Link>
@@ -111,12 +111,12 @@ export function Footer() {
                 {/* Company */}
                 <div>
                   <h3 className="font-semibold text-primary mb-4">Company</h3>
-                  <ul className="space-y-3">
+                  <ul className="sm:space-y-3">
                     {footerLinks.company.map((link) => (
                       <li key={link.name}>
                         <Link 
                           href={link.href}
-                          className="footer-link text-sm text-secondary"
+                          className="footer-link max-sm:!px-0 max-sm:!py-0  text-sm text-secondary"
                         >
                           <span>{link.name}</span>
                         </Link>
@@ -128,12 +128,12 @@ export function Footer() {
                 {/* Legal */}
                 <div>
                   <h3 className="font-semibold text-primary mb-4">Legal</h3>
-                  <ul className="space-y-3">
+                  <ul className="sm:space-y-3">
                     {footerLinks.legal.map((link) => (
                       <li key={link.name}>
                         <Link 
                           href={link.href}
-                          className="footer-link text-sm text-secondary"
+                          className="footer-link max-sm:!px-0 max-sm:!py-0  text-sm text-secondary"
                         >
                           <span>{link.name}</span>
                         </Link>
@@ -147,11 +147,11 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-primary py-8">
+        <div className="border-t border-primary py-4 sm:py-8">
           <div className="flex max-md:flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
             
             {/* Copyright */}
-            <div className="text-sm text-secondary">
+            <div className="text-sm text-secondary max-sm:mb-0">
               © {currentYear} <span className="font-bold">Aurum<span className="text-accent-primary">Ascend Capital</span></span>, SA. All rights reserved.
             </div>
 
