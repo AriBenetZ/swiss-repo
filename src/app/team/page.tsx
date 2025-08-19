@@ -140,7 +140,7 @@ export default function TeamPage() {
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-primary leading-tight mb-6">
                 Meet Europe's Leading
-                <span className="gradient-text aurum-ascend-enhanced">Growth Investment Team</span>
+                <span className="gradient-text aurum-ascend-enhanced"> Growth Investment Team</span>
               </h1>
               <p className="text-xl text-secondary leading-relaxed mb-8">
                 Our experienced team of investment professionals connects growth-stage companies with institutional investors across Europe. With deep expertise in fintech, SaaS, and enterprise technology, we deliver personalized service that drives results.
