@@ -4,18 +4,17 @@ export const metadata: Metadata = {
   title: "About Aurum Ascend Capital - Global Investment Platform for Growth Companies",
   description: "Learn about Aurum Ascend Capital's mission to democratize access to growth capital. Founded in 2019, we've connected 150+ companies with institutional investors across 25+ countries. Discover our values, team, and vision.",
   keywords: [
-    "about aurum ascend capital",
-    "investment platform company", 
-    "growth capital platform team",
-    "institutional investor network",
-    "fundraising platform mission",
-    "global investment network",
-    "venture capital platform",
-    "private equity connections",
-    "startup funding platform story",
-    "international investment platform",
-    "verified investor network",
-    "capital raising infrastructure"
+    // Brand variations
+    "about aurum ascend capital", "about aurumascend capital", "about auram ascend", "about auramascend",
+    "aurum ascend company", "aurumascend platform", "auram ascend team", "auramascend mission",
+    // Company & team keywords
+    "investment platform company", "growth capital platform team", "institutional investor network",
+    "fundraising platform mission", "global investment network", "venture capital platform",
+    "private equity connections", "startup funding platform story", "international investment platform",
+    "verified investor network", "capital raising infrastructure",
+    // Professional service keywords
+    "professional investment introduction", "institutional funding facilitation", "expert investor relations",
+    "strategic capital advisory", "professional fundraising guidance"
   ],
   openGraph: {
     title: "About Aurum Ascend Capital - Global Investment Platform for Growth Companies", 
