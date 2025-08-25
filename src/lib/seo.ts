@@ -24,6 +24,20 @@ interface SEOConfig {
 
 // Enhanced keyword sets for 2025 SEO best practices
 export const coreKeywords = [
+  // Brand name variations - all possible spellings for maximum discoverability
+  'aurum ascend',
+  'aurum ascend capital',
+  'aurum ascend investment',
+  'aurum ascend platform',
+  'aurumascend',
+  'aurumascend capital',
+  'aurumascend investment',
+  'aurumascend platform',
+  // Alternative spellings that users might search for
+  'auram ascend',
+  'auram ascend capital', 
+  'auramascend',
+  'auramascend capital',
   // Primary business keywords
   'institutional investment platform',
   'verified investor network',
@@ -50,6 +64,17 @@ export const coreKeywords = [
 ];
 
 export const longTailKeywords = [
+  // Brand-specific long tail keywords - all variations
+  'aurum ascend investment platform',
+  'aurum ascend capital raising services',
+  'aurum ascend institutional investors',
+  'aurumascend investment platform',
+  'aurumascend capital raising services',
+  'aurumascend institutional investors',
+  'auram ascend investment platform',
+  'auram ascend capital services',
+  'auramascend platform',
+  'auramascend investment services',
   // Problem-solving keywords
   'how to connect with institutional investors',
   'best platform for startup funding',
@@ -68,7 +93,7 @@ export const longTailKeywords = [
 ];
 
 export const semanticKeywords = [
-  // Related terms for semantic SEO
+  // Related terms for semantic SEO & AI search engines 2025
   'due diligence',
   'investment criteria',
   'funding rounds',
@@ -78,7 +103,18 @@ export const semanticKeywords = [
   'business valuation',
   'term sheets',
   'investment memorandum',
-  'pitch deck preparation'
+  'pitch deck preparation',
+  // AI-optimized intent keywords for 2025
+  'how to raise capital for startups',
+  'find institutional investors',
+  'best investment platform',
+  'startup funding process',
+  'venture capital introduction',
+  'private equity matching',
+  'investment platform comparison',
+  'funding success rate',
+  'investor network access',
+  'capital raising strategy'
 ];
 
 export function generateMetadata(config: SEOConfig): Metadata {
@@ -112,7 +148,15 @@ export function generateMetadata(config: SEOConfig): Metadata {
       absolute: path === '/' ? title : undefined
     },
     description,
-    keywords: [...keywords, ...coreKeywords.slice(0, 10)].join(', '),
+    keywords: [
+      ...keywords, 
+      ...coreKeywords.slice(0, 8), 
+      ...aiSearchKeywords.slice(0, 6),
+      ...fundingSeekerKeywords.slice(0, 10),
+      ...professionalServiceKeywords.slice(0, 6),
+      ...industryKeywords.slice(0, 15),
+      ...stageKeywords.slice(0, 10)
+    ].join(', '),
     authors: authors.map(author => ({ name: author })),
     creator: 'Aurum Ascend Capital',
     publisher: 'Aurum Ascend Capital',
@@ -235,7 +279,115 @@ export const geographicKeywords = [
   'international startup funding'
 ];
 
+// 2025 AI Search Engine Optimization Keywords
+export const aiSearchKeywords = [
+  // Natural language queries for AI search engines
+  'best investment platform for startups',
+  'how to connect with venture capital firms',
+  'institutional investor matching services',
+  'startup funding platform reviews',
+  'professional investment introduction',
+  'verified investor network access',
+  'capital raising success stories',
+  'investment platform comparison guide',
+  'startup fundraising best practices',
+  'venture capital introduction services',
+  // Voice search optimization
+  'find investors for my startup',
+  'connect with venture capital',
+  'best way to raise capital',
+  'institutional investor platform',
+  'startup funding help',
+  'investment matching service'
+];
+
+// Comprehensive funding seeker intent keywords
+export const fundingSeekerKeywords = [
+  // General funding seeking
+  'seeking funding for business',
+  'need investors for startup',
+  'looking for business funding',
+  'find venture capital investors',
+  'seeking private equity funding',
+  'need capital for expansion',
+  'looking for seed funding',
+  'seeking growth capital',
+  'find institutional investors',
+  'business funding opportunities',
+  // Sector-specific funding seeking
+  'seeking real estate investors',
+  'need funding for hospital project',
+  'looking for manufacturing investors',
+  'seeking healthcare facility funding',
+  'need capital for construction project',
+  'looking for energy project investors',
+  'seeking agricultural funding',
+  'need hotel development funding',
+  'looking for technology investors',
+  'seeking pharmaceutical funding',
+  // Stage-specific seeking
+  'seeking pre-seed investors',
+  'need series A funding',
+  'looking for growth stage capital',
+  'seeking late stage investors',
+  'need bridge financing',
+  'looking for mezzanine funding',
+  'seeking working capital',
+  'need equipment financing',
+  // Professional language variations
+  'raising capital for business',
+  'sourcing institutional investment',
+  'accessing growth funding',
+  'securing venture capital',
+  'obtaining private equity',
+  'procuring development capital',
+  'attracting strategic investors',
+  'engaging funding partners',
+  'connecting with capital providers',
+  'partnering with investment firms'
+];
+
+// Professional service keywords for credibility
+export const professionalServiceKeywords = [
+  'institutional investor introduction',
+  'professional capital raising services',
+  'verified investor network access',
+  'expert investment matching',
+  'strategic funding consultation',
+  'professional due diligence support',
+  'institutional funding facilitation',
+  'expert investor relations',
+  'professional fundraising guidance',
+  'strategic capital advisory',
+  'institutional investment platform',
+  'professional funding intermediary',
+  'expert capital introduction',
+  'strategic investor matching',
+  'professional investment facilitation',
+  'institutional capital access',
+  'expert funding consultation',
+  'professional investor engagement',
+  'strategic funding solutions',
+  'institutional investment advisory'
+];
+
+// Entity-based keywords for 2025 search algorithms
+export const entityKeywords = [
+  // Brand entity associations
+  'Aurum Ascend investment services',
+  'Aurum Ascend capital platform', 
+  'Aurum Ascend investor network',
+  'AuramAscend funding solutions',
+  'Swiss investment platform leader',
+  'European capital raising expert',
+  'institutional investor connector',
+  'startup funding facilitator',
+  'venture capital introducer',
+  'private equity matcher'
+];
+
 export const industryKeywords = [
+  // Technology & Digital
   'fintech funding',
   'SaaS funding',
   'healthtech investors',
@@ -245,20 +397,134 @@ export const industryKeywords = [
   'blockchain investors',
   'deeptech funding',
   'biotech venture capital',
-  'cleantech investors'
+  'cleantech investors',
+  'cybersecurity funding',
+  'software development funding',
+  'mobile app funding',
+  'e-commerce funding',
+  'digital platform funding',
+  // Real Estate & Infrastructure
+  'real estate investment funding',
+  'commercial real estate investors',
+  'residential development funding',
+  'industrial real estate capital',
+  'construction project funding',
+  'property development investors',
+  'real estate private equity',
+  'infrastructure project funding',
+  'logistics facility funding',
+  'warehouse development capital',
+  // Healthcare & Life Sciences
+  'hospital funding',
+  'medical device funding',
+  'pharmaceutical funding',
+  'healthcare facility investors',
+  'medical practice funding',
+  'dental practice investors',
+  'veterinary clinic funding',
+  'nursing home funding',
+  'rehabilitation center investors',
+  'medical research funding',
+  // Manufacturing & Industrial
+  'manufacturing funding',
+  'industrial equipment financing',
+  'factory expansion funding',
+  'production facility investors',
+  'automation technology funding',
+  'aerospace manufacturing funding',
+  'automotive industry investors',
+  'chemical industry funding',
+  'precision instruments funding',
+  'machinery manufacturing capital',
+  // Energy & Utilities
+  'renewable energy funding',
+  'solar project investors',
+  'wind energy funding',
+  'energy storage funding',
+  'utility infrastructure investors',
+  'power generation funding',
+  'oil and gas funding',
+  'hydroelectric project funding',
+  'nuclear energy investors',
+  'grid modernization funding',
+  // Hospitality & Tourism
+  'hotel funding',
+  'restaurant chain investors',
+  'tourism venture funding',
+  'hospitality expansion capital',
+  'resort development funding',
+  'travel technology funding',
+  'entertainment venue investors',
+  'conference center funding',
+  'leisure facility capital',
+  'vacation rental funding',
+  // Agriculture & Food
+  'agricultural funding',
+  'farm expansion investors',
+  'food processing funding',
+  'agtech venture capital',
+  'organic farming investors',
+  'livestock operation funding',
+  'aquaculture funding',
+  'food distribution capital',
+  'beverage company funding',
+  'sustainable agriculture investors'
 ];
 
 export const stageKeywords = [
+  // Early Stage Funding
   'pre-seed funding',
   'seed round investors',
+  'angel investor funding',
+  'family and friends funding',
+  'startup capital',
+  'initial funding round',
+  'early stage investors',
+  'concept stage funding',
+  'prototype funding',
+  'MVP development funding',
+  // Growth Stage Funding
   'series A investors',
   'series B funding',
+  'series C capital',
   'growth stage funding',
+  'expansion capital',
+  'scale-up funding',
+  'revenue growth funding',
+  'market expansion capital',
+  'international expansion funding',
+  'product development funding',
+  // Later Stage Funding
   'late stage investors',
+  'pre-IPO funding',
+  'private equity funding',
+  'buyout funding',
+  'acquisition financing',
+  'management buyout funding',
+  'recapitalization funding',
+  'exit preparation funding',
+  // Specialized Funding Types
   'bridge funding',
   'mezzanine financing',
-  'growth equity',
-  'expansion capital'
+  'convertible debt funding',
+  'revenue-based financing',
+  'equipment financing',
+  'working capital funding',
+  'inventory financing',
+  'accounts receivable funding',
+  'debt consolidation funding',
+  'refinancing solutions',
+  // Project-Specific Funding
+  'project financing',
+  'development funding',
+  'construction financing',
+  'research and development funding',
+  'clinical trial funding',
+  'patent funding',
+  'intellectual property funding',
+  'licensing deal funding',
+  'joint venture funding',
+  'strategic partnership funding'
 ];
 
 // Enhanced structured data generation with more schema types
@@ -444,7 +710,13 @@ export const pageConfigs = {
   home: {
     title: "Aurum Ascend Capital - Switzerland's Premier Investment Platform | Connect with Institutional Investors",
     description: "Connect with verified institutional investors across Europe, Americas, Asia & Scandinavia through Switzerland's leading investment platform. Join 150+ companies that have successfully raised growth capital since 2019.",
-    keywords: [...coreKeywords, ...geographicKeywords.slice(0, 15)],
+    keywords: [
+      ...coreKeywords.slice(0, 8), 
+      ...geographicKeywords.slice(0, 10), 
+      ...fundingSeekerKeywords.slice(0, 15),
+      ...professionalServiceKeywords.slice(0, 8),
+      ...industryKeywords.slice(0, 20)
+    ],
     path: "/",
     ogImage: "/og-home.png"
   },
@@ -452,7 +724,11 @@ export const pageConfigs = {
   about: {
     title: "About Aurum Ascend Capital - Global Investment Platform Leadership",
     description: "Learn about Aurum Ascend Capital's mission to democratize access to growth capital. Meet our team of investment professionals connecting companies with institutional investors worldwide.",
-    keywords: [...coreKeywords, "investment team", "company mission", "startup platform"],
+    keywords: [
+      ...coreKeywords.slice(0, 6), 
+      ...professionalServiceKeywords.slice(0, 10),
+      "investment team", "company mission", "startup platform", "institutional expertise"
+    ],
     path: "/about",
     ogImage: "/og-about.png"
   },
@@ -460,7 +736,12 @@ export const pageConfigs = {
   apply: {
     title: "Apply for Funding - Connect with Global Investors",
     description: "Apply to connect with our network of 500+ institutional investors. Get matched with VCs, private equity, and family offices actively seeking investment opportunities.",
-    keywords: [...coreKeywords, "apply for funding", "investor application", "funding application"],
+    keywords: [
+      ...coreKeywords.slice(0, 6), 
+      ...fundingSeekerKeywords.slice(0, 20),
+      ...stageKeywords.slice(0, 15),
+      "apply for funding", "investor application", "funding application"
+    ],
     path: "/apply",
     ogImage: "/og-apply.png"
   },
@@ -608,3 +889,65 @@ export const defaultOGImages = {
   privacy: '/og-privacy.png',
   terms: '/og-terms.png'
 };
+
+// Comprehensive keyword compilation for different SEO purposes
+export function getAllKeywords(purpose: 'meta' | 'content' | 'schema' | 'full' = 'meta') {
+  const allKeywords = [
+    ...coreKeywords,
+    ...longTailKeywords,
+    ...semanticKeywords,
+    ...aiSearchKeywords,
+    ...fundingSeekerKeywords,
+    ...professionalServiceKeywords,
+    ...entityKeywords,
+    ...geographicKeywords,
+    ...industryKeywords,
+    ...stageKeywords
+  ];
+
+  switch (purpose) {
+    case 'meta':
+      return allKeywords.slice(0, 50); // Limit for meta tags
+    case 'content':
+      return allKeywords.slice(0, 100); // For content optimization
+    case 'schema':
+      return allKeywords.slice(0, 30); // For structured data
+    case 'full':
+      return allKeywords; // All keywords
+    default:
+      return allKeywords.slice(0, 50);
+  }
+}
+
+// Industry-specific keyword generator for targeted landing pages
+export function getIndustryKeywords(industry: string) {
+  const industryMap: { [key: string]: string[] } = {
+    'real-estate': [
+      'real estate investment funding', 'commercial real estate investors', 'property development investors',
+      'real estate private equity', 'construction project funding', 'industrial real estate capital',
+      'seeking real estate investors', 'need funding for real estate project', 'commercial property funding'
+    ],
+    'healthcare': [
+      'hospital funding', 'medical device funding', 'pharmaceutical funding', 'healthcare facility investors',
+      'medical practice funding', 'medical research funding', 'need funding for hospital project',
+      'seeking healthcare investors', 'medical facility capital'
+    ],
+    'technology': [
+      'fintech funding', 'SaaS funding', 'AI startup funding', 'blockchain investors',
+      'cybersecurity funding', 'software development funding', 'looking for technology investors',
+      'seeking fintech funding', 'need AI startup capital'
+    ],
+    'manufacturing': [
+      'manufacturing funding', 'industrial equipment financing', 'factory expansion funding',
+      'production facility investors', 'automation technology funding', 'seeking manufacturing investors',
+      'need industrial funding', 'factory development capital'
+    ],
+    'energy': [
+      'renewable energy funding', 'solar project investors', 'wind energy funding',
+      'energy storage funding', 'utility infrastructure investors', 'seeking energy project funding',
+      'need renewable energy investors', 'clean energy capital'
+    ]
+  };
+
+  return industryMap[industry] || [];
+}

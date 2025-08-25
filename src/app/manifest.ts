@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Aurum Ascend Capital - European Investment Platform',
     short_name: 'AurumAscend',
-    description: 'Professional B2B investment platform connecting companies at all stages with verified institutional investors worldwide. Expert matching services, proven results, global network coverage.',
+    description: 'Professional B2B investment platform connecting companies at all stages with verified institutional investors worldwide. Expert matching services, proven results, global network coverage across all industries and funding stages.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

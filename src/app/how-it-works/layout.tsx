@@ -4,15 +4,20 @@ export const metadata: Metadata = {
   title: "How It Works - Simple 3-Step Funding Process",
   description: "Discover how Aurum Ascend Capital connects startups with investors in 3 simple steps: Apply, Match, Fund. Learn about our secure platform, verification process, and success stories from 10,000+ funded startups.",
   keywords: [
-    "how aurum ascend capital works",
-    "funding process",
-    "startup investment process", 
-    "investor matching",
-    "funding steps",
-    "investment platform guide",
-    "startup funding guide",
-    "venture capital process",
-    "angel investor process"
+    // Brand variations
+    "how aurum ascend capital works", "how aurumascend works", "auram ascend process", "auramascend funding",
+    // Process keywords
+    "funding process", "startup investment process", "investor matching", "funding steps",
+    "investment platform guide", "startup funding guide", "venture capital process", "angel investor process",
+    // How-to intent keywords
+    "how to raise capital", "how to find investors", "how to get funding", "funding process steps",
+    "investment matching process", "capital raising guide", "startup funding steps",
+    // Professional process keywords
+    "institutional investor introduction", "professional investment matching", "expert funding consultation",
+    "strategic investor matching", "professional fundraising guidance", "institutional capital access",
+    // Industry-specific process keywords
+    "real estate funding process", "healthcare investment process", "technology funding steps",
+    "manufacturing capital process", "energy project funding guide"
   ],
   openGraph: {
     title: "How It Works - Simple 3-Step Funding Process", 

@@ -26,7 +26,7 @@ export function OrganizationSchema() {
     "@type": "FinancialService",
     "@id": "https://www.aurumascend.ch/#organization",
     "name": "Aurum Ascend Capital",
-    "alternateName": ["Aurum Ascend", "AurumAscend"],
+    "alternateName": ["Aurum Ascend", "AurumAscend", "Aurum Ascend Platform", "AurumAscend Platform", "Aurum Ascend Capital Platform", "Auram Ascend", "AuramAscend", "Auram Ascend Capital"],
     "url": "https://www.aurumascend.ch",
     "logo": {
       "@type": "ImageObject",

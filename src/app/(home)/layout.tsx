@@ -6,6 +6,12 @@ export const metadata: Metadata = generateMetadata({
   title: "Aurum Ascend Capital - Connect with Institutional Investors for Growth Capital",
   description: "Established investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia. 150+ successful deals completed since 2019. Start your funding journey today.",
   keywords: [
+    // Brand name variations for better discoverability - all spellings
+    'aurum ascend', 'aurum ascend capital', 'aurum ascend investment', 'aurum ascend platform',
+    'aurumascend', 'aurumascend capital', 'aurumascend investment', 'aurumascend platform',
+    'auram ascend', 'auram ascend capital', 'auramascend', 'auramascend capital',
+    'aurum ascend switzerland', 'aurumascend switzerland', 'auram ascend zurich', 'auramascend zurich',
+    
     // Core Swiss-focused keywords
     'Swiss investment platform', 'Switzerland startup funding', 'Zurich venture capital', 'Swiss private equity',
     'institutional investors Switzerland', 'startup funding Switzerland', 'venture capital Zurich', 'Swiss angel investors',
@@ -29,9 +35,21 @@ export const metadata: Metadata = generateMetadata({
     'institutional investor network Switzerland', 'private equity opportunities Switzerland', 'family office investors Switzerland',
     'growth stage funding Switzerland', 'startup scale-up funding', 'business angel network Switzerland',
     
-    // Company-specific keywords
-    'Aurum Ascend Capital Switzerland', 'Aurum Ascend platform', 'investment matching Switzerland', 'verified investors Switzerland',
-    'funding connections Switzerland', 'startup due diligence Switzerland', 'capital raising Switzerland', 'investment platform Switzerland'
+    // Comprehensive funding seeker keywords
+    'seeking funding for business', 'need investors for startup', 'looking for business funding', 'find venture capital investors',
+    'seeking private equity funding', 'need capital for expansion', 'looking for seed funding', 'seeking growth capital',
+    'seeking real estate investors', 'need funding for hospital project', 'looking for manufacturing investors',
+    'seeking healthcare facility funding', 'need capital for construction project', 'looking for energy project investors',
+    'seeking agricultural funding', 'need hotel development funding', 'looking for technology investors',
+    
+    // Professional service targeting
+    'institutional investor introduction', 'professional capital raising services', 'verified investor network access',
+    'expert investment matching', 'strategic funding consultation', 'professional due diligence support',
+    
+    // Company-specific keywords with brand variations
+    'Aurum Ascend Capital Switzerland', 'aurum ascend platform', 'aurumascend platform', 'investment matching Switzerland', 'verified investors Switzerland',
+    'funding connections Switzerland', 'startup due diligence Switzerland', 'capital raising Switzerland', 'investment platform Switzerland',
+    'aurum ascend investment platform', 'aurumascend investment platform', 'aurum ascend capital raising', 'aurumascend capital raising'
   ],
   path: "/",
   ogImage: "/og-home.png"
@@ -46,6 +64,7 @@ export default function HomeLayout({
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Aurum Ascend Capital Swiss Investment Platform",
+    "alternateName": ["Aurum Ascend", "AurumAscend", "Aurum Ascend Platform", "AurumAscend Platform"],
     "description": "Switzerland's premier investment platform connecting growth-stage companies with verified institutional investors across Europe, Americas, Asia & Scandinavia. 150+ successful deals completed since 2019.",
     "url": "https://www.aurumascend.ch",
     "provider": {

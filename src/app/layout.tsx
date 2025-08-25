@@ -19,6 +19,12 @@ export const metadata: Metadata = {
   },
   description: "Connect with verified institutional investors across Europe, Americas, Asia & global markets. Aurum Ascend Capital helps growth-stage companies secure funding from VCs, private equity, and family offices. Join 150+ successful funding connections with our Swiss-based expertise.",
   keywords: [
+    // Brand name variations - all possible spellings for maximum discoverability
+    "aurum ascend", "aurum ascend capital", "aurum ascend investment", "aurum ascend platform",
+    "aurumascend", "aurumascend capital", "aurumascend investment", "aurumascend platform",
+    "auram ascend", "auram ascend capital", "auramascend", "auramascend capital",
+    "aurum ascend switzerland", "aurumascend switzerland", "auram ascend zurich", "auramascend zurich",
+    
     // Core Swiss-focused keywords
     "Swiss investment platform", "Switzerland startup funding", "Zurich venture capital", "Swiss private equity",
     "institutional investors Switzerland", "startup funding Switzerland", "venture capital Zurich", "Swiss angel investors",
@@ -58,6 +64,19 @@ export const metadata: Metadata = {
     "institutional investor network Switzerland", "private equity opportunities Switzerland", "family office investors Switzerland",
     "growth stage funding Switzerland", "startup scale-up funding", "business angel network Switzerland",
     "venture capital firms Zurich", "private equity firms Switzerland", "investment opportunities Switzerland",
+    
+    // Comprehensive funding seeker keywords
+    "seeking funding for business", "need investors for startup", "looking for business funding", "find venture capital investors",
+    "seeking private equity funding", "need capital for expansion", "looking for seed funding", "seeking growth capital",
+    "seeking real estate investors", "need funding for hospital project", "looking for manufacturing investors",
+    "seeking healthcare facility funding", "need capital for construction project", "looking for energy project investors",
+    "seeking agricultural funding", "need hotel development funding", "looking for technology investors",
+    "seeking pharmaceutical funding", "need infrastructure funding", "looking for industrial investors",
+    
+    // Professional service keywords
+    "institutional investor introduction", "professional capital raising services", "verified investor network access",
+    "expert investment matching", "strategic funding consultation", "professional due diligence support",
+    "institutional funding facilitation", "expert investor relations", "professional fundraising guidance",
     
     // Company-specific keywords
     "Aurum Ascend Capital", "Aurum Ascend platform", "investment matching Switzerland", "verified investors Switzerland",
